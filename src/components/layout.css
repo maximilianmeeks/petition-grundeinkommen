@@ -1,5 +1,9 @@
-.navbar{
+body{
+  font-family: "Source Sans Pro";
   background-color: #eca400;
+}
+
+.navbar{
   color: #000000
 }
 

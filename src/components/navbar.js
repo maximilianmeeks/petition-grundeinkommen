@@ -1,17 +1,24 @@
 import React from "react"
-import { Nav } from "react-bootstrap"
+import { Navbar, Nav } from "react-bootstrap"
 import { Link } from "gatsby"
 
 export default (props) => (
-    <Nav activeKey="/home" className="navbar">
-        <Nav.Item>
-            <Link to="/impressum" className="navlink">Impressum</Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Link to="/datenschutz">Datenschutz</Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Link to="/about">Wer wir sind</Link>
-        </Nav.Item>
-    </Nav>
+    <Navbar bg="light" expand="lg">
+        <div className="container">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                    <Nav.Link>
+                        <Link to="/impressum">Impressum</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link to="/datenschutz">Datenschutz</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link to="/about">Wer wir sind</Link>
+                    </Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </div>
+    </Navbar>
 )
