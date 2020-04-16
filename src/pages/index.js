@@ -3,12 +3,14 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Logo from "../components/images/logo"
+import Header from "../components/header"
 import SEO from "../components/seo"
 
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Grundeinkommen" />
+    <Header/>
     <h1>Under Construction</h1>
     <p>Existenzsicherung ist ein Menschenrecht</p>
     <p>Under Construction</p>

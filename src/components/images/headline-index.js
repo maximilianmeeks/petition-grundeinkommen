@@ -16,7 +16,7 @@ import Img from "gatsby-image"
 const HeadlineIndex = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "HeadlineGrafik.png" }) {
+      image: file(relativePath: { eq: "HeadlineGrafik.png" }) {
         childImageSharp {
           fluid{
             ...GatsbyImageSharpFluid
@@ -25,8 +25,8 @@ const HeadlineIndex = () => {
       }
     }
   `)
-
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Wann, wenn nicht jetzt? Das Grundeinkommen ist dran!"/>
+    
+  return <Img fluid={data.image.childImageSharp.fluid} alt="Wann, wenn nicht jetzt? Das Grundeinkommen ist dran!"/>
 }
 
 export default HeadlineIndex
