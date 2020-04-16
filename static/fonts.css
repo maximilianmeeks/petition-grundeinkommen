@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Source Sans';
+    src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
+        url('SourceSansPro-Bold.woff2') format('woff2'),
+        url('SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Regular.woff2') format('woff2'),
+        url('Oswald-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Bold.woff2') format('woff2'),
+        url('Oswald-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans';
+    src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+        url('SourceSansPro-Regular.woff2') format('woff2'),
+        url('SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

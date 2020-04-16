@@ -20,5 +20,20 @@ body{
       font-weight: 700;
       background-color: $light;
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      padding: 0.5rem 1rem
+  }
+
+  .btn{
+      font-family: "Oswald";
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: 0;
+      border: 1px solid $dark;
+
+      &:hover{
+        background-color: $primary;
+        color: $dark;
+      }
   }

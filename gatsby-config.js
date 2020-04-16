@@ -34,7 +34,7 @@ module.exports = {
       options: {
         custom: {
           families: ["Oswald, Source Sans"],
-          urls: ["/fonts/fonts.css"],
+          urls: ["fonts.css"],
         },
       },
     }/* ,
