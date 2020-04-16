@@ -1,21 +1,17 @@
 import React from "react"
 import { Nav } from "react-bootstrap"
+import { Link } from "gatsby"
 
 export default (props) => (
-    <Nav activeKey="/home">
+    <Nav activeKey="/home" className="navbar">
         <Nav.Item>
-            <Nav.Link href="/page-2">Page 2</Nav.Link>
+            <Link to="/impressum" className="navlink">Impressum</Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link eventKey="link-1">Link</Nav.Link>
+            <Link to="/datenschutz">Datenschutz</Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link eventKey="link-2">Link</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link eventKey="disabled" disabled>
-            Disabled
-            </Nav.Link>
+            <Link to="/about">Wer wir sind</Link>
         </Nav.Item>
     </Nav>
 )
