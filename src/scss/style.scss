@@ -2,7 +2,7 @@
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
 body{
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans";
     background-color: $primary;
   }
   
@@ -13,4 +13,12 @@ body{
   .nav-link{
     color: #000000;
     text-decoration: none;
+  }
+
+  .abbinder{
+      font-family: "Oswald";
+      font-weight: 700;
+      background-color: $light;
+      text-align: center;
+      font-size: 1.5rem;
   }

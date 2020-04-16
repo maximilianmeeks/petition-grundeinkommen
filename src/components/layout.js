@@ -7,30 +7,16 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Navbar from "./navbar"
 import "../scss/style.scss"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
-  console.log(data)
 
   return (
     <>
-    <Navbar/>
-      <div className="container">
-        <main>{children}</main>
-      </div>
+      <Navbar/>
+      <main>{children}</main>
     </>
   )
 }
