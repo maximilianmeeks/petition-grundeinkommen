@@ -11,28 +11,42 @@ const About = () => (
     <div className="container">
       <Header url="/wer-wir-sind"/>
       <div className="row mb-3 mt-5 pt-5">
-        <div className="col-lg-6 font-weight-bold">
+        <div className="col-lg-6">
+          <p><strong>Gemeinsam ist das neue Vorne</strong><br/>
+            Bedingungslos: Von uns allen für uns alle
+          </p>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-            eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-            kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-            ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-            vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-            gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            Wir sind ein Bündnis von Frauen mit facettenreichen Potenzialen, die sich seit vielen Jahren für das
+            bedingungslose Grundeinkommen engagieren. Unsere schöpferische Energie fließt in das Upgrade zu
+            einer besseren Version der Gesellschaft. Ein neues Miteinander & Füreinander soll unser Kompass
+            sein, um den Wandel auf allen Ebenen voranzubringen. Das Zeitfenster für wirklichen Wandel steht
+            gerade meilenweit offen – und diese Zeitqualität wollen wir entschlossen nutzen.
+          </p>
+          <p>
+            Unser Gründungsimpuls? Zum einen der wegweisende Satz von Götz Werner: „Die Frauen führen das
+            Grundeinkommen ein.“ Zum anderen die griechische Komödie Lysistrata (411 v. Chr. uraufgeführt)
+            des griechischen Dichters Aristophanes, in der mutige Frauen die Akropolis besetzen, die Kriegskasse
+            kapern & sich den Männern so lange verweigern, bis sie die ständigen Kriege beenden. Im Hier &
+            Jetzt setzen wir auf das kraftvolle Zusammenspiel weiblicher Energie, um eine geschlechtergerechte
+            Arbeits- & Lebenswelt zu erreichen, den Geldschleier zu lüften für Steuerfairness & sozialen Frieden
+            zu etablieren durch die Einführung des bedingungslosen Grundeinkommens. Wir wollen, dass alle
+            Menschen ein gutes Leben haben, um Selbstbestimmung, Zeitsouveränität & Potenzialentfaltung zu
+            ermöglichen.
           </p>
         </div>
         <div className="col-lg-6">
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-            eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-            kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-            ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-            vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-            gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            Ja, Corona macht uns kirre: Einerseits greift die Existenzangst um sich – andererseits zeigt sich das
+            Gute im Menschen. Solidarität, Freundlichkeit, Menschlichkeit nehmen <strong>Raum</strong> ein – für den vor
+            Corona kaum Zeit blieb. Um diese Werte dauerhaft zu verankern, brauchen wir das
+            Grundeinkommen. Denn wenn die Angst weg ist, kommt die <strong>Liebe</strong>.
+          </p>
+          <p>
+            Wir haben viel vor. Und freuen uns über Gleichgesinnte, die mit uns an einem Strang ziehen. Danke!
+          </p>
+          <p>
+            Susanne Wiest, Beatrice Werner, Helena Steinhaus, Leonie Schraven, Amira Jehia, Claudia Cornelsen,
+            Anna-Sophie Brüning, Uschi Bauer
           </p>
         </div>
       </div>

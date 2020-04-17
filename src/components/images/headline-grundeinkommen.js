@@ -15,7 +15,7 @@ const HeadlineGrundeinkommen = () => {
     }
   `)
     
-  return <Img fluid={data.image.childImageSharp.fluid} alt="Warum Grundeinkommen"/>
+  return <Img fluid={data.image.childImageSharp.fluid} alt="Warum Grundeinkommen" style={{maxWidth: "450px"}}/>
 }
 
 export default HeadlineGrundeinkommen

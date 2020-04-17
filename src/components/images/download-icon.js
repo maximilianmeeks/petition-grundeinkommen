@@ -2,10 +2,10 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const HeadlineBotschafter = () => {
+const DownloadIcon = () => {
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "Unterseite_Werde_Botschafter_Headlinegrafik.png" }) {
+      image: file(relativePath: { eq: "Download_icon.png" }) {
         childImageSharp {
           fluid{
             ...GatsbyImageSharpFluid_tracedSVG
@@ -15,7 +15,7 @@ const HeadlineBotschafter = () => {
     }
   `)
     
-  return <Img fluid={data.image.childImageSharp.fluid} alt="Werde Botschafter!" style={{maxWidth: "450px"}}/>
+  return <Img fluid={data.image.childImageSharp.fluid} alt="Download" style={{maxWidth: "50px"}}/>
 }
 
-export default HeadlineBotschafter
+export default DownloadIcon

@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 
 import Header from "../components/Header"
 import BotschafterWerner from "../components/images/botschafterWerner"
+import DownloadIcon from "../components/images/download-icon"
 import ImageMenu from "../components/ImageMenu"
 
 const WerdeBotschafter = () => (
@@ -34,7 +35,10 @@ const WerdeBotschafter = () => (
             <strong>#bedingungslosesGrundeinkommen</strong><br/>
             <strong>#bge</strong><br/>
           </p>
-          
+          <p>
+            <a href="#" download><DownloadIcon/></a>
+            <a href="#" download><DownloadIcon/></a>
+          </p>
         </div>
       </div>
     </div>

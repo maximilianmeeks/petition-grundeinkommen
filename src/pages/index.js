@@ -23,10 +23,10 @@ const IndexPage = () => (
         </div>
         <div className="col-lg-6">
           <p>
-            Jetzt geht es darum, die Kräfte zu bündeln und sich gemeinsam für die Einführung auszusprechen.
+            Jetzt geht es darum, die Kräfte zu bündeln und sich gemeinsam für die Einführung auszusprechen – direkt im Bundestag.
             Um das Grundeinkommen nach dem Ausnahmezustand bedingungslos & dauerhaft zu etablieren, ist
             die Bundestagspetition von Susanne Wiest der wirksamste Weg, da sie rechtlich bindend ist – sei ein
-            Teil davon und gib deine Stimme für uns alle ab. Wie viele Stimmen schaffen wir in der
+            Teil davon und gib deine Stimme für uns alle ab. Unterschreiben darf jeder: unabhängig von Staatsangehörigkeit und Alter. Wie viele Stimmen schaffen wir in der
             verbleibenden Mitzeichnungsfrist bis zum <strong>27. April 2020</strong>?
           </p>
         </div>
