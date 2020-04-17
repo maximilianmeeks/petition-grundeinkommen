@@ -11,7 +11,7 @@ export default (props) => (
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link>
-                        <Link to="/" className="nav-link">Home</Link>
+                        <Link to="/" className="nav-link pl-0">Home</Link>
                     </Nav.Link>
                     <Nav.Link>
                         <Link to="/wer-wir-sind" className="nav-link">Wer wir sind</Link>

@@ -14,11 +14,11 @@ const renderSwitch = (url) => {
     case '/werde-botschafter':
       return <HeadlineBotschafter/>;
     case '/warum-grundeinkommen':
-      return <div className="header-container"><HeadlineGrundeinkommen/></div>;
+      return <HeadlineGrundeinkommen/>;
     case '/impressum':
-      return <h1 className="mb-5 mt-3 px-4 headline font-oswald text-uppercase font-weight-bold text-center text-primary bg-light mx-auto"> Impressum </h1>
+      return <h1 className="mb-5 mt-5 px-4 headline font-oswald text-uppercase font-weight-bold text-center text-primary bg-light"> Impressum </h1>
     case '/datenschutz':
-      return <h1 className="mb-5 mt-3 px-4 headline font-oswald text-uppercase font-weight-bold text-center text-primary bg-light mx-auto"> Datenschutz </h1>
+      return <h1 className="mb-5 mt-5 px-4 headline font-oswald text-uppercase font-weight-bold text-center text-primary bg-light"> Datenschutz </h1>
     case '/wer-wir-sind':
       return <h1 className="mt-5 px-4 headline font-oswald text-uppercase font-weight-bold text-center text-primary bg-light "> Wer Wir Sind </h1>
     case '/404':

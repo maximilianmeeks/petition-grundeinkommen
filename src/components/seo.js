@@ -56,6 +56,10 @@ function SEO({ description, lang, meta, title }) {
           content: `/BGE_post_facebook_1200x627_4.jpg`,
         },
         {
+          property: `og:image:alt`,
+          content: `Das Grundeinkommen kommt! Jetzt abstimmen und die Petition unterzeichnen!`
+        },
+        {
           name: `twitter:card`,
           content: `Wir alle sind die Wirtschaft. Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden. Jetzt bis zum 27.04. unterschreiben.`,
         },

@@ -7,11 +7,11 @@ body{
   }
   
   .navbar{
-    color: #000000
+    color: $dark
   }
   
   .nav-link{
-    color: #000000;
+    color: $dark;
     text-decoration: none;
   }
 
@@ -89,14 +89,7 @@ body{
         padding: 0.5rem 1rem;
         max-width: 100%
     }
-
-/*       .btn-container{
-        width: 450px;
-        height: 300px;
-      } */
-
 }
-
 
 .impressum a{
     color: $dark;
@@ -127,7 +120,6 @@ body{
     }
     
 }
-
 
 footer a:hover {
     text-decoration: none;
