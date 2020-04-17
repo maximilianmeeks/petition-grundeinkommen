@@ -9,7 +9,7 @@ const AllesZumGrundeinkommen = () => (
   <Layout>
     <SEO title="Alles zum Grundeinkommen" />
     <div className="container">
-      <Header/>
+      <Header url="/alles-zum-grundeinkommen"/>
       <div className="row mb-3">
         <div className="col-lg-6 font-weight-bold">
           <p>

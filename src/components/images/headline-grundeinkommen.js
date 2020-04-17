@@ -2,10 +2,10 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const HeadlineIndex = () => {
+const HeadlineGrundeinkommen = () => {
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "HeadlineGrafik.png" }) {
+      image: file(relativePath: { eq: "Unterseite_AlleszumGrundeinkommen_Headlinegrafik.png" }) {
         childImageSharp {
           fluid{
             ...GatsbyImageSharpFluid
@@ -15,7 +15,7 @@ const HeadlineIndex = () => {
     }
   `)
     
-  return <Img fluid={data.image.childImageSharp.fluid} alt="Wann, wenn nicht jetzt? Das Grundeinkommen ist dran!"/>
+  return <Img fluid={data.image.childImageSharp.fluid} alt="Alles zum Grundeinkommen"/>
 }
 
-export default HeadlineIndex
+export default HeadlineGrundeinkommen

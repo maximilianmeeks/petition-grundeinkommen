@@ -15,14 +15,32 @@ body{
     text-decoration: none;
   }
 
+  .font-oswald{
+    font-family: "Oswald", sans-serif;
+  }
+
+  .text-uppercase{
+    text-transform: uppercase;
+  }
+
+  .headline{
+      transform: rotate(357deg);
+      font-size: 3rem;
+      min-width: 357px;
+      max-width: 400px;
+  }
+
   .abbinder{
-      font-family: "Oswald";
+      font-family: "Oswald", sans-serif;
       font-weight: 700;
       background-color: $light;
       text-align: center;
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       text-transform: uppercase;
-      padding: 0.5rem 1rem
+      padding: 0.5rem 0.6rem;
+      max-width: 95%;
+      margin-left: auto;
+      margin-right: auto;
   }
 
   .btn{
@@ -52,9 +70,9 @@ body{
         position: absolute;
         top: 150px;
         bottom: 0;
-        left: 0;
+        left: 25%;
         right: 0;
-        width: 450px;
+        width: 250px;
         height: 100px;
         opacity: 0;
         transition: .5s ease;
@@ -63,6 +81,12 @@ body{
   }
 
   @include media-breakpoint-up(lg){
+    .abbinder{
+        font-size: 1.3rem;
+        padding: 0.5rem 1rem;
+        max-width: 100%
+    }
+
       .btn-container{
         width: 450px;
         height: 300px;

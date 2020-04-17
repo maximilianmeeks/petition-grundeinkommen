@@ -3,11 +3,13 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Header from "../components/header"
+
 const Impressum = () => (
   <Layout>
     <SEO title="Impressum" />
     <div className="container impressum">
-      <h1 className="mb-5">Impressum</h1>
+      <Header url="/impressum"/>    
       <div className="row">
         <div className="col-6">
           <h3 className="mb-4">Mensch in Germany</h3>
