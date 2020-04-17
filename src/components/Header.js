@@ -1,5 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
+import { Link } from "gatsby"
 
 import HeadlineIndex from "./images/headline-index"
 import HeadlineBotschafter from "./images/headline-botschafter"
@@ -34,7 +35,9 @@ const Header = ({ url }) => (
         {renderSwitch(url)}
       </div>
       <div className="col-12 col-md-3 order-1 order-md-2 mx-auto logo-container">
-        <Logo/>
+        <Link to="/">
+          <Logo/>
+        </Link>
       </div>
     </div>
   </header>

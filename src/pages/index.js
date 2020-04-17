@@ -13,7 +13,7 @@ const IndexPage = () => (
     <SEO title="Mensch in Germany" description="Wir alle sind die Wirtschaft. Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden. Jetzt bis zum 27.04. unterschreiben."/>
     <div className="container">
       <Header/>
-      <div className="row mb-3 mt-lg-4">
+      <div className="row mb-3 mt-lg-5 pt-4 pt-md-0">
         <div className="col-lg-6">
           <p>
             Wir alle sind die Wirtschaft. Um einen Zusammenbruch in Zeiten von Corona zu verhindern und ein
@@ -24,9 +24,9 @@ const IndexPage = () => (
         <div className="col-lg-6">
           <p>
             Jetzt geht es darum, die Kräfte zu bündeln und sich gemeinsam für die Einführung auszusprechen – direkt im Bundestag.
-            Um das Grundeinkommen nach dem Ausnahmezustand bedingungslos & dauerhaft zu etablieren, ist
+            Um das Grundeinkommen möglichst schnell zu etablieren, ist
             die Bundestagspetition von Susanne Wiest der wirksamste Weg, da sie rechtlich bindend ist – sei ein
-            Teil davon und gib deine Stimme für uns alle ab. Unterschreiben darf jeder: unabhängig von Staatsangehörigkeit und Alter. Wie viele Stimmen schaffen wir in der
+            Teil davon und gib deine Stimme für uns alle ab. Unterschreiben darf jede und jeder: unabhängig von Staatsangehörigkeit und Alter. Wie viele Stimmen schaffen wir in der
             verbleibenden Mitzeichnungsfrist bis zum <strong>27. April 2020</strong>?
           </p>
         </div>

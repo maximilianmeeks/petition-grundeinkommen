@@ -16,6 +16,12 @@ export default (props) => (
                     <Nav.Link>
                         <Link to="/wer-wir-sind" className="nav-link">Wer wir sind</Link>
                     </Nav.Link>
+                    <Nav.Link>
+                        <Link to="/warum-grundeinkommen" className="nav-link">Warum Grundeinkommen</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link to="/werde-botschafter" className="nav-link">Werde Botschafter</Link>
+                    </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </div>

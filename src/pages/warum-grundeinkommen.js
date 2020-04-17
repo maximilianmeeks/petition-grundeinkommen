@@ -41,7 +41,7 @@ const WarumGrundeinkommen = () => (
           <p>
             Das Grundeinkommen soll dazu beitragen, Armut und soziale Notlagen zu beseitigen, den
             individuellen Freiheitsspielraum zu vergrößern sowie die Entwicklungschancen jedes Einzelnen und
-            die soziale und kulturelle Situation im Gemeinwesen nachhaltig zu verbessern.*
+            die soziale und kulturelle Situation im Gemeinwesen nachhaltig zu verbessern.
           </p>
         </div>
       </div>

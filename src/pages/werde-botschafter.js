@@ -21,8 +21,8 @@ const WerdeBotschafter = () => (
       <div className="row mb-3 mt-lg-3 pt-5">
         <div className="col-lg-6">
           <BotschafterWerner/>
-          <p className="my-2 pl-3 font-italic">Götz W. Werner, Gründer von dm-drogerie markt:</p>
-          <p>
+          <p className="mt-2 mb-3 font-italic">Götz W. Werner, Gründer von dm-drogerie markt:</p>
+          <p className="px-4 text-center">
             „Früher oder später werden wir einsehen, dass an einem Einkommen für alle kein Weg vorbei führt. Je früher, desto besser.”
           </p>
         </div>
@@ -32,8 +32,8 @@ const WerdeBotschafter = () => (
             Wir haben schon viele Botschafter gewinnen können, wir wollen mehr erreichen.
             Du hilfst uns und der Idee voranzukommen, indem Du auf Deinen Social Media
             Kanälen unsere Posts teilst. Die stehen hier frei zum Download zur Verfügung.
-            An allererster Stelle steht die Verbreitung des Links zur Bundestagspetition:
-            <a href="https://www.mensch-in-germany.org">www.mensch-in-germany.org</a>
+            An allererster Stelle steht die Verbreitung des 
+            <a className="font-weight-bold custom-anchor" href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"> Links zur Bundestagspetition</a>.
           </p>
           <p>Folgende Hashtags unterstützen noch unsere Reichweite:<br/>
             <strong>#menschingermany</strong><br/>
@@ -41,23 +41,23 @@ const WerdeBotschafter = () => (
             <strong>#bge</strong><br/>
           </p>
           <div className="my-4">
-            <a href="/BGE_post_facebook_1200x627_9.zip" download className="download-link">
+            <a href="/BGE_post_facebook_1200x627_9.zip" download className="custom-anchor">
               <div className="row">
                 <div className="col-1"></div>
                 <div className="col-2"><DownloadIcon/></div>
                 <div className="col-8 pl-0">
-                  <strong className="text-dark">Grafiken für Facebook herunterladen (1,9 MB)</strong>
+                  <strong >Grafiken für Facebook herunterladen (1,9 MB)</strong>
                 </div>     
               </div>
             </a>
           </div>
           <div className="my-4">
-            <a href="/BGE_post_insta_1080x1080_9.zip" download className="download-link">
+            <a href="/BGE_post_insta_1080x1080_9.zip" download className="custom-anchor">
               <div className="row">
                 <div className="col-1"></div>
                 <div className="col-2 position-relative"><DownloadIcon/></div>
                 <div className="col-8 pl-0">
-                  <strong className="text-dark">Grafiken für Instagram herunterladen (2,6 MB)</strong>
+                  <strong >Grafiken für Instagram herunterladen (2,6 MB)</strong>
                 </div>  
               </div>
             </a>

@@ -102,8 +102,13 @@ body{
     color: $dark;
 }
 
-.dsgvo p{
-    margin: 1.5rem 0 1.5rem
+.dsgvo {
+    p{
+        margin: 1.5rem 0 1.5rem
+    }
+    h2, h3{
+        font-size: 1.6rem;
+    }
 }
 
 .download-link:hover a{
@@ -111,7 +116,21 @@ body{
     color: #ffffff;
 }
 
-.bauchbinde{
-    position: absolute;
-    z-index: 5;
+.custom-anchor{
+
+    text-decoration: none;
+    color: $dark;
+
+    &:hover{
+        color: $light;
+        text-decoration: none;
+    }
+    
 }
+
+
+footer a:hover {
+    text-decoration: none;
+    color: $dark;
+}
+
