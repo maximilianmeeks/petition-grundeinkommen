@@ -1,10 +1,15 @@
 import React from "react"
+import { Link } from "gatsby"
+
+import BtnBotschafterSchwarz from "../components/images/btnBotschafterSchwarz"
+import BtnBotschafterOrange from "../components/images/btnBotschafterOrange"
+import UbiBackBlack from "../components/images/ubiBackBlack"
+import UbiBackOrange from "../components/images/ubiBackOrange"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Header from "../components/Header"
-import ImageMenu from "../components/ImageMenu"
 
 const WarumGrundeinkommen = () => (
   <Layout>
@@ -41,7 +46,42 @@ const WarumGrundeinkommen = () => (
         </div>
       </div>
     </div>
-    <ImageMenu/>
+    <div className="bg-light pb-3">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-6 py-3 py-lg-4">
+                    <div className="btn-container mx-auto">
+                        <Link to="/">
+                            <UbiBackBlack/>
+                            <div className="overlay col-lg-12 py-3 py-lg-4">
+                                <UbiBackOrange/>
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+                <div className="col-lg-6 pb-3 py-lg-4">
+                    <div className="btn-container mx-auto">
+                        <Link to="/werde-botschafter/">
+                            <BtnBotschafterSchwarz/>
+                            <div className="overlay col-lg-12 pb-3 py-lg-4">
+                                <BtnBotschafterOrange/>
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div className="container">
+                <div className="row">
+                    <div className="col-12 text-center">
+                        <Link to="/impressum/" className="mx-3">Impressum</Link>
+                        <Link to="/datenschutz/" className="mx-3">Datenschutz</Link>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
   </Layout>
 )
 

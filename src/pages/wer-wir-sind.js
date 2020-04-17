@@ -11,7 +11,7 @@ const About = () => (
     <SEO title="Wer wir sind" />
     <div className="container">
       <Header url="/wer-wir-sind"/>
-      <div className="row mb-3 mt-lg-5 pt-5">
+      <div className="row mb-3 mt-lg-3 pt-5">
         <div className="col-lg-6">
           <p><strong>Gemeinsam ist das neue Vorne</strong><br/>
             Bedingungslos: Von uns allen für uns alle
