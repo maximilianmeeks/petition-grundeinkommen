@@ -70,6 +70,7 @@ function SEO({ description, lang, meta, title }) {
       ].concat(meta)}
     >
       <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"></link>
     </Helmet>
   )
 }
@@ -77,7 +78,7 @@ function SEO({ description, lang, meta, title }) {
 SEO.defaultProps = {
   lang: `de`,
   meta: [],
-  description: ``,
+  description: `Wir alle sind die Wirtschaft. Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden. Jetzt bis zum 27.04. unterschreiben.`,
 }
 
 SEO.propTypes = {

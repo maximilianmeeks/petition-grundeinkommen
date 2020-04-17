@@ -67,6 +67,7 @@ const WarumGrundeinkommen = () => (
                                 <BtnBotschafterOrange/>
                             </div>
                         </Link>
+                        <p className="text-dark pt-2 pr-3 text-right font-italic">Götz W. Werner, Gründer von dm-drogerie markt</p>
                     </div>
                 </div>
             </div>

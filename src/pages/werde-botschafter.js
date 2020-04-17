@@ -1,17 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import BtnGrundeinkommenSchwarz from "../components/images/btnGrundeinkommenSchwarz"
-import BtnGrundeinkommenOrange from "../components/images/btnGrundeinkommenOrange"
-import BotschafterBackBlack from "../components/images/botschafterBackBlack"
-import BotschafterBackOrange from "../components/images/botschafterBackOrange"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Header from "../components/Header"
 import BotschafterWerner from "../components/images/botschafterWerner"
 import DownloadIcon from "../components/images/download-icon"
+
+import BtnGrundeinkommenSchwarz from "../components/images/btnGrundeinkommenSchwarz"
+import BtnGrundeinkommenOrange from "../components/images/btnGrundeinkommenOrange"
+import BotschafterBackBlack from "../components/images/botschafterBackBlack"
+import BotschafterBackOrange from "../components/images/botschafterBackOrange"
 
 const WerdeBotschafter = () => (
   <Layout>
@@ -21,7 +21,7 @@ const WerdeBotschafter = () => (
       <div className="row mb-3 mt-lg-3 pt-5">
         <div className="col-lg-6">
           <BotschafterWerner/>
-          <p className="my-2 font-italic">Götz W. Werner, Gründer von dm-drogerie markt:</p>
+          <p className="my-2 pl-3 font-italic">Götz W. Werner, Gründer von dm-drogerie markt:</p>
           <p>
             „Früher oder später werden wir einsehen, dass an einem Einkommen für alle kein Weg vorbei führt. Je früher, desto besser.”
           </p>
@@ -40,10 +40,28 @@ const WerdeBotschafter = () => (
             <strong>#bedingungslosesGrundeinkommen</strong><br/>
             <strong>#bge</strong><br/>
           </p>
-          <p>
-            <a href="#" download><DownloadIcon/></a>
-            <a href="#" download><DownloadIcon/></a>
-          </p>
+          <div className="my-4">
+            <a href="/BGE_post_facebook_1200x627_9.zip" download className="download-link">
+              <div className="row">
+                <div className="col-1"></div>
+                <div className="col-2"><DownloadIcon/></div>
+                <div className="col-8 pl-0">
+                  <strong className="text-dark">Grafiken für Facebook herunterladen (1,9 MB)</strong>
+                </div>     
+              </div>
+            </a>
+          </div>
+          <div className="my-4">
+            <a href="/BGE_post_insta_1080x1080_9.zip" download className="download-link">
+              <div className="row">
+                <div className="col-1"></div>
+                <div className="col-2 position-relative"><DownloadIcon/></div>
+                <div className="col-8 pl-0">
+                  <strong className="text-dark">Grafiken für Instagram herunterladen (2,6 MB)</strong>
+                </div>  
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -64,11 +82,16 @@ const WerdeBotschafter = () => (
                     <div className="btn-container mx-auto">
                           <Link to="/">
                             <BotschafterBackBlack/>
-                            <div className="overlay col-lg-12 py-3 py-lg-4">
+                            <div className="overlay col-lg-12 pb-3 py-lg-4">
                                 <BotschafterBackOrange/>
                             </div>
                         </Link>
+                        <p className="text-dark pt-2 pr-3 text-right font-italic">Götz W. Werner, Gründer von dm-drogerie markt</p>
                     </div>
+                </div>
+                <div className="row">
+                  <div className="col-lg-6"></div>
+                  <div className="col-lg-6"></div>
                 </div>
             </div>
         </div>

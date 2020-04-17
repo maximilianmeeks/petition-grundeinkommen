@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Mensch in Germany`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Wir alle sind die Wirtschaft. Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden. Jetzt bis zum 27.04. unterschreiben.`,
     author: `Maximilian Meeks`,
+    url: `https://www.mensch-in-germany.org/`,
+    image: `/BGE_post_facebook_1200x627_4.jpg`
   },
   pathPrefix: "/petition-grundeinkommen",
   plugins: [

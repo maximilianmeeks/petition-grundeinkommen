@@ -13,7 +13,7 @@ const IndexPage = () => (
     <SEO title="Mensch in Germany" description="Wir alle sind die Wirtschaft. Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden. Jetzt bis zum 27.04. unterschreiben."/>
     <div className="container">
       <Header/>
-      <div className="row mb-3">
+      <div className="row mb-3 mt-lg-4">
         <div className="col-lg-6">
           <p>
             Wir alle sind die Wirtschaft. Um einen Zusammenbruch in Zeiten von Corona zu verhindern und ein

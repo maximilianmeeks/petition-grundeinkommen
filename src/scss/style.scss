@@ -105,3 +105,13 @@ body{
 .dsgvo p{
     margin: 1.5rem 0 1.5rem
 }
+
+.download-link:hover a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bauchbinde{
+    position: absolute;
+    z-index: 5;
+}
