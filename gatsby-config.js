@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Mensch in Germany`,
-        short_name: `Grundeinkommen`,
+        short_name: `Petition Grundeinkommen`,
         start_url: `/`,
         background_color: `#eca400`,
         theme_color: `#eca400`,
@@ -33,7 +33,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         custom: {
-          families: ["Oswald, Source Sans"],
+          families: ["Oswald, Source Sans Pro"],
           urls: ["fonts.css"],
         },
       },

@@ -25,13 +25,17 @@ body{
 
   .headline{
       transform: rotate(357deg);
-      font-size: 3rem;
+      font-size: 3.5rem;
       min-width: 357px;
       max-width: 400px;
   }
 
   .header-container{
       max-height: 200px;
+  }
+
+  .logo-container{
+      max-width: 300px;
   }
 
   .abbinder{

@@ -35,7 +35,7 @@ const IndexPage = () => (
         <div className="mx-auto">
           <div className="row mx-0">
             <div className="mx-auto">
-              <p className="abbinder m-0 mx-auto">
+              <p className="abbinder mb-3 mb-md-0 m-0 mx-auto">
                 Existenzsicherung ist ein Menschenrecht. Vertrauen die neue Währung.<br/>
               </p>
             </div>

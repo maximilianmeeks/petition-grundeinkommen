@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Source Sans';
+    font-family: 'Source Sans Pro';
     src: local('Source Sans Pro Bold'),
         url('SourceSansPro-Bold.woff2') format('woff2'),
         url('SourceSansPro-Bold.woff') format('woff');
@@ -24,7 +24,7 @@
 }
 
 @font-face {
-    font-family: 'Source Sans';
+    font-family: 'Source Sans Pro';
     src: local('Source Sans Pro Regular'),
         url('SourceSansPro-Regular.woff2') format('woff2'),
         url('SourceSansPro-Regular.woff') format('woff');

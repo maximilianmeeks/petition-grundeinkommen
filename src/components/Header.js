@@ -30,10 +30,10 @@ const renderSwitch = (url) => {
 const Header = ({ url }) => (
   <header className="mt-3">
     <div className="row">
-      <div className="col-6 col-lg-8 header-container">
+      <div className="col-12 col-md-8 order-2 order-md-1 my-4 my-lg-0 header-container">
         {renderSwitch(url)}
       </div>
-      <div className="col-4 mx-auto col-lg-3 mt-4 mt-lg-0">
+      <div className="col-12 col-md-3 order-1 order-md-2 mx-auto logo-container">
         <Logo/>
       </div>
     </div>
