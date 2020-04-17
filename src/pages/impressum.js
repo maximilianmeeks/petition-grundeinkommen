@@ -11,13 +11,13 @@ const Impressum = () => (
     <SEO title="Impressum" />
     <div className="container impressum">
       <Header url="/impressum"/>    
-      <div className="row">
-        <div className="col-6">
+      <div className="row mb-3 mt-lg-3 pt-md-5">
+        <div className="col-md-6">
           <h3 className="mb-4">Mensch in Germany</h3>
         </div>
       </div>
       <div className="row">
-        <div className="col-6">
+        <div className="col-md-6">
           <p>
             Eine Initiative von Lysistratax e.V.
           </p>
@@ -43,9 +43,9 @@ const Impressum = () => (
     <footer className="bg-primary pb-3">
         <div className="container">
             <div className="row">
-                <div className="col-12 text-center">
-                    <Link to="/impressum/" className="mx-3 text-light">Impressum</Link>
-                    <Link to="/datenschutz/" className="mx-3 text-light">Datenschutz</Link>
+                <div className="col-12 text-center footer-primary">
+                    <Link to="/impressum/" className="mx-3">Impressum</Link>
+                    <Link to="/datenschutz/" className="mx-3">Datenschutz</Link>
                 </div>
             </div>
         </div>

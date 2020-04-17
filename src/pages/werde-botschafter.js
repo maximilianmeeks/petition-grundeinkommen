@@ -18,11 +18,11 @@ const WerdeBotschafter = () => (
     <SEO title="Werde Botschafter" />
     <div className="container">
       <Header url="/werde-botschafter"/>
-      <div className="row mb-3 mt-lg-3 pt-5">
+      <div className="row pb-4 mt-lg-3 pt-md-5">
         <div className="col-lg-6">
           <BotschafterWerner/>
-          <p className="mt-2 mb-3 font-italic">Götz W. Werner, Gründer von dm-drogerie markt:</p>
-          <p className="px-4 text-center">
+          <p className="mt-3 font-italic">Götz W. Werner, Gründer von dm-drogerie markt:</p>
+          <p className="px-5 mt-3 mb-5 text-center">
             „Früher oder später werden wir einsehen, dass an einem Einkommen für alle kein Weg vorbei führt. Je früher, desto besser.”
           </p>
         </div>

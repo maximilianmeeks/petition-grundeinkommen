@@ -13,7 +13,7 @@ const IndexPage = () => (
     <SEO title="Mensch in Germany" description="Wir alle sind die Wirtschaft. Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden. Jetzt bis zum 27.04. unterschreiben."/>
     <div className="container">
       <Header/>
-      <div className="row mb-3 mt-lg-5 pt-4 pt-md-0">
+      <div className="row mb-3 mt-lg-3 pt-md-5">
         <div className="col-lg-6">
           <p>
             Wir alle sind die Wirtschaft. Um einen Zusammenbruch in Zeiten von Corona zu verhindern und ein
@@ -35,7 +35,7 @@ const IndexPage = () => (
         <div className="mx-auto">
           <div className="row mx-0">
             <div className="mx-auto">
-              <p className="abbinder mb-3 mb-md-0 m-0 mx-auto">
+              <p className="abbinder mb-3 mb-lg-0 m-0 mx-auto">
                 Existenzsicherung ist ein Menschenrecht. Vertrauen die neue Währung.<br/>
               </p>
             </div>

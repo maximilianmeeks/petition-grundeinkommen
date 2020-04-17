@@ -121,8 +121,19 @@ body{
     
 }
 
-footer a:hover {
+footer {
+    
+    a:hover {
     text-decoration: none;
     color: $dark;
+    }
+
+    .footer-primary a{
+        color:$light;
+
+        &:hover{
+            color:$dark
+        }
+    }
 }
 

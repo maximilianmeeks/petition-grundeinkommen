@@ -11,6 +11,7 @@ const Datenschutz = () => (
     <SEO title="Datenschutzverordnung" />
     <div className="container dsgvo">
       <Header url="/datenschutz"/>
+	  <div className="mb-3 mt-lg-3 pt-md-5">
       <h2>Datenschutzerklärung</h2>
 		<div>
 			<p>Verantwortlich im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist: Lysistratax e.V.</p>
@@ -56,12 +57,13 @@ const Datenschutz = () => (
 			<p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche Person in unserer Organisation: datenschutz@bytestyle.com</p>
 		</div>
     </div>
+	</div>
     <footer className="bg-primary pb-3">
         <div className="container">
             <div className="row">
-                <div className="col-12 text-center">
-                    <Link to="/impressum/" className="mx-3 text-light">Impressum</Link>
-                    <Link to="/datenschutz/" className="mx-3 text-light">Datenschutz</Link>
+                <div className="col-12 text-center footer-primary">
+                    <Link to="/impressum/" className="mx-3">Impressum</Link>
+                    <Link to="/datenschutz/" className="mx-3">Datenschutz</Link>
                 </div>
             </div>
         </div>

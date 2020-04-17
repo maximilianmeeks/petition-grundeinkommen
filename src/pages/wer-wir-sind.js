@@ -11,8 +11,8 @@ const About = () => (
     <SEO title="Wer wir sind" />
     <div className="container">
       <Header url="/wer-wir-sind"/>
-      <div className="row mb-3 mt-lg-3 pt-5">
-        <div className="col-lg-6">
+      <div className="row mb-3 mt-lg-3 pt-md-5">
+        <div className="col-md-6">
           <p><strong>Gemeinsam ist das neue Vorne</strong>
           </p>
           <p>
@@ -48,9 +48,9 @@ const About = () => (
     <footer className="bg-primary pb-3">
         <div className="container">
             <div className="row">
-                <div className="col-12 text-center">
-                    <Link to="/impressum/" className="mx-3 text-light">Impressum</Link>
-                    <Link to="/datenschutz/" className="mx-3 text-light">Datenschutz</Link>
+                <div className="col-12 text-center footer-primary">
+                    <Link to="/impressum/" className="mx-3">Impressum</Link>
+                    <Link to="/datenschutz/" className="mx-3">Datenschutz</Link>
                 </div>
             </div>
         </div>
