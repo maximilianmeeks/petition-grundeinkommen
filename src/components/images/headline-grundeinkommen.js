@@ -8,7 +8,7 @@ const HeadlineGrundeinkommen = () => {
       image: file(relativePath: { eq: "Unterseite_AlleszumGrundeinkommen_Headlinegrafik.png" }) {
         childImageSharp {
           fluid{
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }

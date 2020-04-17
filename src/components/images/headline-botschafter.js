@@ -19,7 +19,7 @@ const HeadlineBotschafter = () => {
       image: file(relativePath: { eq: "Unterseite_Werde_Botschafter_Headlinegrafik.png" }) {
         childImageSharp {
           fluid{
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }

@@ -3,14 +3,15 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Header from "../components/header"
+import Header from "../components/Header"
+import ImageMenu from "../components/ImageMenu"
 
 const AllesZumGrundeinkommen = () => (
   <Layout>
     <SEO title="Alles zum Grundeinkommen" />
     <div className="container">
       <Header url="/alles-zum-grundeinkommen"/>
-      <div className="row mb-3">
+      <div className="row mb-3 mt-5">
         <div className="col-lg-6 font-weight-bold">
           <p>
             Das bedingungslose Grundeinkommen ist ein Einkommen für alle Menschen,
@@ -40,6 +41,7 @@ const AllesZumGrundeinkommen = () => (
         </div>
       </div>
     </div>
+    <ImageMenu/>
   </Layout>
 )
 

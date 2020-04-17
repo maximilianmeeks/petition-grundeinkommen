@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Source Sans';
-    src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
+    src: local('Source Sans Pro Bold'),
         url('SourceSansPro-Bold.woff2') format('woff2'),
         url('SourceSansPro-Bold.woff') format('woff');
     font-weight: bold;
@@ -25,7 +25,7 @@
 
 @font-face {
     font-family: 'Source Sans';
-    src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+    src: local('Source Sans Pro Regular'),
         url('SourceSansPro-Regular.woff2') format('woff2'),
         url('SourceSansPro-Regular.woff') format('woff');
     font-weight: normal;

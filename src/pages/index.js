@@ -1,16 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
+
 import { Button } from "react-bootstrap"
 
 import Layout from "../components/layout"
-import Header from "../components/header"
 import SEO from "../components/seo"
 
-import BtnBotschafter from "../components/images/btnBotschafter"
-
+import Header from "../components/Header"
+import ImageMenu from "../components/ImageMenu"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout ImageMenu="true">
     <SEO title="Grundeinkommen" />
     <div className="container">
       <Header/>
@@ -58,32 +57,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="bg-light">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-6 py-5 py-lg-5">
-            <div className="btn-container mx-auto">
-              <Link to="/alles-zum-grundeinkommen/">
-                <BtnBotschafter className="w-100"/>
-                <div class="overlay">
-                  <div class="text">Alles zum Grundeinkommen</div>
-                </div>
-              </Link>
-            </div>
-          </div>
-          <div className="col-lg-6 pb-5 py-lg-5">
-            <div className="btn-container mx-auto">
-              <Link to="/werde-botschafter/">
-                <BtnBotschafter/>
-                <div class="overlay">
-                  <div class="text">Werde Botschafter</div>
-                </div>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <ImageMenu/>
   </Layout>
 )
 

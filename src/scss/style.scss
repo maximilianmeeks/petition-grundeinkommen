@@ -30,12 +30,16 @@ body{
       max-width: 400px;
   }
 
+  .header-container{
+      max-height: 200px;
+  }
+
   .abbinder{
       font-family: "Oswald", sans-serif;
       font-weight: 700;
       background-color: $light;
       text-align: center;
-      font-size: 1.1rem;
+      font-size: 1.25rem;
       text-transform: uppercase;
       padding: 0.5rem 0.6rem;
       max-width: 95%;

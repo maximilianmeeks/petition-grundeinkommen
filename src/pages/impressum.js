@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Header from "../components/header"
+import Header from "../components/Header"
 
 const Impressum = () => (
   <Layout>
@@ -29,7 +29,7 @@ const Impressum = () => (
           </p>
         </div>
       </div>
-      <div className="row">
+      <div className="row mb-5">
         <div className="col-6">
           <p>
             <strong>Berlin</strong><br/>

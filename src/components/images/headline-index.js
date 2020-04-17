@@ -8,7 +8,7 @@ const HeadlineIndex = () => {
       image: file(relativePath: { eq: "HeadlineGrafik.png" }) {
         childImageSharp {
           fluid{
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }
