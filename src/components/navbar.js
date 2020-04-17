@@ -14,12 +14,6 @@ export default (props) => (
                         <Link to="/" className="nav-link">Home</Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link to="/impressum" className="nav-link">Impressum</Link>
-                    </Nav.Link>
-                    <Nav.Link>
-                        <Link to="/datenschutz" className="nav-link">Datenschutz</Link>
-                    </Nav.Link>
-                    <Nav.Link>
                         <Link to="/wer-wir-sind" className="nav-link">Wer wir sind</Link>
                     </Nav.Link>
                 </Nav>

@@ -6,11 +6,11 @@ import SEO from "../components/seo"
 import Header from "../components/Header"
 import ImageMenu from "../components/ImageMenu"
 
-const AllesZumGrundeinkommen = () => (
+const WarumGrundeinkommen = () => (
   <Layout>
-    <SEO title="Alles zum Grundeinkommen" />
+    <SEO title="Warum Grundeinkommen" />
     <div className="container">
-      <Header url="/alles-zum-grundeinkommen"/>
+      <Header url="/warum-grundeinkommen"/>
       <div className="row mb-3 mt-5">
         <div className="col-lg-6 font-weight-bold">
           <p>
@@ -45,4 +45,4 @@ const AllesZumGrundeinkommen = () => (
   </Layout>
 )
 
-export default AllesZumGrundeinkommen
+export default WarumGrundeinkommen

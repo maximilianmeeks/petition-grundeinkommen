@@ -13,10 +13,10 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const BtnBotschafter = () => {
+const BotschafterWerner = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "sz.1.4523167.jpeg" }) {
+      placeholderImage: file(relativePath: { eq: "Botschafter_Contentbild_Werner.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
@@ -26,7 +26,7 @@ const BtnBotschafter = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Werde Botschafter"/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Prof. Götz W. Werner, Portrait"/>
 }
 
-export default BtnBotschafter
+export default BotschafterWerner

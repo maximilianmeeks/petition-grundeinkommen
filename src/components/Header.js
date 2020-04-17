@@ -12,7 +12,7 @@ const renderSwitch = (url) => {
       return <HeadlineIndex/>;
     case '/werde-botschafter':
       return <HeadlineBotschafter/>;
-    case '/alles-zum-grundeinkommen':
+    case '/warum-grundeinkommen':
       return <HeadlineGrundeinkommen className="h-100"/>;
     case '/impressum':
       return <h1 className="mb-5 mt-3 px-4 headline font-oswald text-uppercase font-weight-bold text-center text-primary bg-light mx-auto"> Impressum </h1>

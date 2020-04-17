@@ -15,10 +15,10 @@ const IndexPage = () => (
       <Header/>
       <div className="row mb-3">
         <div className="col-lg-6">
-          <p className="font-weight-bold">
+          <p>
             Wir alle sind die Wirtschaft. Um einen Zusammenbruch in Zeiten von Corona zu verhindern und ein
-            neues Miteinander zum Blühen zu bringen, liegt die Lösung auf der Hand: Die Menschen brauchen
-            Geld. Schnell. Direkt. Unbürokratisch. Die Zeit ist reif für eine mächtige Idee: Das Grundeinkommen.
+            neues Miteinander zum Blühen zu bringen, liegt die Lösung auf der Hand: <strong>Die Menschen brauchen
+            Geld</strong>. Schnell. Direkt. Unbürokratisch. Die Zeit ist reif für eine mächtige Idee: <strong>Das Grundeinkommen</strong>.
           </p>
         </div>
         <div className="col-lg-6">
@@ -27,7 +27,7 @@ const IndexPage = () => (
             Um das Grundeinkommen nach dem Ausnahmezustand bedingungslos & dauerhaft zu etablieren, ist
             die Bundestagspetition von Susanne Wiest der wirksamste Weg, da sie rechtlich bindend ist – sei ein
             Teil davon und gib deine Stimme für uns alle ab. Wie viele Stimmen schaffen wir in der
-            verbleibenden Mitzeichnungsfrist bis zum 27. April 2020?
+            verbleibenden Mitzeichnungsfrist bis zum <strong>27. April 2020</strong>?
           </p>
         </div>
       </div>

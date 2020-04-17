@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 const HeadlineGrundeinkommen = () => {
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "Unterseite_AlleszumGrundeinkommen_Headlinegrafik.png" }) {
+      image: file(relativePath: { eq: "Unterseite_WarumGrundeinkommen_Headlinegrafik.png" }) {
         childImageSharp {
           fluid{
             ...GatsbyImageSharpFluid_tracedSVG
@@ -15,7 +15,7 @@ const HeadlineGrundeinkommen = () => {
     }
   `)
     
-  return <Img fluid={data.image.childImageSharp.fluid} alt="Alles zum Grundeinkommen"/>
+  return <Img fluid={data.image.childImageSharp.fluid} alt="Warum Grundeinkommen"/>
 }
 
 export default HeadlineGrundeinkommen
