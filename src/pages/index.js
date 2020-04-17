@@ -6,6 +6,8 @@ import Layout from "../components/layout"
 import Header from "../components/header"
 import SEO from "../components/seo"
 
+import BtnBotschafter from "../components/images/btnBotschafter"
+
 
 const IndexPage = () => (
   <Layout>
@@ -50,7 +52,7 @@ const IndexPage = () => (
       </div>
       <div className="row mb-5">
         <div className="mx-auto">
-          <a href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html" target="_blank">
+          <a href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html" target="_blank" rel="noopener noreferrer">
             <Button variant="dark" className="btn btn-lg">Jetzt Unterschreiben</Button>
           </a>
         </div>
@@ -58,11 +60,27 @@ const IndexPage = () => (
     </div>
     <div className="bg-light">
       <div className="container">
-        <div className="col-lg-6">
-          <Link to="/alles-zum-grundeinkommen/">Alles zum Grundeinkommen</Link>
-        </div>
-        <div className="col-lg-6">
-          <Link to="/werde-botschafter/">Werde Botschafter</Link>
+        <div className="row">
+          <div className="col-lg-6 py-5 py-lg-5">
+            <div className="btn-container mx-auto">
+              <Link to="/alles-zum-grundeinkommen/">
+                <BtnBotschafter className="w-100"/>
+                <div class="overlay">
+                  <div class="text">Alles zum Grundeinkommen</div>
+                </div>
+              </Link>
+            </div>
+          </div>
+          <div className="col-lg-6 pb-5 py-lg-5">
+            <div className="btn-container mx-auto">
+              <Link to="/werde-botschafter/">
+                <BtnBotschafter/>
+                <div class="overlay">
+                  <div class="text">Werde Botschafter</div>
+                </div>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

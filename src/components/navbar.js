@@ -20,7 +20,7 @@ export default (props) => (
                         <Link to="/datenschutz" className="nav-link">Datenschutz</Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link to="/about" className="nav-link">Wer wir sind</Link>
+                        <Link to="/wer-wir-sind" className="nav-link">Wer wir sind</Link>
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>

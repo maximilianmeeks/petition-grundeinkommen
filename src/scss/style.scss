@@ -2,7 +2,7 @@
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
 body{
-    font-family: "Source Sans";
+    font-family: "Source Sans", sans-serif;
     background-color: $primary;
   }
   
@@ -26,7 +26,7 @@ body{
   }
 
   .btn{
-      font-family: "Oswald";
+      font-family: "Oswald", sans-serif;
       font-weight: 700;
       text-transform: uppercase;
       border-radius: 0;
@@ -37,3 +37,40 @@ body{
         color: $dark;
       }
   }
+
+
+  .btn-container:hover .overlay{
+      opacity: 1;
+  }
+
+  .btn-container{
+    width: 80%;
+    height: auto;
+
+
+    .overlay {
+        position: absolute;
+        top: 150px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 450px;
+        height: 100px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: $primary;
+      }
+  }
+
+  @include media-breakpoint-up(lg){
+      .btn-container{
+        width: 450px;
+        height: 300px;
+      }
+
+}
+
+
+.impressum a{
+    color: $dark;
+}

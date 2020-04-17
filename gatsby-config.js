@@ -37,23 +37,6 @@ module.exports = {
           urls: ["fonts.css"],
         },
       },
-    }/* ,
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Source Sans Pro`,
-            variants: [`400`, `700`]
-          },
-          {
-            family: `Oswald`
-          }
-        ],
-      }
-    } */
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    }
   ],
 }
