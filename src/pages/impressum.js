@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -21,10 +22,6 @@ const Impressum = () => (
             Eine Initiative von Lysistratax e.V.
           </p>
           <p>
-          Susanne Wiest, Beatrice Werner, Helena Steinhaus, Leonie Schraven, Amira Jehia, Claudia Cornelsen,
-          Anna-Sophie Brüning, Uschi Bauer
-          </p>
-          <p>
             Angaben gemäß § 5 TMG
           </p>
         </div>
@@ -43,6 +40,16 @@ const Impressum = () => (
         </div>
       </div>
     </div>
+    <footer className="bg-primary pb-3">
+        <div className="container">
+            <div className="row">
+                <div className="col-12 text-center">
+                    <Link to="/impressum/" className="mx-3 text-light">Impressum</Link>
+                    <Link to="/datenschutz/" className="mx-3 text-light">Datenschutz</Link>
+                </div>
+            </div>
+        </div>
+    </footer>
   </Layout>
 )
 

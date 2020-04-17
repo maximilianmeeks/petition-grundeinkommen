@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,7 +11,7 @@ const About = () => (
     <SEO title="Wer wir sind" />
     <div className="container">
       <Header url="/wer-wir-sind"/>
-      <div className="row mb-3 mt-5 pt-5">
+      <div className="row mb-3 mt-lg-5 pt-5">
         <div className="col-lg-6">
           <p><strong>Gemeinsam ist das neue Vorne</strong><br/>
             Bedingungslos: Von uns allen für uns alle
@@ -51,7 +52,17 @@ const About = () => (
         </div>
       </div>
     </div>
-  </Layout>
+    <footer className="bg-primary pb-3">
+        <div className="container">
+            <div className="row">
+                <div className="col-12 text-center">
+                    <Link to="/impressum/" className="mx-3 text-light">Impressum</Link>
+                    <Link to="/datenschutz/" className="mx-3 text-light">Datenschutz</Link>
+                </div>
+            </div>
+        </div>
+    </footer>
+</Layout>
 )
 
 export default About

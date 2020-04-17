@@ -10,7 +10,7 @@ import ImageMenu from "../components/ImageMenu"
 
 const IndexPage = () => (
   <Layout ImageMenu="true">
-    <SEO title="Grundeinkommen" />
+    <SEO title="Mensch in Germany" description="Wir alle sind die Wirtschaft. Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden. Jetzt bis zum 27.04. unterschreiben."/>
     <div className="container">
       <Header/>
       <div className="row mb-3">

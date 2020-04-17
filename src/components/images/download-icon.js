@@ -15,7 +15,7 @@ const DownloadIcon = () => {
     }
   `)
     
-  return <Img fluid={data.image.childImageSharp.fluid} alt="Download" style={{maxWidth: "50px"}}/>
+  return <Img fluid={data.image.childImageSharp.fluid} alt="Download" style={{maxWidth: "35px"}}/>
 }
 
 export default DownloadIcon

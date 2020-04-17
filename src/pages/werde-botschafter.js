@@ -13,7 +13,7 @@ const WerdeBotschafter = () => (
     <SEO title="Werde Botschafter" />
     <div className="container">
       <Header url="/werde-botschafter"/>
-      <div className="row mb-3 mt-5 pt-5">
+      <div className="row mb-3 mt-lg-5 pt-5">
         <div className="col-lg-6">
           <BotschafterWerner/>
           <p className="my-2 font-italic">Götz W. Werner, Gründer von dm-drogerie markt:</p>

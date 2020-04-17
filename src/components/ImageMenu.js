@@ -8,24 +8,24 @@ import BtnGrundeinkommenOrange from "./images/btnGrundeinkommenOrange"
 
 
 export default (props) => (
-    <div className="bg-light">
+    <div className="bg-light pb-3">
         <div className="container">
             <div className="row">
-                <div className="col-lg-6 py-5 py-lg-5">
+                <div className="col-lg-6 py-3 py-lg-4">
                     <div className="btn-container mx-auto">
                         <Link to="/warum-grundeinkommen/">
                             <BtnGrundeinkommenSchwarz/>
-                            <div className="overlay col-lg-12 py-5 py-lg-5">
+                            <div className="overlay col-lg-12 py-3 py-lg-4">
                                 <BtnGrundeinkommenOrange/>
                             </div>
                         </Link>
                     </div>
                 </div>
-                <div className="col-lg-6 pb-5 py-lg-5">
+                <div className="col-lg-6 pb-3 py-lg-4">
                     <div className="btn-container mx-auto">
                         <Link to="/werde-botschafter/">
                             <BtnBotschafterSchwarz/>
-                            <div className="overlay col-lg-12 py-5 py-lg-5">
+                            <div className="overlay col-lg-12 pb-3 py-lg-4">
                                 <BtnBotschafterOrange/>
                             </div>
                         </Link>
@@ -33,5 +33,15 @@ export default (props) => (
                 </div>
             </div>
         </div>
+        <footer>
+            <div className="container">
+                <div className="row">
+                    <div className="col-12 text-center">
+                        <Link to="/impressum/" className="mx-3">Impressum</Link>
+                        <Link to="/datenschutz/" className="mx-3">Datenschutz</Link>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 )
