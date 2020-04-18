@@ -40,7 +40,7 @@ const Impressum = () => (
         </div>
       </div>
       <div className="mb-5">
-        <h3>Haftungsausschluss:</h3>
+        <h3>Haftungsausschluss</h3>
         <h3>Haftung für Inhalte</h3>
         <p>
           Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die

@@ -17,7 +17,7 @@ const About = () => (
           <p>
             Wir sind ein Bündnis von Frauen, die sich seit vielen Jahren auf
             unterschiedlichen Wegen für das Bedingungslose Grundeinkommen engagieren. Uns
-            fehlen in der öffentlichen Debatte eindeutig weibliche Stimmen und die
+            fehlt in der öffentlichen Debatte eindeutig die
             weibliche Perspektive. Das wollen wir ändern!
           </p>
           <p>
@@ -29,15 +29,11 @@ const About = () => (
             gegründet. Das BGE gibt Raum für eine ökonomische und ökologische
             Umstrukturierung, die das Wohl und die Würde aller in den Mittelpunkt stellt.
           </p>
-          <p>
-            <strong>Lysistratax</strong> – von uns allen für uns alle. Wir haben viel vor und freuen uns
-            über Gleichgesinnte, die mit uns an einem Strang ziehen. Danke!
-          </p>
         </div>
         <div className="col-lg-6">
           <p>
-            <strong>Lysistratax</strong> – von uns allen für uns alle. Wir haben viel vor und freuen uns über Gleichgesinnte, die
-            mit uns an einem Strang ziehen. Danke!
+            Wir haben viel vor und freuen uns über Gleichgesinnte, die
+            mit uns an einem Strang ziehen.
           </p>
           <p>
             Uschi Bauer, Anna-Sophie Brüning, Amira Jehia, Leonie Schraven, Helena Steinhaus, Beatrice Werner, Susanne Wiest
