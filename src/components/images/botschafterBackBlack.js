@@ -9,7 +9,7 @@ const BotschafterBackBlack = () => {
       placeholderImage: file(relativePath: { eq: "Botschafter_zurueck_schwarz.png" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }

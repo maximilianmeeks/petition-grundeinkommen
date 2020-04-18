@@ -9,7 +9,7 @@ const BtnGrundeinkommenTest = () => {
       placeholderImage: file(relativePath: { eq: "Teaser_Botschafter_schwarz.png" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }

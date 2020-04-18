@@ -9,7 +9,7 @@ const UbiBackOrange = () => {
       placeholderImage: file(relativePath: { eq: "Grundeinkommen_zurueck_orange.png" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }

@@ -42,7 +42,7 @@ const IndexPage = () => (
           </div>
           <div className="row mx-0 mb-5">
             <div className="mx-auto">
-              <p className="abbinder m-0 mx-auto">
+              <p className="abbinder m-0 mx-auto px-2">
                 Willkommen bei #MenschInGermany!
               </p>
             </div>

@@ -8,7 +8,7 @@ const DownloadIcon = () => {
       image: file(relativePath: { eq: "Download_icon.png" }) {
         childImageSharp {
           fluid{
-            ...GatsbyImageSharpFluid_tracedSVG
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }

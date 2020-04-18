@@ -19,7 +19,7 @@ const Logo = () => {
       placeholderImage: file(relativePath: { eq: "Logo_Aktionsbubble.png" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid_tracedSVG
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }

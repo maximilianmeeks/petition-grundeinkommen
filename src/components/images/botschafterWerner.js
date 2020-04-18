@@ -19,7 +19,7 @@ const BotschafterWerner = () => {
       placeholderImage: file(relativePath: { eq: "Botschafter_Contentbild_Werner.png" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }

@@ -41,7 +41,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: `Nach der Krise ist vor dem Grundeinkommen.`,
+          content: `Die Zeit ist reif für's Grundeinkommen.`,
         },
         {
           property: `og:description`,
