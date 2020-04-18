@@ -32,7 +32,6 @@ const About = () => (
             für eine ökonomische und ökologische Umstrukturierung, die das Wohl und die
             Würde aller in den Mittelpunkt stellt.
           </p>
-          
         </div>
         <div className="col-lg-6">
           <p>

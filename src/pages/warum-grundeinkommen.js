@@ -49,30 +49,30 @@ const WarumGrundeinkommen = () => (
     <div className="bg-light pb-3">
         <div className="container">
             <div className="row">
-                <div className="col-lg-6 py-3 py-lg-4">
+                <div className="col-lg-6 py-3 pt-lg-5">
                     <div className="btn-container mx-auto">
                         <Link to="/">
                             <UbiBackBlack/>
-                            <div className="overlay col-lg-12 py-3 py-lg-4">
+                            <div className="overlay col-lg-12 py-3 pt-lg-5">
                                 <UbiBackOrange/>
                             </div>
                         </Link>
                     </div>
                 </div>
-                <div className="col-lg-6 pb-3 py-lg-4">
+                <div className="col-lg-6 pb-3 pt-lg-5">
                     <div className="btn-container mx-auto">
                         <Link to="/werde-botschafter/">
                             <BtnBotschafterSchwarz/>
-                            <div className="overlay col-lg-12 pb-3 py-lg-4">
+                            <div className="overlay col-lg-12 pb-3 pt-lg-5">
                                 <BtnBotschafterOrange/>
                             </div>
                         </Link>
-                        <p className="text-dark pt-2 pr-3 text-right font-italic">Götz W. Werner, Gründer von dm-drogerie markt</p>
+                        <p className="text-dark pt-2 pr-3 mb-0 text-right font-italic">Götz W. Werner, Gründer von dm-drogerie markt</p>
                     </div>
                 </div>
             </div>
         </div>
-        <footer>
+        <footer class="py-2">
           <div className="container">
               <div className="row">
                   <div className="col-12 text-center">
