@@ -8,7 +8,8 @@ import Header from "../components/Header"
 
 const Datenschutz = () => (
   <Layout>
-    <SEO title="Datenschutzverordnung" />
+    <SEO title="Datenschutzverordnung" 
+	imgFb="/BGE_post_facebook_1200x627_4.jpg" />
     <div className="container dsgvo">
       <Header url="/datenschutz"/>
 	  <div className="mb-3 mt-lg-3 pt-md-5">
@@ -27,7 +28,7 @@ const Datenschutz = () => (
 			</ul>
 			<p>Sofern Sie uns eine Einwilligung erteilt haben, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen.</p>
 			<p>Sie können sich jederzeit mit einer Beschwerde an eine Aufsichtsbehörde wenden, z. B. an die zuständige Aufsichtsbehörde des Bundeslands Ihres Wohnsitzes oder an die für uns als verantwortliche Stelle zuständige Behörde.</p>
-			<p>Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit Anschrift finden Sie unter: <a href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html" target="_blank" rel="noopener noreferrer" className="custom-anchor">https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a></p>
+			<p>Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit Anschrift finden Sie unter: <a href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html" target="_blank" rel="noopener noreferrer" className="custom-anchor dont-break-out">https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a></p>
 			<h2>Erfassung allgemeiner Informationen beim Besuch unserer Website</h2>
 			<div>
 				<h3>Art und Zweck der Verarbeitung</h3>

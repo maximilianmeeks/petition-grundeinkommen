@@ -11,7 +11,7 @@ const renderSwitch = (url) => {
   switch(url) {
     case '/':
       return <HeadlineIndex/>;
-    case '/werde-botschafter':
+    case '/werde-botschafterin':
       return <HeadlineBotschafter/>;
     case '/warum-grundeinkommen':
       return <HeadlineGrundeinkommen/>;

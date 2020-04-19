@@ -15,9 +15,10 @@ import BotschafterBackOrange from "../components/images/botschafterBackOrange"
 
 const WerdeBotschafter = () => (
   <Layout>
-    <SEO title="Werde Botschafter" />
+    <SEO title="Werde Botschafter"
+    imgFb="/BGE_post_facebook_1200x627_5.jpg"/>
     <div className="container">
-      <Header url="/werde-botschafter"/>
+      <Header url="/werde-botschafterin"/>
       <div className="row pb-4 mt-lg-3 pt-md-5">
         <div className="col-lg-6">
           <BotschafterWerner/>

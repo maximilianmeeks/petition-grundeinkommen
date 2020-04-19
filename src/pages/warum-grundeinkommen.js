@@ -13,7 +13,8 @@ import Header from "../components/Header"
 
 const WarumGrundeinkommen = () => (
   <Layout>
-    <SEO title="Warum Grundeinkommen" />
+    <SEO title="Warum Grundeinkommen" 
+    imgFb="/BGE_post_facebook_1200x627_1.jpg"/>
     <div className="container">
       <Header url="/warum-grundeinkommen"/>
       <div className="row mb-3 mt-lg-3 pt-md-5">
@@ -61,7 +62,7 @@ const WarumGrundeinkommen = () => (
                 </div>
                 <div className="col-lg-6 pb-3 pt-lg-5">
                     <div className="btn-container mx-auto">
-                        <Link to="/werde-botschafter/">
+                        <Link to="/werde-botschafterin/">
                             <BtnBotschafterSchwarz/>
                             <div className="overlay col-lg-12 pb-3 pt-lg-5">
                                 <BtnBotschafterOrange/>

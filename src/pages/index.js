@@ -10,7 +10,10 @@ import ImageMenu from "../components/ImageMenu"
 
 const IndexPage = () => (
   <Layout ImageMenu="true">
-    <SEO title="Petition Bedingungsloses Grundeinkommen" description="Wir alle sind die Wirtschaft. Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden. Jetzt bis zum 27.04. unterschreiben."/>
+    <SEO title="Die Zeit ist reif für's Grundeinkommen." 
+        description="Wir alle sind die Wirtschaft. Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden. Jetzt bis zum 27.04. unterschreiben."
+        imgFb="/BGE_post_facebook_1200x627_4.jpg" 
+        />
     <div className="container">
       <Header/>
       <div className="row mb-3 mt-lg-3 pt-md-5">

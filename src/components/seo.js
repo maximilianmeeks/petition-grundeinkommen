@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ description, lang, meta, title, imgFb }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -53,7 +53,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: `/BGE_post_facebook_1200x627_4.jpg`,
+          content: imgFb,
         },
         {
           property: `og:image:alt`,
@@ -69,7 +69,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: `Die Zeit ist reif für's Grundeinkommen.`,
         },
         {
           name: `twitter:description`,
@@ -78,7 +78,7 @@ function SEO({ description, lang, meta, title }) {
       ].concat(meta)}
     >
       <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet"/>
-      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
     </Helmet>
   )
 }

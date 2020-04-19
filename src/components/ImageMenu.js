@@ -23,7 +23,7 @@ export default (props) => (
             </div>
             <div className="col-lg-6 pb-3 pt-lg-5">
                 <div className="btn-container mx-auto">
-                    <Link to="/werde-botschafter/">
+                    <Link to="/werde-botschafterin/">
                         <BtnBotschafterSchwarz/>
                             <div className="overlay col-lg-12 pb-3 pt-lg-5">
                                 <BtnBotschafterOrange/>

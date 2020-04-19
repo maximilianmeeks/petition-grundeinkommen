@@ -29,7 +29,7 @@ module.exports = {
         background_color: `#eca400`,
         theme_color: `#eca400`,
         display: `minimal-ui`,
-        icon: `src/images/Logo_Aktionsbubble.png`, // This path is relative to the root of the site.
+        icon: `favicon.ico`, // This path is relative to the root of the site.
       },
     },
     {
