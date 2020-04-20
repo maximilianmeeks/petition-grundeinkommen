@@ -39,7 +39,7 @@ function WerdeBotschafter() {
 
   return (
   <Layout>
-    <SEO title="Werde Botschafter"
+    <SEO title="Werde Botschafter*in"
     imgFb="/BGE_post_facebook_1200x627_5.jpg"
     slug="/werde-botschafter"/>
     <div className="container">
