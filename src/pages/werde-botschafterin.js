@@ -1,42 +1,23 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Container, Row, Col, Image, Modal, Button } from "react-bootstrap"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Header from "../components/Header"
+import ImageGallery from "../components/ImageGallery"
+
 import BotschafterWerner from "../components/images/botschafterWerner"
 import BotschafterSteinhaus from "../components/images/botschafterSteinhaus"
 import DownloadIcon from "../components/images/download-icon"
-
 import BtnGrundeinkommenSchwarz from "../components/images/btnGrundeinkommenSchwarz"
 import BtnGrundeinkommenOrange from "../components/images/btnGrundeinkommenOrange"
 import BotschafterBackBlack from "../components/images/botschafterBackBlack"
 import BotschafterBackOrange from "../components/images/botschafterBackOrange"
 
-/* function MyVerticallyCenteredModal(props) {
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-      </Modal.Header>
-      <Modal.Body>
-        {console.log(props)}
-      <BotschafterWerner/>
-      </Modal.Body>
-    </Modal>
-  );
-} */
 
 
 function WerdeBotschafter() {
-/*   const [modalShow, setModalShow] = React.useState(false); */
-
   return (
   <Layout>
     <SEO title="Werde Botschafter*in"
@@ -71,45 +52,7 @@ function WerdeBotschafter() {
             <strong>#bedingungslosesGrundeinkommen</strong><br/>
             <strong>#bge</strong><br/>
           </p>
-{/*           <Container>
-            <Row>
-              <Col xs={6} md={4}>
-                <Image src="holder.js/171x180" thumbnail onClick={() => setModalShow(true)}/>
-                <MyVerticallyCenteredModal
-                    show={modalShow}
-                    onHide={() => setModalShow(false)}
-                  />
-              </Col>
-              <Col xs={6} md={4}>
-                <Image src="holder.js/171x180" thumbnail onClick={() => setModalShow(true)}/>
-              </Col>
-              <Col xs={6} md={4}>
-                <Image src="holder.js/171x180" thumbnail onClick={() => setModalShow(true)}/>
-              </Col>
-            </Row>
-          </Container> */}
-          <div className="my-4">
-            <a href="/BGE_post_facebook_1200x627_9.zip" download className="custom-anchor">
-              <div className="row">
-                <div className="col-1"></div>
-                <div className="col-2"><DownloadIcon/></div>
-                <div className="col-8 pl-0">
-                  <strong >Grafiken für Facebook herunterladen (1,9 MB)</strong>
-                </div>     
-              </div>
-            </a>
-          </div>
-          <div className="my-4">
-            <a href="/BGE_post_insta_1080x1080_9.zip" download className="custom-anchor">
-              <div className="row">
-                <div className="col-1"></div>
-                <div className="col-2 position-relative"><DownloadIcon/></div>
-                <div className="col-8 pl-0">
-                  <strong >Grafiken für Instagram herunterladen (2,6 MB)</strong>
-                </div>  
-              </div>
-            </a>
-          </div>
+          <ImageGallery/>
         </div>
       </div>
     </div>
@@ -133,8 +76,7 @@ function WerdeBotschafter() {
                           <div className="overlay col-lg-12 pb-3 pt-lg-5">
                             <BotschafterBackOrange/>
                           </div>
-                      </Link>
-                       
+                      </Link> 
                   </div>
               </div>
           </div>
