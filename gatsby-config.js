@@ -3,7 +3,6 @@ module.exports = {
     title: `Mensch in Germany`,
     description: `Wir alle sind die Wirtschaft. Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden. Jetzt bis zum 27.04. unterschreiben.`,
     author: `Maximilian Meeks`,
-    url: `https://www.mensch-in-germany.org/`,
     image: `/BGE_post_facebook_1200x627_4.jpg`
   },
   pathPrefix: "/petition-grundeinkommen",
@@ -28,8 +27,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#eca400`,
         theme_color: `#eca400`,
-        display: `minimal-ui`,
-        icon: `favicon.ico`, // This path is relative to the root of the site.
+        display: `minimal-ui`
       },
     },
     {

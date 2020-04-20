@@ -9,7 +9,8 @@ import Header from "../components/Header"
 const About = () => (
   <Layout>
     <SEO title="Wer wir sind" 
-    imgFb="/BGE_post_facebook_1200x627_3.jpg"/>
+    imgFb="/BGE_post_facebook_1200x627_3.jpg"
+    slug="/wer-wir-sind"/>
     <div className="container">
       <Header url="/wer-wir-sind"/>
       <div className="row mb-3 mt-lg-3 pt-md-5">

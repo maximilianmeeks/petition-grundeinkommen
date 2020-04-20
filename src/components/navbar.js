@@ -20,7 +20,7 @@ export default (props) => (
                         <Link to="/warum-grundeinkommen" className="nav-link">Warum Grundeinkommen</Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link to="/werde-botschafterin" className="nav-link">Werde BotschafterIn</Link>
+                        <Link to="/werde-botschafterin" className="nav-link">Werde Botschafter*In</Link>
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>

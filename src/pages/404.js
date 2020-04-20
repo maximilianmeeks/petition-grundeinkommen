@@ -8,7 +8,8 @@ import Header from "../components/Header"
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
+    <SEO title="404: Not found" 
+    slug="/404"/>
     <div className="container">
       <Header url="/404"/>
       <div className="col-12 text-center mb-5">

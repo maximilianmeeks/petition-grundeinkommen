@@ -8,7 +8,8 @@ import Header from "../components/Header"
 
 const Impressum = () => (
   <Layout>
-    <SEO title="Impressum" />
+    <SEO title="Impressum"
+    slug="/impressum" />
     <div className="container impressum">
       <Header url="/impressum"/>    
       <div className="row mb-3 mt-lg-3 pt-md-5">

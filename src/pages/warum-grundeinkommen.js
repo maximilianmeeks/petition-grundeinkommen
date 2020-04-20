@@ -14,7 +14,8 @@ import Header from "../components/Header"
 const WarumGrundeinkommen = () => (
   <Layout>
     <SEO title="Warum Grundeinkommen" 
-    imgFb="/BGE_post_facebook_1200x627_1.jpg"/>
+    imgFb="/BGE_post_facebook_1200x627_1.jpg"
+    slug="/warum-grundeinkommen"/>
     <div className="container">
       <Header url="/warum-grundeinkommen"/>
       <div className="row mb-3 mt-lg-3 pt-md-5">
@@ -68,7 +69,7 @@ const WarumGrundeinkommen = () => (
                                 <BtnBotschafterOrange/>
                             </div>
                         </Link>
-                        <p className="text-dark pt-2 pr-3 mb-0 text-right font-italic">Götz W. Werner, Gründer von dm-drogerie markt</p>
+                         
                     </div>
                 </div>
             </div>

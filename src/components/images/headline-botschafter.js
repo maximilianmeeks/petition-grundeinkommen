@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 const HeadlineBotschafter = () => {
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "Unterseite_Werde_Botschafter_Headlinegrafik.png" }) {
+      image: file(relativePath: { eq: "Unterseite_Werde_Botschafter_Headlinegrafik_NEU.png" }) {
         childImageSharp {
           fluid{
             ...GatsbyImageSharpFluid_noBase64
@@ -15,7 +15,7 @@ const HeadlineBotschafter = () => {
     }
   `)
     
-  return <Img fluid={data.image.childImageSharp.fluid} alt="Werde Botschafter!" style={{maxWidth: "420px"}}/>
+  return <Img fluid={data.image.childImageSharp.fluid} alt="Werde Botschafter!" style={{maxWidth: "450px"}}/>
 }
 
 export default HeadlineBotschafter

@@ -9,7 +9,8 @@ import Header from "../components/Header"
 const Datenschutz = () => (
   <Layout>
     <SEO title="Datenschutzverordnung" 
-	imgFb="/BGE_post_facebook_1200x627_4.jpg" />
+	imgFb="/BGE_post_facebook_1200x627_4.jpg" 
+	slug="/datenschutz"/>
     <div className="container dsgvo">
       <Header url="/datenschutz"/>
 	  <div className="mb-3 mt-lg-3 pt-md-5">

@@ -7,10 +7,11 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import favicon from '../images/favicon.ico'
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title, imgFb }) {
+function SEO({ description, lang, meta, title, imgFb, slug }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -56,6 +57,10 @@ function SEO({ description, lang, meta, title, imgFb }) {
           content: imgFb,
         },
         {
+          property: `url`,
+          content: `https://www.mensch-in-germany.org${slug}`
+        },
+        {
           property: `og:image:alt`,
           content: `Das Grundeinkommen kommt! Jetzt abstimmen und die Petition unterzeichnen!`
         },
@@ -77,6 +82,7 @@ function SEO({ description, lang, meta, title, imgFb }) {
         },
       ].concat(meta)}
     >
+      <link rel="icon" href={favicon} />
       <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
     </Helmet>
