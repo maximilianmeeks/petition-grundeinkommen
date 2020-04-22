@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 import Header from "../components/Header"
 import BotschafterWerner from "../components/images/botschafterWerner"
 import BotschafterSteinhaus from "../components/images/botschafterSteinhaus"
+import BotschafterHartmann from "../components/images/botschafterHartmann"
 import DownloadIcon from "../components/images/download-icon"
 
 import BtnGrundeinkommenSchwarz from "../components/images/btnGrundeinkommenSchwarz"
@@ -45,7 +46,7 @@ function WerdeBotschafter() {
     <div className="container">
       <Header url="/werde-botschafterin"/>
       <div className="row pb-4 mt-lg-3 pt-md-5">
-        <div className="col-lg-6">
+        <div className="col-lg-6 botschafter">
           <BotschafterSteinhaus/>
           <p className="mt-3 font-italic">Helena Steinhaus, Gründerin von Sanktionsfrei:</p>
           <p className="px-5 mt-3 mb-5 text-center">
@@ -55,6 +56,11 @@ function WerdeBotschafter() {
           <p className="mt-3 font-italic">Götz W. Werner, Gründer von dm-drogerie markt:</p>
           <p className="px-5 mt-3 mb-5 text-center">
             „Früher oder später werden wir einsehen, dass an einem Einkommen für alle kein Weg vorbei führt. Je früher, desto besser.”
+          </p>
+          <BotschafterHartmann/>
+          <p className="mt-3 font-italic">Anny Hartmann, politisches Kabarett:</p>
+          <p className="px-5 mt-3 mb-5 text-center">
+            „Die Corona-Krise zeigt, dass die Finanzierbarkeit von Maßnahmen nie eine Rolle spielt. Alles, was politisch gewollt ist, ist auch finanzierbar. Die Frage ist also nicht: 'Was kostet ein Grundeinkommen?', sondern sie lautet: 'Ist die Freiheit des Individuums politisch gewollt?'.”
           </p>
         </div>
         <div className="col-lg-6">
