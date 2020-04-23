@@ -109,6 +109,17 @@ body{
     color: #ffffff;
 }
 
+.not-found{
+    a{
+    color: $light;
+    font-size: 3rem;
+    }
+    a:hover{
+        text-decoration: none;
+        color: $dark;
+    }
+}
+
 .custom-anchor{
 
     text-decoration: none;
@@ -159,10 +170,20 @@ footer {
 
 .img-gallery{
     .row{
-        div{
-        margin-bottom: 1rem;
+        .col-6{
+        margin: 1rem 0;
+        }
+
+        img:hover{
+            cursor: pointer;
         }
     }
+}
+
+.modal-footer{
+    justify-content: flex-start;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .post-social {
@@ -184,4 +205,31 @@ footer {
 
 .botschafter .text-center{
     font-weight: 700;
+}
+
+
+///HOVER ZOOM
+
+.hover-zoom {
+    width:100%;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    cursor:default;
+    
+    img {
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
+    }
+    
+    
+    &:hover img {
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    }
+
 }

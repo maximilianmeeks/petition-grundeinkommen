@@ -65,13 +65,21 @@ function SEO({ description, lang, meta, title, imgFb, slug }) {
           content: `Das Grundeinkommen kommt! Jetzt abstimmen und die Petition unterzeichnen!`
         },
         {
-          name: `twitter:card`,
-          content: `Wir alle sind die Wirtschaft. Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden. Jetzt bis zum 27.04. unterschreiben.`,
+          property: `twitter:card`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
+          content: `Lysistratax e.V.`,
+        },   
+        {
+          property: `twitter:image`,
+          content: `https://www.mensch-in-germany.org/BGE_post_twitter_1200x675_4.jpg`,
+        },     
+        {
+          name: `twitter:image:alt`,
+          content: `Das Grundeinkommen kommt! Jetzt abstimmen und die Petition unterzeichnen!`,
+        }, 
         {
           name: `twitter:title`,
           content: `Die Zeit ist reif für's Grundeinkommen.`,

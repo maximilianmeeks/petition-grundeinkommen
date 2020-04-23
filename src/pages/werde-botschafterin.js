@@ -10,7 +10,6 @@ import ImageGallery from "../components/ImageGallery"
 import BotschafterWerner from "../components/images/botschafterWerner"
 import BotschafterSteinhaus from "../components/images/botschafterSteinhaus"
 import BotschafterHartmann from "../components/images/botschafterHartmann"
-import DownloadIcon from "../components/images/download-icon"
 import BtnGrundeinkommenSchwarz from "../components/images/btnGrundeinkommenSchwarz"
 import BtnGrundeinkommenOrange from "../components/images/btnGrundeinkommenOrange"
 import BotschafterBackBlack from "../components/images/botschafterBackBlack"
@@ -54,7 +53,7 @@ function WerdeBotschafter() {
             <a className="font-weight-bold custom-anchor" href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"> Links zur Bundestagspetition</a>.
           </p>
           <p>Folgende Hashtags unterstützen noch unsere Reichweite:<br/>
-            <strong>#menschingermany</strong><br/>
+            <strong>#menschInGermany</strong><br/>
             <strong>#bedingungslosesGrundeinkommen</strong><br/>
             <strong>#bge</strong><br/>
           </p>
