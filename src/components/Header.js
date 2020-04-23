@@ -1,6 +1,5 @@
 import PropTypes from "prop-types"
 import React from "react"
-import { Link } from "gatsby"
 
 import HeadlineIndex from "./images/headline-index"
 import HeadlineBotschafter from "./images/headline-botschafter"
@@ -35,9 +34,9 @@ const Header = ({ url }) => (
         {renderSwitch(url)}
       </div>
       <div className="col-12 col-md-3 order-1 order-md-2 mx-auto logo-container">
-        <Link to="/">
+        <a href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html" target="_blank" rel="noopener noreferrer">
           <Logo/>
-        </Link>
+        </a>
       </div>
     </div>
   </header>

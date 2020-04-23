@@ -157,6 +157,31 @@ footer {
   
   }
 
-  .botschafter .text-center{
-      font-weight: 700;
-  }
+.img-gallery{
+    .row{
+        div{
+        margin-bottom: 1rem;
+        }
+    }
+}
+
+.post-social {
+	.button {
+		margin: 0.5rem 0.25rem;
+        border: none;
+        background-color: transparent;
+		@each $class, $color in $brand-colors {
+			&.#{$class} {
+				color: $color !important;
+				border-color: $color !important;
+				&:hover {
+					color: #eca400 !important
+				}
+			}
+		}
+	}
+} 
+
+.botschafter .text-center{
+    font-weight: 700;
+}

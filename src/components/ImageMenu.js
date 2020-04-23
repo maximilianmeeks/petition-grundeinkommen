@@ -9,22 +9,22 @@ import BtnGrundeinkommenOrange from "./images/btnGrundeinkommenOrange"
 
 export default (props) => (
     <div className="bg-light pb-3">
-    <div className="container">
-        <div className="row">
-            <div className="col-lg-6 py-3 pt-lg-5">
-                <div className="btn-container mx-auto">
-                    <Link to="/warum-grundeinkommen">
-                      <BtnGrundeinkommenSchwarz/>
-                        <div className="overlay col-lg-12 py-3 pt-lg-5">
-                          <BtnGrundeinkommenOrange/>
-                        </div>
-                    </Link>
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-6 py-3 pt-lg-5">
+                    <div className="btn-container mx-auto">
+                        <Link to="/warum-grundeinkommen">
+                        <BtnGrundeinkommenSchwarz/>
+                            <div className="overlay col-lg-12 py-3 pt-lg-5">
+                                <BtnGrundeinkommenOrange/>
+                            </div>
+                        </Link>
+                    </div>
                 </div>
-            </div>
-            <div className="col-lg-6 pb-3 pt-lg-5">
-                <div className="btn-container mx-auto">
-                    <Link to="/werde-botschafterin/">
-                        <BtnBotschafterSchwarz/>
+                <div className="col-lg-6 pb-3 pt-lg-5">
+                    <div className="btn-container mx-auto">
+                        <Link to="/werde-botschafterin/">
+                            <BtnBotschafterSchwarz/>
                             <div className="overlay col-lg-12 pb-3 pt-lg-5">
                                 <BtnBotschafterOrange/>
                             </div>
@@ -33,7 +33,7 @@ export default (props) => (
                 </div>
             </div>
         </div>
-        <footer class="py-2">
+        <footer className="py-2">
           <div className="container">
               <div className="row">
                   <div className="col-12 text-center">
@@ -45,3 +45,5 @@ export default (props) => (
         </footer>
     </div>
 )
+
+

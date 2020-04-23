@@ -74,7 +74,7 @@ const WarumGrundeinkommen = () => (
                 </div>
             </div>
         </div>
-        <footer class="py-2">
+        <footer className="py-2">
           <div className="container">
               <div className="row">
                   <div className="col-12 text-center">
