@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Container, Row, Col, Modal, Button } from "react-bootstrap"
+import { Row, Col, Modal, Button } from "react-bootstrap"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -115,7 +115,7 @@ function ImageGallery(props) {
 
       return (
         <div className="img-gallery">
-          <p className="mt-5 mb-3 font-weight-bold">Teile uns auf Facebook:</p>
+          <p className="mt-3 mb-3 font-weight-bold">Oder teile eines unserer Banner direkt auf Facebook:</p>
           <MyVerticallyCenteredModal
             show={modalShow}
             onHide={() => setModalShow(false)}

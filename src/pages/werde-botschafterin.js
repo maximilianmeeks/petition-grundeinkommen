@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -14,8 +15,16 @@ import BtnGrundeinkommenSchwarz from "../components/images/btnGrundeinkommenSchw
 import BtnGrundeinkommenOrange from "../components/images/btnGrundeinkommenOrange"
 import BotschafterBackBlack from "../components/images/botschafterBackBlack"
 import BotschafterBackOrange from "../components/images/botschafterBackOrange"
+import FacebookFrame from "../components/images/FacebookFrame.js"
 
 
+function renderTooltip(props) {
+  return (
+    <Tooltip id="button-tooltip" {...props}>
+      Hier gehts zum Facebook Bilderrahmen!
+    </Tooltip>
+  );
+}
 
 function WerdeBotschafter() {
   return (
@@ -52,11 +61,40 @@ function WerdeBotschafter() {
             An allererster Stelle steht die Verbreitung des 
             <a className="font-weight-bold custom-anchor" href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"> Links zur Bundestagspetition</a>.
           </p>
-          <p>Folgende Hashtags unterstützen noch unsere Reichweite:<br/>
+          <p className="mb-0">Folgende Hashtags unterstützen noch unsere Reichweite:<br/>
             <strong>#menschInGermany</strong><br/>
             <strong>#bedingungslosesGrundeinkommen</strong><br/>
             <strong>#bge</strong><br/>
           </p>
+          <Row>
+            <Col xs='7' className="pt-5">
+              <p>
+                Du willst zeigen, dass wir alle an einem Strang ziehen für’s Grundeinkommen?
+                Setze ein Zeichen mit unserem <strong>Facebook Bilderrahmen</strong>! 
+                Klicke dazu entweder rechts in den Kreis oder{' '}
+                <a
+                  className='custom-anchor font-weight-bold'
+                  href='https://www.facebook.com/profilepicframes/?selected_overlay_id=1685915988226581'
+                >
+                   hier auf den Link.
+                </a>
+              </p>
+            </Col>
+            <Col xs="5">
+              <OverlayTrigger
+                  placement="top"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={renderTooltip}
+                >
+                <a
+                  className='custom-anchor font-weight-bold'
+                  href='https://www.facebook.com/profilepicframes/?selected_overlay_id=1685915988226581'
+                >
+                  <FacebookFrame/>
+                </a>
+              </OverlayTrigger>
+            </Col>
+          </Row>
           <ImageGallery/>
         </div>
       </div>
