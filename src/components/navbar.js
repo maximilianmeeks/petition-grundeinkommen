@@ -17,6 +17,9 @@ export default (props) => (
                         <Link to="/wer-wir-sind" className="nav-link">Wer wir sind</Link>
                     </Nav.Link>
                     <Nav.Link>
+                        <Link to="/wir-sind-viele" className="nav-link">Wir sind viele</Link>
+                    </Nav.Link>
+                    <Nav.Link>
                         <Link to="/warum-grundeinkommen" className="nav-link">Warum Grundeinkommen</Link>
                     </Nav.Link>
                     <Nav.Link>

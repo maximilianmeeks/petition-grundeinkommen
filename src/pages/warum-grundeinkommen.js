@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import BtnBotschafterSchwarz from "../components/images/btnBotschafterSchwarz"
-import BtnBotschafterOrange from "../components/images/btnBotschafterOrange"
-import UbiBackBlack from "../components/images/ubiBackBlack"
-import UbiBackOrange from "../components/images/ubiBackOrange"
+import BtnBotschafterSchwarz from "../components/images/BtnBotschafterSchwarz"
+import BtnBotschafterOrange from "../components/images/BtnBotschafterOrange"
+import UbiBackBlack from "../components/images/UbiBackBlack"
+import UbiBackOrange from "../components/images/UbiBackOrange"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"

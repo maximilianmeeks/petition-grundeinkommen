@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import BtnBotschafterSchwarz from "./images/btnBotschafterSchwarz"
-import BtnBotschafterOrange from "./images/btnBotschafterOrange"
-import BtnGrundeinkommenSchwarz from "./images/btnGrundeinkommenSchwarz"
-import BtnGrundeinkommenOrange from "./images/btnGrundeinkommenOrange"
+import BtnBotschafterSchwarz from "./images/BtnBotschafterSchwarz"
+import BtnBotschafterOrange from "./images/BtnBotschafterOrange"
+import BtnGrundeinkommenSchwarz from "./images/BtnGrundeinkommenSchwarz"
+import BtnGrundeinkommenOrange from "./images/BtnGrundeinkommenOrange"
 
 
 export default (props) => (
