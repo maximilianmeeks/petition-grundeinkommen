@@ -234,9 +234,12 @@ footer {
 }
 
 .wir-sind-viele{
-    .col-lg-6 > div{
-        margin: 2rem 0;
-
+    .col-12 > div{
+        margin: 0 0 2rem;
+        
+        &:hover{
+            cursor: pointer;
+        }
     }
 
 }

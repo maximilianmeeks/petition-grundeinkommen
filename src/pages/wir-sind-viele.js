@@ -15,6 +15,7 @@ import BtnGrundeinkommenSchwarz from "../components/images/BtnGrundeinkommenSchw
 import BtnGrundeinkommenOrange from "../components/images/BtnGrundeinkommenOrange"
 import BotschafterBackBlack from "../components/images/BtnBotschafterBackBlack"
 import BotschafterBackOrange from "../components/images/BtnBotschafterBackOrange"
+import WirSindVieleGallery from "../components/WirSindVieleGallery"
 
 
 
@@ -27,24 +28,7 @@ function WerdeBotschafter() {
     slug="/wir-sind-viele"/>
     <Container className="pb-lg-5">
       <Header url="/wir-sind-viele"/>
-      <Row className="wir-sind-viele pb-4 mt-lg-3 pt-md-5">
-        <Col lg="6">
-          <div>
-            <BotschafterAnnaSophie/>
-          </div>
-          <div>
-            <BotschafterLeonie/>
-          </div>
-        </Col>
-        <Col lg="6">
-          <div>
-            <BotschafterSusanne/>
-          </div>
-          <div>
-            <BotschafterAmira/>
-          </div>
-        </Col>
-      </Row>
+      <WirSindVieleGallery/>
     </Container>
   <div className="bg-light pb-3">
       <Container>
