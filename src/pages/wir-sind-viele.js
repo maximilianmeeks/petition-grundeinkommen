@@ -7,10 +7,6 @@ import SEO from "../components/seo"
 
 import Header from "../components/Header"
 
-import BotschafterAmira from "../components/images/BotschafterAmira"
-import BotschafterAnnaSophie from "../components/images/BotschafterAnnaSophie"
-import BotschafterLeonie from "../components/images/BotschafterLeonie"
-import BotschafterSusanne from "../components/images/BotschafterSusanne"
 import BtnGrundeinkommenSchwarz from "../components/images/BtnGrundeinkommenSchwarz"
 import BtnGrundeinkommenOrange from "../components/images/BtnGrundeinkommenOrange"
 import BotschafterBackBlack from "../components/images/BtnBotschafterBackBlack"
@@ -28,6 +24,15 @@ function WerdeBotschafter() {
     slug="/wir-sind-viele"/>
     <Container className="pb-lg-5">
       <Header url="/wir-sind-viele"/>
+      <Row>
+        <Col md='7'>
+          <p>
+            Je mehr wir sind, desto mehr Gewicht bekommt das Grundeinkommen im Petitionsausschuss. Schickt uns euer Foto samt Zitat an
+            <a href="mailto:botschafterIn@mensch-in-germany.org" className="custom-anchor font-weight-bold"> botschafterIn@mensch-in-germany.org </a> & wir bilden alle miteinander mächtigen
+            Rückenwind für unser gemeinsames Anliegen: <strong>#GrundeinkommenJETZT</strong>!
+          </p>
+        </Col>
+      </Row>
       <WirSindVieleGallery/>
     </Container>
   <div className="bg-light pb-3">
