@@ -10,12 +10,12 @@ export default (props) => (
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Link to="/" className="nav-link pl-0" role="button">Home</Link>
-                    <Link to="/wer-wir-sind" className="nav-link" role="button">Wer wir sind</Link>
-                    <Link to="/wir-sind-viele" className="nav-link" role="button">Wir sind viele</Link>
-                    <Link to="/warum-grundeinkommen" className="nav-link" role="button">Warum Grundeinkommen</Link>
-                    <Link to="/werde-botschafterin" className="nav-link" role="button">Werde Botschafter*In</Link>
-                    <Link to="/grundeinkommen-jetzt" className="nav-link" role="button">#GrundeinkommenJETZT</Link>
+                    <Link to="/" className="nav-link custom-anchor pl-0" role="button">Home</Link>
+                    <Link to="/wer-wir-sind" className="nav-link custom-anchor" role="button">Wer wir sind</Link>
+                    <Link to="/wir-sind-viele" className="nav-link custom-anchor" role="button">Wir sind viele</Link>
+                    <Link to="/warum-grundeinkommen" className="nav-link custom-anchor" role="button">Warum Grundeinkommen</Link>
+                    <Link to="/werde-botschafterin" className="nav-link custom-anchor" role="button">Werde Botschafter*In</Link>
+                    <Link to="/grundeinkommen-jetzt" className="nav-link custom-anchor" role="button">#GrundeinkommenJETZT</Link>
                 </Nav>
             </Navbar.Collapse>
         </div>
