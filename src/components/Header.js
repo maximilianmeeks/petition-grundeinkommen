@@ -1,9 +1,11 @@
 import PropTypes from "prop-types"
 import React from "react"
+import { Link } from "gatsby"
 
 import HeadlineIndex from "./images/HeadlineIndex"
 import HeadlineBotschafter from "./images/HeadlineBotschafter"
 import HeadlineGrundeinkommen from "./images/HeadlineGrundeinkommen"
+import HeadlineGrundeinkommenJetzt from "./images/HeadlineGrundeinkommenJetzt"
 import Logo from "./images/Logo"
 
 const renderSwitch = (url) => {
@@ -22,6 +24,8 @@ const renderSwitch = (url) => {
       return <h1 className="mt-md-5 px-md-4 ml-4 headline font-oswald text-uppercase font-weight-bold text-center text-primary bg-light "> Wer Wir Sind </h1>
     case '/wir-sind-viele':
       return <h1 className="mt-md-5 px-md-4 ml-4 headline font-oswald text-uppercase font-weight-bold text-center text-primary bg-light "> Wir sind viele </h1>
+    case '/grundeinkommen-jetzt':
+      return <HeadlineGrundeinkommenJetzt/>
     case '/404':
       return <h1 className="mb-5 mt-3 px-4 headline font-oswald text-uppercase font-weight-bold text-center text-primary bg-light mx-auto"> 404: Not Found </h1>
     default:
@@ -36,9 +40,9 @@ const Header = ({ url }) => (
         {renderSwitch(url)}
       </div>
       <div className="col-12 col-md-3 order-1 order-md-2 mx-auto logo-container">
-        <a href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html" target="_blank" rel="noopener noreferrer">
+        <Link to="/">
           <Logo/>
-        </a>
+        </Link>
       </div>
     </div>
   </header>

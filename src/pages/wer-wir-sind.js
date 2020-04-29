@@ -1,10 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Header from "../components/Header"
+import ImageMenu from "../components/ImageMenu"
 
 const About = () => (
   <Layout>
@@ -43,16 +43,7 @@ const About = () => (
         </div>
       </div>
     </div>
-    <footer className="bg-primary pb-3">
-        <div className="container">
-            <div className="row">
-                <div className="col-12 text-center footer-primary">
-                    <Link to="/impressum/" className="mx-3">Impressum</Link>
-                    <Link to="/datenschutz/" className="mx-3">Datenschutz</Link>
-                </div>
-            </div>
-        </div>
-    </footer>
+  <ImageMenu/>
 </Layout>
 )
 

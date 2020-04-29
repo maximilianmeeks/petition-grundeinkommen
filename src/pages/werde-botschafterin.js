@@ -7,7 +7,6 @@ import SEO from "../components/seo"
 
 import Header from "../components/Header"
 import ImageGallery from "../components/ImageGallery"
-import BotschafterGallery from "../components/BotschafterGallery"
 
 import BotschafterWerner from "../components/images/BotschafterWerner"
 import BotschafterSteinhaus from "../components/images/BotschafterSteinhaus"

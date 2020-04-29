@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import { Button } from "react-bootstrap"
 
@@ -19,18 +20,23 @@ const IndexPage = () => (
       <div className="row mb-3 mt-lg-3 pt-md-5">
         <div className="col-lg-6">
           <p>
-            Wir alle sind die Wirtschaft. Um einen Zusammenbruch in Zeiten von Corona zu verhindern und ein
-            neues Miteinander zum Blühen zu bringen, liegt die Lösung auf der Hand: <strong>Die Menschen brauchen
-            Geld</strong>. Schnell. Direkt. Unbürokratisch. Die Zeit ist reif für eine mächtige Idee: <strong>Das Grundeinkommen</strong>.
+            Geschafft! Mit vereinten Kräften haben wir das bedingungslose Grundeinkommen in den Bundestag
+            gehievt und einen neuen Rekord aufgestellt: Unsere Online-Petition ist die 
+            <a href="https://www.tag24.de/berlin/politik-wirtschaft/online-petition-bundestag-bedingungsloses-grundeinkommen-bge-susanne-wiest-1496934" className="custom-anchor font-weight-bold"> größte aller Zeiten</a> –
+            DANKE an euch alle, die ihr das ermöglicht habt! 
+            <a href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html" className="custom-anchor font-weight-bold"> 176.134 #GameChanger </a> sind wir bis jetzt.
           </p>
         </div>
         <div className="col-lg-6">
           <p>
-            Jetzt geht es darum, die Kräfte zu bündeln und sich gemeinsam für die Einführung auszusprechen – direkt im Bundestag.
-            Um das Grundeinkommen möglichst schnell zu etablieren, ist
-            die Bundestagspetition von Susanne Wiest der wirksamste Weg, da sie rechtlich bindend ist – sei ein
-            Teil davon und gib deine Stimme für uns alle ab. Unterschreiben darf jede und jeder: unabhängig von Staatsangehörigkeit und Alter. Wie viele Stimmen schaffen wir in der
-            verbleibenden Mitzeichnungsfrist bis zum <strong>27. April 2020</strong>?
+            Und es geht direkt weiter: Solange die Petition im Bundestag bearbeitet wird, kann offline
+            mitgezeichnet werden – per Brief, per Karte, per Unterschriftenliste. Also haben wir eine Karte
+            vorbereitet, die ihr ausfüllt, unterschreibt, in einen Briefumschlag steckt und dann fluten wir den
+            Bundestag mit der frohen Botschaft <strong>#GrundeinkommenJETZT!</strong> Wie viele Stimmen schaffen wir auf
+            dem Postweg? Um zu zeigen, wie viele wir sind und warum wir das Grundeinkommen wollen, könnt
+            ihr als <Link to="werde-botschafterin" className="custom-anchor font-weight-bold"> Botschafter*in </Link> an Bord sein und euer Foto plus Statement an 
+            <a href="mailto:botschafterIn@mensch-in-germany.org" className="custom-anchor font-weight-bold"> botschafterIn@mensch-in-germany.org </a> 
+            schicken. Wir freuen uns.
           </p>
         </div>
       </div>
@@ -54,9 +60,9 @@ const IndexPage = () => (
       </div>
       <div className="row mb-5">
         <div className="mx-auto">
-          <a href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html" target="_blank" rel="noopener noreferrer">
+          <Link to="/grundeinkommen-jetzt">
             <Button variant="dark" className="btn btn-lg">Jetzt Unterschreiben</Button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

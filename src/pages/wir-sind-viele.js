@@ -1,16 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Container, Row, Col } from "react-bootstrap"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Header from "../components/Header"
-
-import BtnGrundeinkommenSchwarz from "../components/images/BtnGrundeinkommenSchwarz"
-import BtnGrundeinkommenOrange from "../components/images/BtnGrundeinkommenOrange"
-import BotschafterBackBlack from "../components/images/BtnBotschafterBackBlack"
-import BotschafterBackOrange from "../components/images/BtnBotschafterBackOrange"
+import ImageMenu from "../components/ImageMenu"
 import WirSindVieleGallery from "../components/WirSindVieleGallery"
 
 
@@ -35,42 +30,7 @@ function WerdeBotschafter() {
       </Row>
       <WirSindVieleGallery/>
     </Container>
-  <div className="bg-light pb-3">
-      <Container>
-        <Row>
-          <Col lg="6" className="py-3 pt-lg-5">
-              <div className="btn-container mx-auto">
-                  <Link to="/warum-grundeinkommen">
-                    <BtnGrundeinkommenSchwarz/>
-                      <div className="overlay col-lg-12 py-3 pt-lg-5">
-                        <BtnGrundeinkommenOrange/>
-                      </div>
-                  </Link>
-              </div>
-          </Col>
-          <Col lg="6" className="pb-3 pt-lg-5">
-              <div className="btn-container mx-auto">
-                  <Link to="/">
-                    <BotschafterBackBlack/>
-                      <div className="overlay col-lg-12 pb-3 pt-lg-5">
-                        <BotschafterBackOrange/>
-                      </div>
-                  </Link> 
-              </div>
-          </Col>
-        </Row>
-      </Container>
-      <footer className="py-2">
-        <div className="container">
-            <div className="row">
-                <div className="col-12 text-center">
-                    <Link to="/impressum/" className="mx-3">Impressum</Link>
-                    <Link to="/datenschutz/" className="mx-3">Datenschutz</Link>
-                </div>
-            </div>
-        </div>
-      </footer>
-    </div>
+    <ImageMenu/>  
   </Layout>
   )
 }
