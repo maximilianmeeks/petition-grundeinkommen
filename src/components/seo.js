@@ -100,7 +100,7 @@ function SEO({ description, lang, meta, title, imgFb, slug }) {
 SEO.defaultProps = {
   lang: `de`,
   meta: [],
-  description: `Wir alle sind die Wirtschaft. Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden. Jetzt bis zum 27.04. unterschreiben.`,
+  description: `Die größte Online-Petition sind wir schon – jetzt per Post fürs Grundeinkommen abstimmen. Danke!`,
 }
 
 SEO.propTypes = {

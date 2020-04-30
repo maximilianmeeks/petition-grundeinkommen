@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Mensch in Germany`,
-    description: `Wir alle sind die Wirtschaft. Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden. Jetzt bis zum 27.04. unterschreiben.`,
+    description: `Die größte Online-Petition sind wir schon – jetzt per Post fürs Grundeinkommen abstimmen. Danke!`,
     author: `Maximilian Meeks`,
     image: `/BGE_post_facebook_1200x627_4.jpg`,
     url: `https://www.mensch-in-germany.org`
