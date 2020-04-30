@@ -10,6 +10,13 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'wir-sind-viele',
+        path: `${__dirname}/src/images/wir-sind-viele`,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
