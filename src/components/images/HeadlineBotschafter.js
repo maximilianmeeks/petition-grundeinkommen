@@ -15,7 +15,7 @@ const HeadlineBotschafter = () => {
     }
   `)
     
-  return <Img fluid={data.image.childImageSharp.fluid} alt="Werde Botschafter!" style={{maxWidth: "450px"}}/>
+  return <Img fluid={data.image.childImageSharp.fluid} alt="Wie Unterstützen!" style={{maxWidth: "450px"}}/>
 }
 
 export default HeadlineBotschafter

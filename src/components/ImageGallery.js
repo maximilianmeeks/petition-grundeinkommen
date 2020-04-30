@@ -115,7 +115,7 @@ function ImageGallery(props) {
 
       return (
         <div className="img-gallery">
-          <p className="mt-4 mb-3 font-weight-bold">Oder teile eines unserer Banner direkt auf Facebook:</p>
+          <p className="mt-4 mb-3 font-weight-bold">Teile gern unser Banner direkt auf Facebook:</p>
           <MyVerticallyCenteredModal
             show={modalShow}
             onHide={() => setModalShow(false)}

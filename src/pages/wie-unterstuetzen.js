@@ -29,32 +29,28 @@ function renderTooltip(props) {
 function WerdeBotschafter() {
   return (
   <Layout>
-    <SEO title="Werde Botschafter*in"
+    <SEO title="Wie unterstützen"
     imgFb="/BGE_post_facebook_1200x627_5.jpg"
-    slug="/werde-botschafter"/>
+    slug="wie-unterstuetzen"/>
     <div className="container">
-      <Header url="/werde-botschafterin"/>
+      <Header url="wie-unterstuetzen"/>
       <div className="row pb-4 mt-lg-3 pt-md-5">
         <div className="col-lg-6 botschafter">
-          <BotschafterSteinhaus/>
-          <p className="mt-3 font-italic">Helena Steinhaus, Gründerin von Sanktionsfrei:</p>
-          <p className="px-5 mt-3 mb-5 text-center">
-            „Grundeinkommen ist ein Grundpfeiler auf dem Weg zur sozialen und Geschlechtergerechtigkeit.”
-          </p>
-          <BotschafterWerner/>
-          <p className="mt-3 font-italic">Götz W. Werner, Gründer von dm-drogerie markt:</p>
-          <p className="px-5 mt-3 mb-5 text-center">
-            „Früher oder später werden wir einsehen, dass an einem Einkommen für alle kein Weg vorbei führt. Je früher, desto besser.”
-          </p>
+          <Link to="/wir-sind-viele">
+            <BotschafterSteinhaus/>
+          </Link>
+          <p className="mt-2 mb-4 font-italic">Helena Steinhaus, Gründerin von Sanktionsfrei</p>
+          <Link to="/wir-sind-viele">
+            <BotschafterWerner/>
+          </Link>
+          <p className="mt-2 mb-4 font-italic">Götz W. Werner, Gründer von dm-drogerie markt</p>
         </div>
         <div className="col-lg-6">
           <p className="font-weight-bold">Unterstütze uns dabei, die größte Petition zum Thema Grundeinkommen zu werden.</p>
           <p>
-            Wir haben schon viele Botschafter gewinnen können, wir wollen mehr erreichen.
+            Wir haben schon viele<Link to="wir-sind-viele" className="custom-anchor font-weight-bold"> Botschafter*innen </Link>gewinnen können, wir wollen mehr erreichen.
             Du hilfst uns und der Idee voranzukommen, indem Du auf Deinen Social Media
             Kanälen unsere Posts teilst. Die stehen hier frei zum Download zur Verfügung.
-            An allererster Stelle steht die Verbreitung des 
-            <a className="font-weight-bold custom-anchor" href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"> Links zur Bundestagspetition</a>.
           </p>
           <p className="mb-0">Folgende Hashtags unterstützen noch unsere Reichweite:<br/>
             <strong>#menschInGermany</strong><br/>

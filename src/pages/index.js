@@ -34,9 +34,8 @@ const IndexPage = () => (
             vorbereitet, die ihr ausfüllt, unterschreibt, in einen Briefumschlag steckt und dann fluten wir den
             Bundestag mit der frohen Botschaft<Link to="/grundeinkommen-jetzt" className="custom-anchor font-weight-bold"> #GrundeinkommenJETZT! </Link> 
             Wie viele Stimmen schaffen wir auf dem Postweg? Um zu zeigen, wie viele wir sind und warum wir das Grundeinkommen wollen, könnt
-            ihr als <Link to="/werde-botschafterin" className="custom-anchor font-weight-bold"> Botschafter*in </Link> an Bord sein und euer Foto plus Statement an 
-            <a href="mailto:botschafterIn@mensch-in-germany.org" className="custom-anchor font-weight-bold"> botschafterIn@mensch-in-germany.org </a> 
-            schicken. Wir freuen uns.
+            ihr als <Link to="/wir-sind-viele" className="custom-anchor font-weight-bold"> Botschafter*in </Link> an Bord sein oder unsere
+            <Link to="/wie-unterstuetzen"> Tools für Social Media </Link>nutzen. Wir freuen uns.
           </p>
         </div>
       </div>

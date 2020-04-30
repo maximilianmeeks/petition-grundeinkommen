@@ -63,7 +63,7 @@ const WarumGrundeinkommen = () => (
                 </div>
                 <div className="col-lg-6 pb-3 pt-lg-5">
                     <div className="btn-container mx-auto">
-                        <Link to="/werde-botschafterin/">
+                        <Link to="wie-unterstuetzen/">
                             <BtnBotschafterSchwarz/>
                             <div className="overlay col-lg-12 pb-3 pt-lg-5">
                                 <BtnBotschafterOrange/>

@@ -16,7 +16,7 @@ const BtnBotschafterOrange = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Werde Botschafter"/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Wie Unterstützen"/>
 }
 
 export default BtnBotschafterOrange
