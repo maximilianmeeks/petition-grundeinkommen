@@ -5,6 +5,8 @@ import { Link } from "gatsby"
 import HeadlineIndex from "./images/HeadlineIndex"
 import HeadlineBotschafter from "./images/HeadlineBotschafter"
 import HeadlineGrundeinkommen from "./images/HeadlineGrundeinkommen"
+import HeadlineWerWirSind from "./images/HeadlineWerWirSind"
+import HeadlineWirSindViele from "./images/HeadlineWirSindViele"
 import HeadlineGrundeinkommenJetzt from "./images/HeadlineGrundeinkommenJetzt"
 import Logo from "./images/Logo"
 
@@ -21,9 +23,9 @@ const renderSwitch = (url) => {
     case '/datenschutz':
       return <h1 className="mb-md-5 mt-md-5 px-md-4 headline font-oswald text-uppercase font-weight-bold text-center text-primary bg-light"> Datenschutz </h1>
     case '/wer-wir-sind':
-      return <h1 className="mt-md-5 px-md-4 ml-4 headline font-oswald text-uppercase font-weight-bold text-center text-primary bg-light "> Wer Wir Sind </h1>
+      return <div className="ml-5 mt-md-5"><HeadlineWerWirSind/></div>
     case '/wir-sind-viele':
-      return <h1 className="mt-md-5 px-md-4 ml-4 headline font-oswald text-uppercase font-weight-bold text-center text-primary bg-light "> Wir sind viele </h1>
+      return <div className="ml-5 mt-md-5"><HeadlineWirSindViele/></div>
     case '/grundeinkommen-jetzt':
       return <HeadlineGrundeinkommenJetzt/>
     case '/404':
