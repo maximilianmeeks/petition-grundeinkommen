@@ -30,12 +30,11 @@ const IndexPage = () => (
         <div className="col-lg-6">
           <p>
             Und es geht direkt weiter: Solange die Petition im Bundestag bearbeitet wird, kann offline
-            mitgezeichnet werden – per Brief, per Karte, per Unterschriftenliste. Also haben wir eine Karte
-            vorbereitet, die ihr ausfüllt, unterschreibt, in einen Briefumschlag steckt und dann fluten wir den
+            mitgezeichnet werden – per Brief, per Karte oder Unterschriften-Liste. Also haben wir Vorlagen zum Download erstellt, die ihr ausfüllt, unterschreibt, in einen Briefumschlag steckt und dann fluten wir den
             Bundestag mit der frohen Botschaft<Link to="/grundeinkommen-jetzt" className="custom-anchor font-weight-bold"> #GrundeinkommenJETZT! </Link> 
             Wie viele Stimmen schaffen wir auf dem Postweg? Um zu zeigen, wie viele wir sind und warum wir das Grundeinkommen wollen, könnt
             ihr als <Link to="/wir-sind-viele" className="custom-anchor font-weight-bold"> Botschafter*in </Link> an Bord sein oder unsere
-            <Link to="/wie-unterstuetzen"> Tools für Social Media </Link>nutzen. Wir freuen uns.
+            <Link to="/wie-unterstuetzen" className="custom-anchor font-weight-bold"> Tools für Social Media </Link>nutzen. Wir freuen uns.
           </p>
         </div>
       </div>
