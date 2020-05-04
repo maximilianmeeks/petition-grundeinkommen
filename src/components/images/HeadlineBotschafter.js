@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 const HeadlineBotschafter = () => {
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "Unterseite_Werde_Botschafter_Headlinegrafik_NEU.png" }) {
+      image: file(relativePath: { eq: "Unterseite_wie_unterstuetzen_Headlinegrafik.png" }) {
         childImageSharp {
           fluid{
             ...GatsbyImageSharpFluid_noBase64

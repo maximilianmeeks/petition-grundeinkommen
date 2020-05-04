@@ -23,9 +23,9 @@ const renderSwitch = (url) => {
     case '/datenschutz':
       return <h1 className="mb-md-5 mt-md-5 px-md-4 headline font-oswald text-uppercase font-weight-bold text-center text-primary bg-light"> Datenschutz </h1>
     case '/wer-wir-sind':
-      return <div className="ml-5 mt-md-5"><HeadlineWerWirSind/></div>
+      return <div className="ml-3 mt-md-5"><HeadlineWerWirSind/></div>
     case '/wir-sind-viele':
-      return <div className="ml-5 mt-md-5"><HeadlineWirSindViele/></div>
+      return <div className="ml-3 mt-md-5"><HeadlineWirSindViele/></div>
     case '/grundeinkommen-jetzt':
       return <HeadlineGrundeinkommenJetzt/>
     case '/404':
