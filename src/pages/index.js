@@ -20,22 +20,51 @@ const IndexPage = () => (
       <div className="row mb-3 mt-lg-3 pt-md-5">
         <div className="col-lg-6">
           <p>
-            Geschafft! Mit vereinten Kräften haben wir das bedingungslose Grundeinkommen in den Bundestag
-            gehievt und einen neuen Rekord aufgestellt: Unsere Online-Petition ist die 
-            <a href="https://www.tag24.de/berlin/politik-wirtschaft/online-petition-bundestag-bedingungsloses-grundeinkommen-bge-susanne-wiest-1496934" className="custom-anchor font-weight-bold"> größte aller Zeiten</a> –
-            DANKE an euch alle, die ihr das ermöglicht habt! 
-            <a href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html" className="custom-anchor font-weight-bold"> 176.134 #GameChanger </a> sind wir bis jetzt.
+            Geschafft! Unsere Online-Petition ist die größte aller Zeiten – DANKE an euch
+            alle, die ihr das ermöglicht habt!             <a
+              href='https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html'
+              className='custom-anchor font-weight-bold'
+            >
+              {' '}
+              176.134 #GameChanger{' '}
+            </a>{' '} sind wir bis jetzt.
+            Und doch viel mehr: Zusammen mit weiteren Petitionen auf anderen Portalen sind
+            wir praktisch #1MillionFürsGrundeinkommen. <Link to="/grundeinkommen-jetzt" className="custom-anchor font-weight-bold"> Hier </Link> findet ihr den Offenen Brief aller Petent*innen an den Bundestag,
+            der von einem breiten gesellschaftlichen Bündnis unterstützt wird und die
+            zeitnahe Anhörung am 15. Juni 2020 fordert.
           </p>
         </div>
         <div className="col-lg-6">
           <p>
-            Und es geht direkt weiter: Solange die Petition im Bundestag bearbeitet wird, kann offline
-            mitgezeichnet werden – per Brief, per Karte oder Unterschriften-Liste. Also haben wir Vorlagen zum Download erstellt, die ihr ausfüllt, unterschreibt, in einen Briefumschlag steckt und dann fluten wir den
-            Bundestag mit der frohen Botschaft<Link to="/grundeinkommen-jetzt" className="custom-anchor font-weight-bold"> #GrundeinkommenJETZT! </Link> 
-            Wie viele Stimmen schaffen wir auf dem Postweg? Um zu zeigen, wie viele wir sind und warum wir das Grundeinkommen wollen, könnt
-            ihr als <Link to="/wir-sind-viele" className="custom-anchor font-weight-bold"> Botschafter*in </Link> an Bord sein oder unsere
-            <Link to="/wie-unterstuetzen" className="custom-anchor font-weight-bold"> Tools für Social Media </Link>nutzen. Wir freuen uns.
+            Außerdem: Solange die Petition im Bundestag bearbeitet wird, kann offline
+            mitgezeichnet werden – per Brief, per Karte oder Unterschriften-Liste. Also
+            haben wir Vorlagen zum Download erstellt, die ihr ausfüllt, unterschreibt, in
+            einen Briefumschlag steckt und dann fluten wir den Bundestag mit der frohen
+            Botschaft{' '}
+            <Link to='/grundeinkommen-jetzt' className='custom-anchor font-weight-bold'>
+              {' '}
+              #GrundeinkommenJETZT!{' '}
+            </Link>{' '}
+            Wie viele Stimmen schaffen wir auf dem Postweg? Um zu zeigen, wie viele wir
+            sind und warum wir das Grundeinkommen wollen, könnt ihr als{' '}
+            <Link to='/wir-sind-viele' className='custom-anchor font-weight-bold'>
+              {' '}
+              Botschafter*in{' '}
+            </Link>{' '}
+            an Bord sein oder unsere{' '}
+            <Link to='/wie-unterstuetzen' className='custom-anchor font-weight-bold'>
+              {' '}
+              Tools für Social Media{' '}
+            </Link>{' '}
+            nutzen. Wir freuen uns.
           </p>
+        </div>
+      </div>
+      <div className="row mb-5">
+        <div className="mx-auto">
+          <a href="https://grundeinkommenjetzt.de/">
+            <Button variant="dark" className="btn btn-lg">Offener Brief an den Bundestag</Button>
+          </a>
         </div>
       </div>
       <div className="row">
