@@ -158,7 +158,7 @@ function GrundeinkommenJetzt() {
               onHide={() => setModalShow(false)}
               />
           <div className="mb-5 mt-3">
-            <div onClick={() => clickHandler(true, data.previewLetter)} className="signature-list-crop"> 
+            <div onClick={() => clickHandler(true, data.previewLetter)} className="signature-list-crop cursor-pointer"> 
               <Img fluid={data.previewLetter.childImageSharp.fluid} alt="Offener Brief an den Bundestag"/>
             </div>
             <div className="mt-3">
@@ -188,7 +188,7 @@ function GrundeinkommenJetzt() {
             <strong>DANKE!</strong>
           </div>
           <div className="mb-5 mt-5">
-            <div onClick={() => clickHandler(true, data.previewKarte)}>
+            <div onClick={() => clickHandler(true, data.previewKarte)} className="cursor-pointer">
               <Img fluid={data.previewKarte.childImageSharp.fluid} alt="Postkarte zur Unterzeichnung der Petition"/>
             </div>
             <div className="mt-3">
@@ -198,7 +198,7 @@ function GrundeinkommenJetzt() {
             </div>
           </div>
           <div className="mb-4">
-            <div onClick={() => clickHandler(true, data.previewListe)} className="signature-list-crop">
+            <div onClick={() => clickHandler(true, data.previewListe)} className="signature-list-crop cursor-pointer">
               <Img fluid={data.previewListe.childImageSharp.fluid} alt="Unterschriftenliste zur Unterzeichnung der Petition"/>
             </div>
             <div className="mt-3">
