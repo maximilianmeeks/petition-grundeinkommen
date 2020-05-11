@@ -22,7 +22,7 @@ function WerdeBotschafter() {
       <Row>
         <Col md='7'>
           <p>
-            Je mehr wir sind, desto mehr Gewicht bekommt das Grundeinkommen im Petitionsausschuss. Schickt uns euer Foto samt Zitat an
+            Je mehr wir sind, desto mehr Gewicht bekommt das Grundeinkommen im Petitionsausschuss. Schickt uns euer Foto samt Zitat (bitte max. 300 Zeichen) an
             <a href="mailto:botschafterIn@mensch-in-germany.org" className="custom-anchor font-weight-bold"> botschafterIn@mensch-in-germany.org </a> & wir bilden alle miteinander mächtigen
             Rückenwind für unser gemeinsames Anliegen: <strong>#GrundeinkommenJETZT</strong>!
           </p>

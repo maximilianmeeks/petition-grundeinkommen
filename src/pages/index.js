@@ -60,13 +60,6 @@ const IndexPage = () => (
           </p>
         </div>
       </div>
-      <div className="row mb-5">
-        <div className="mx-auto">
-          <a href="https://grundeinkommenjetzt.de/">
-            <Button variant="dark" className="btn btn-lg">Offener Brief an den Bundestag</Button>
-          </a>
-        </div>
-      </div>
       <div className="row">
         <div className="mx-auto">
           <div className="row mx-0">
@@ -76,20 +69,13 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-          <div className="row mx-0 mb-5">
+          <div className="row mb-5 mt-3">
             <div className="mx-auto">
-              <p className="abbinder m-0 mx-auto px-2">
-                Willkommen bei #MenschInGermany!
-              </p>
+              <a href="https://grundeinkommenjetzt.de/#mach-mit">
+                <Button variant="dark" className="btn btn-lg"> Offener Brief an den Bundestag - #Call2Action!</Button>
+              </a>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="row mb-5">
-        <div className="mx-auto">
-          <Link to="/grundeinkommen-jetzt">
-            <Button variant="dark" className="btn btn-lg">Jetzt Unterschreiben</Button>
-          </Link>
         </div>
       </div>
     </div>

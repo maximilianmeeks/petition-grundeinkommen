@@ -92,13 +92,13 @@ function GrundeinkommenJetzt() {
               Das Grundeinkommen ist die politische Idee der Stunde – es muss nur noch
               ankommen im Bundestag. Schnell. Direkt. Unbürokratisch. Deshalb haben sich
               alle Petent*innen verbündet und diesen Offenen Brief formuliert – unterstützt
-              von einem breiten Bündnis aus der Zivilgesellschaft. Wir sind viele und werden
-              immer mehr - eine kraftvolle Bewegung versammelt sich hinter der
-              #Bundestagspetition & fordert #GrundeinkommenJETZT!
+              von einem<a className="custom-anchor font-weight-bold" href="https://www.mein-grundeinkommen.de/infos/offener-brief"> breiten Bündnis aus der Zivilgesellschaft</a>. Wir sind viele und werden
+              immer mehr - eine <a className="custom-anchor font-weight-bold" href="https://expedition-grundeinkommen.de/offenerbrief">kraftvolle Bewegung</a> versammelt sich hinter der
+              Bundestagspetition & fordert <a className="custom-anchor font-weight-bold" href="https://grundeinkommenjetzt.de/">#GrundeinkommenJETZT</a>!
             </p>
           </div>
           <div id="letter" className="letter my-5 py-3">
-            <span>Berlin, Alt Tellin, Zossen, Leipzig und Köln, den 05. Mai 2020</span>
+            <span className="text-light">Berlin, Alt Tellin, Zossen, Leipzig und Köln, den 05. Mai 2020</span>
             <h2 className="pt-2 pb-4">
               Offener Brief an die Abgeordneten <span className="nowrap"> des Deutschen Bundestags</span>, <span className="nowrap">das Ministerium für Arbeit und Soziales</span>,
               <span className="nowrap"> das Finanzministerium</span> sowie <span className="nowrap">die Bundeskanzlerin Angela Merkel</span>
