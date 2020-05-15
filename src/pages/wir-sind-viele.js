@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { Container, Row, Col } from "react-bootstrap"
 
 import Layout from "../components/layout"
@@ -24,7 +25,11 @@ function WerdeBotschafter() {
           <p>
             Je mehr wir sind, desto mehr Gewicht bekommt das Grundeinkommen im Petitionsausschuss. Schickt uns euer Foto samt Zitat (bitte max. 300 Zeichen) an
             <a href="mailto:botschafterIn@mensch-in-germany.org" className="custom-anchor font-weight-bold"> botschafterIn@mensch-in-germany.org </a> & wir bilden alle miteinander mächtigen
-            Rückenwind für unser gemeinsames Anliegen: <strong>#GrundeinkommenJETZT</strong>!
+            Rückenwind für unser gemeinsames Anliegen:
+            <Link to='/grundeinkommen-jetzt' className='custom-anchor font-weight-bold'>
+              {' '}
+              #GrundeinkommenJETZT
+            </Link>!
           </p>
         </Col>
       </Row>
