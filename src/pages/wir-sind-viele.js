@@ -7,7 +7,8 @@ import SEO from "../components/seo"
 
 import Header from "../components/Header"
 import ImageMenu from "../components/ImageMenu"
-import WirSindVieleGallery from "../components/WirSindVieleGallery"
+/* import WirSindVieleGallery from "../components/WirSindVieleGallery" */
+import WirSindVieleGraphCMS from "../components/WirSindVieleGraphCMS"
 
 
 
@@ -33,7 +34,7 @@ function WerdeBotschafter() {
           </p>
         </Col>
       </Row>
-      <WirSindVieleGallery/>
+      <WirSindVieleGraphCMS/>
     </Container>
     <ImageMenu/>  
   </Layout>
