@@ -69,11 +69,13 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-          <div className="row mb-5 mt-3">
-            <div className="mx-auto">
-              <a href="https://grundeinkommenjetzt.de/#mach-mit">
-                <Button variant="dark" className="btn btn-md-lg"> Offener Brief an den Bundestag <br className="d-md-none"/><span className="d-none d-md-inline"> - </span>#Call2Action!</Button>
-              </a>
+          <div className="container">
+            <div className="row mb-5 mt-3">
+              <div className="mx-auto">
+                <a href="https://grundeinkommenjetzt.de/#mach-mit">
+                  <Button variant="dark" className="btn btn-md-lg"> Offener Brief an den Bundestag <br className="d-md-none"/><span className="d-none d-md-inline"> - </span>#Call2Action!</Button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
