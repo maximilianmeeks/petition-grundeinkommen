@@ -20,7 +20,7 @@ const Impressum = () => (
       <div className="row">
         <div className="col-md-6">
           <p>
-            Eine Initiative von Lysistratax e.V.
+            Eine Initiative von Anna-Sophie Brüning, Beatrice Werner, Leonie Schraven, Susanne Wiest und Uschi Bauer
           </p>
           <p>
             Angaben gemäß § 5 TMG
@@ -30,14 +30,16 @@ const Impressum = () => (
       <div className="row mb-5">
         <div className="col-6">
           <p>
-            <strong>Berlin</strong><br/>
-            <span>Zossener Str. 41</span><br/>
-            <span>10961 Berlin</span><br/>
-            <a href="mailto:hallo@lysistratax.org">hallo@lysistratax.org</a><br/>
-            <a href="http://www.lysistratax.org">www.lysistratax.org</a><br/>
+            <strong>Lörrach</strong><br/>
+            <span>Berner Weg 3</span><br/>
+            <span>79539 Lörrach</span><br/>
+            <a href="mailto:botschafterIn@mensch-in-germany.org">botschafterIn@mensch-in-germany.org</a><br/>
+            <a href="https://www.mensch-in-germany.org/">www.mensch-in-germany.org</a><br/>
           </p>
           <span>Realisation: </span>
-          <a href="http://www.schippercompany.com">www.schippercompany.com</a>
+          <a href="http://www.schippercompany.com">www.schippercompany.com</a><br/>
+          <span>Webentwicklung: </span>
+          <a href="https://maximilianmeeks.de/">www.maximilianmeeks.de</a>
         </div>
       </div>
       <div className="mb-5">

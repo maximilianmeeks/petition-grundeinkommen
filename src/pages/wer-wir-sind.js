@@ -38,7 +38,7 @@ const About = () => (
             mit uns an einem Strang ziehen.
           </p>
           <p>
-            Uschi Bauer, Anna-Sophie Brüning, Amira Jehia, Leonie Schraven, Helena Steinhaus, Beatrice Werner, Susanne Wiest
+            Uschi Bauer, Anna-Sophie Brüning, Leonie Schraven, Beatrice Werner, Susanne Wiest
           </p>
         </div>
       </div>

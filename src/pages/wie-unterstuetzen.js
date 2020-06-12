@@ -9,7 +9,6 @@ import Header from "../components/Header"
 import ImageGallery from "../components/ImageGallery"
 
 import BotschafterWerner from "../components/images/BotschafterWerner"
-import BotschafterSteinhaus from "../components/images/BotschafterSteinhaus"
 import BtnGrundeinkommenSchwarz from "../components/images/BtnGrundeinkommenSchwarz"
 import BtnGrundeinkommenOrange from "../components/images/BtnGrundeinkommenOrange"
 import BotschafterBackBlack from "../components/images/BtnBotschafterBackBlack"
@@ -37,10 +36,6 @@ function WerdeBotschafter() {
       <div className="row pb-4 mt-lg-3 pt-md-5">
         <div className="col-lg-6 botschafter">
           <Link to="/wir-sind-viele">
-            <BotschafterSteinhaus/>
-          </Link>
-          <p className="mt-2 mb-4 font-italic">Helena Steinhaus, Gründerin von Sanktionsfrei</p>
-          <Link to="/wir-sind-viele">
             <BotschafterWerner/>
           </Link>
           <p className="mt-2 mb-4 font-italic">Götz W. Werner, Gründer von dm-drogerie markt</p>
@@ -65,7 +60,7 @@ function WerdeBotschafter() {
                 Klicke dazu entweder rechts in den Kreis oder{' '}
                 <a
                   className='custom-anchor font-weight-bold'
-                  href='https://www.facebook.com/profilepicframes/?selected_overlay_id=1685915988226581'
+                  href='https://www.facebook.com/profilepicframes/?selected_overlay_id=271818057413576'
                 >
                    hier auf den Link
                 </a>
@@ -80,7 +75,7 @@ function WerdeBotschafter() {
                 >
                 <a
                   className='custom-anchor font-weight-bold'
-                  href='https://www.facebook.com/profilepicframes/?selected_overlay_id=1685915988226581'
+                  href='https://www.facebook.com/profilepicframes/?selected_overlay_id=271818057413576'
                 >
                   <FacebookFrame/>
                 </a>
