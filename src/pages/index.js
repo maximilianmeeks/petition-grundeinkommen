@@ -18,7 +18,7 @@ const IndexPage = () => (
         />
     <div className="container">
       <Header/>
-      <div className="row mt-5">
+      <div className="row mt-md-5">
         <div className="col-md-8 mx-auto">
           Am 30. Juni um 10 Uhr hat unser Film <a className="custom-anchor font-weight-bold" target="_blank" href="https://www.youtube.com/channel/UC5i7oVQWuutVxpCIwuEDESQ">„Mensch in Germany – Wir in Deutschland“</a> Premiere.
           Sei live dabei und lass uns gemeinsamen diskutieren. Denn wir sind immer noch der Meinung: Das Grundeinkommen muss kommen!
