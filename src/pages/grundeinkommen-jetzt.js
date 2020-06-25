@@ -92,9 +92,9 @@ function GrundeinkommenJetzt() {
               Das Grundeinkommen ist die politische Idee der Stunde – es muss nur noch
               ankommen im Bundestag. Schnell. Direkt. Unbürokratisch. Deshalb haben sich
               alle Petent*innen verbündet und diesen Offenen Brief formuliert – unterstützt
-              von einem<a className="custom-anchor font-weight-bold" href="https://www.mein-grundeinkommen.de/infos/offener-brief"> breiten Bündnis aus der Zivilgesellschaft</a>. Wir sind viele und werden
-              immer mehr - eine <a className="custom-anchor font-weight-bold" href="https://expedition-grundeinkommen.de/offenerbrief">kraftvolle Bewegung</a> versammelt sich hinter der
-              Bundestagspetition & fordert <a className="custom-anchor font-weight-bold" href="https://grundeinkommenjetzt.de/">#GrundeinkommenJETZT</a>!
+              von einem<a className="custom-anchor font-weight-bold" href="https://www.mein-grundeinkommen.de/infos/offener-brief" target="_blank"> breiten Bündnis aus der Zivilgesellschaft</a>. Wir sind viele und werden
+              immer mehr - eine <a className="custom-anchor font-weight-bold" href="https://expedition-grundeinkommen.de/offenerbrief" target="_blank">kraftvolle Bewegung</a> versammelt sich hinter der
+              Bundestagspetition & fordert <a className="custom-anchor font-weight-bold" href="https://grundeinkommenjetzt.de/" target="_blank">#GrundeinkommenJETZT</a>!
             </p>
           </div>
           <div id="letter" className="letter my-5 py-3">

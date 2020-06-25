@@ -33,13 +33,13 @@ const Impressum = () => (
             <strong>Lörrach</strong><br/>
             <span>Berner Weg 3</span><br/>
             <span>79539 Lörrach</span><br/>
-            <a href="mailto:botschafterIn@mensch-in-germany.org">botschafterIn@mensch-in-germany.org</a><br/>
-            <a href="https://www.mensch-in-germany.org/">www.mensch-in-germany.org</a><br/>
+            <a href="mailto:botschafterIn@mensch-in-germany.org" target="_blank">botschafterIn@mensch-in-germany.org</a><br/>
+            <a href="https://www.mensch-in-germany.org/" target="_blank">www.mensch-in-germany.org</a><br/>
           </p>
           <span>Realisation: </span>
-          <a href="http://www.schippercompany.com">www.schippercompany.com</a><br/>
+          <a href="http://www.schippercompany.com" target="_blank">www.schippercompany.com</a><br/>
           <span>Webentwicklung: </span>
-          <a href="https://maximilianmeeks.de/">www.maximilianmeeks.de</a>
+          <a href="https://maximilianmeeks.de/" target="_blank">www.maximilianmeeks.de</a>
         </div>
       </div>
       <div className="mb-5">

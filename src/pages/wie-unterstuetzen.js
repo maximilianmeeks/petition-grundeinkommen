@@ -59,7 +59,7 @@ function WerdeBotschafter() {
                 Setze ein Zeichen mit unserem <strong>Facebook Bilderrahmen</strong>! 
                 Klicke dazu entweder rechts in den Kreis oder{' '}
                 <a
-                  className='custom-anchor font-weight-bold'
+                  className='custom-anchor font-weight-bold' target="_blank"
                   href='https://www.facebook.com/profilepicframes/?selected_overlay_id=271818057413576'
                 >
                    hier auf den Link
@@ -74,7 +74,7 @@ function WerdeBotschafter() {
                   overlay={renderTooltip}
                 >
                 <a
-                  className='custom-anchor font-weight-bold'
+                  className='custom-anchor font-weight-bold' target="_blank"
                   href='https://www.facebook.com/profilepicframes/?selected_overlay_id=271818057413576'
                 >
                   <FacebookFrame/>
