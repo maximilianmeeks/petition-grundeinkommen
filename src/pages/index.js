@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 
 import Header from "../components/Header"
 import ImageMenu from "../components/ImageMenu"
+import Countdown from "../components/Countdown"
 
 const IndexPage = () => (
   <Layout ImageMenu="true">
@@ -17,13 +18,30 @@ const IndexPage = () => (
         />
     <div className="container">
       <Header/>
+      <div className="row mt-5">
+        <div className="col-md-8 mx-auto">
+          Am 30. Juni um 10 Uhr hat unser Film <a className="custom-anchor font-weight-bold" target="_blank" href="https://www.youtube.com/channel/UC5i7oVQWuutVxpCIwuEDESQ">„Mensch in Germany – Wir in Deutschland“</a> Premiere.
+          Sei live dabei und lass uns gemeinsamen diskutieren. Denn wir sind immer noch der Meinung: Das Grundeinkommen muss kommen!
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-8 my-3 mx-auto">
+          <Countdown/>
+        </div>
+      </div>
+      <div className="row my-4">
+        <div className="col-md-8 mx-auto">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/HdwbNECDqJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
       <div className="row mb-3 mt-lg-3 pt-md-5">
         <div className="col-lg-6">
           <p>
             Geschafft! Unsere Online-Petition ist die größte aller Zeiten – DANKE an euch
-            alle, die ihr das ermöglicht habt!             <a
+            alle, die ihr das ermöglicht habt!
+            <a
               href='https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html'
-              className='custom-anchor font-weight-bold'
+              className='custom-anchor font-weight-bold' target="_blank"
             >
               {' '}
               176.134 #GameChanger{' '}
@@ -72,7 +90,7 @@ const IndexPage = () => (
           <div className="container">
             <div className="row mb-5 mt-3">
               <div className="mx-auto">
-                <a href="https://grundeinkommenjetzt.de/#mach-mit">
+                <a href="https://grundeinkommenjetzt.de/#mach-mit" target="_blank">
                   <Button variant="dark" className="btn btn-md-lg"> Offener Brief an den Bundestag <br className="d-md-none"/><span className="d-none d-md-inline"> - </span>#Call2Action!</Button>
                 </a>
               </div>
