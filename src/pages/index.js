@@ -12,69 +12,129 @@ import Countdown from "../components/Countdown"
 
 const IndexPage = () => (
   <Layout ImageMenu="true">
-    <SEO title="Die Zeit ist reif für's Grundeinkommen." 
-        description="Die größte Online-Petition sind wir schon – jetzt per Post fürs Grundeinkommen abstimmen. Danke!"
-        imgFb="/BGE_post_facebook_1200x627_4.jpg" 
-        />
+    <SEO
+      title="Die Zeit ist reif für's Grundeinkommen."
+      description="Die größte Online-Petition sind wir schon – jetzt per Post fürs Grundeinkommen abstimmen. Danke!"
+      imgFb="/BGE_post_facebook_1200x627_4.jpg"
+    />
     <div className="container">
-      <Header/>
+      <Header />
       <div className="row mt-md-5">
         <div className="col-md-8 mx-auto">
-          Am 30. Juni um 10 Uhr hat unser Film <a className="custom-anchor font-weight-bold" target="_blank" href="https://www.youtube.com/channel/UC5i7oVQWuutVxpCIwuEDESQ">„Mensch in Germany – Wir in Deutschland“</a> Premiere.
-          Sei live dabei und lass uns gemeinsamen diskutieren. Denn wir sind immer noch der Meinung: Das Grundeinkommen muss kommen!
+          Wir alle in Deutschland tragen den Staat - aber gibt er uns auch genug
+          zurück? Teile den Film und setze dich für mehr Gerechtigkeit ein.
+          Damit bald jeder Mensch in Germany ein Grundeinkommen hat. Posten
+          heißt Stimme erheben - zusammen sind wir mehr! TEILEN UND GEWINNEN:
+          Werde auch du Botschafter und damit ein Teil von 'Mensch in Germany'.
+          Schicke einfach ein Foto und ein Zitat an{" "}
+          <a
+            href="mailto:botschafterIn@mensch-in-germany.org"
+            className="custom-anchor font-weight-bold"
+          >
+            botschafterIn@mensch-in-germany.org
+          </a>{" "}
+          - als Dank für deine Unterstützung nimmst du an einer Verlosung von
+          interessanten Büchern zum Bedingungslosen Grundeinkommen teil, u.a.
+          von Götz Werner, Gründer von dm-drogerie markt.
         </div>
       </div>
-      <div className="row">
-        <div className="col-md-8 my-3 mx-auto">
-          <Countdown/>
-        </div>
-      </div>
-      <div className="row my-4">
+      <div className="row mt-3 mt-md-5">
         <div className="col-md-8 mx-auto">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/HdwbNECDqJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/HdwbNECDqJE"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
       <div className="row mb-3 mt-lg-3 pt-md-5">
         <div className="col-lg-6">
           <p>
-            Geschafft! Unsere Online-Petition ist die größte aller Zeiten – DANKE an euch
-            alle, die ihr das ermöglicht habt!
-            <a
-              href='https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html'
-              className='custom-anchor font-weight-bold' target="_blank"
-            >
-              {' '}
-              176.134 #GameChanger{' '}
-            </a>{' '} sind wir bis jetzt.
-            Und doch viel mehr: Zusammen mit weiteren Petitionen auf anderen Portalen sind
-            wir praktisch #1MillionFürsGrundeinkommen. <Link to="/grundeinkommen-jetzt" className="custom-anchor font-weight-bold"> Hier </Link> findet ihr den Offenen Brief aller Petent*innen an den Bundestag,
-            der von einem breiten gesellschaftlichen Bündnis unterstützt wird und die
-            zeitnahe Anhörung am 15. Juni 2020 fordert.
+            <strong>Veränderung liegt in der Luft:</strong> Die Corona-Krise
+            zeigt, wie wesentlich die finanzielle Absicherung unseres Lebens
+            ist. Immer mehr gesellschaftliche Gruppierungen fordern
+            Unterstützung, die Bundesregierung schnürt ein Hilfspaket nach dem
+            anderen und dennoch fallen viele Menschen durch’s Raster. Angst
+            macht sich breit.
+          </p>
+          <p>
+            Es ist Zeit für einen großen Wurf: Wir wollen mit der Einführung
+            eines Grundeinkommens in der Krise einen Boden einziehen, der alle
+            trägt. Zunächst temporär, danach permanent und bedingungslos.
           </p>
         </div>
         <div className="col-lg-6">
           <p>
-            Außerdem: Solange die Petition im Bundestag bearbeitet wird, kann offline
-            mitgezeichnet werden – per Brief, per Karte oder Unterschriften-Liste. Also
-            haben wir Vorlagen zum Download erstellt, die ihr ausfüllt, unterschreibt, in
-            einen Briefumschlag steckt und dann fluten wir den Bundestag mit der frohen
-            Botschaft{' '}
-            <Link to='/grundeinkommen-jetzt' className='custom-anchor font-weight-bold'>
-              {' '}
-              #GrundeinkommenJETZT!{' '}
-            </Link>{' '}
-            Wie viele Stimmen schaffen wir auf dem Postweg? Um zu zeigen, wie viele wir
-            sind und warum wir das Grundeinkommen wollen, könnt ihr als{' '}
-            <Link to='/wir-sind-viele' className='custom-anchor font-weight-bold'>
-              {' '}
-              Botschafter*in{' '}
-            </Link>{' '}
-            an Bord sein oder unsere{' '}
-            <Link to='/wie-unterstuetzen' className='custom-anchor font-weight-bold'>
-              {' '}
-              Tools für Social Media{' '}
-            </Link>{' '}
-            nutzen. Wir freuen uns.
+            Nachdem unsere{" "}
+            <a
+              href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
+              target="_blank"
+              className="custom-anchor font-weight-bold"
+            >
+              {" "}
+              Online-Petition{" "}
+            </a>{" "}
+            an den deutschen Bundestag vom 14.3.2020 die größte aller Zeiten
+            wurde und wir mit einem starken
+            <a
+              href="https://grundeinkommenjetzt.de/"
+              target="_blank"
+              className="custom-anchor font-weight-bold"
+            >
+              {" "}
+              Kampagnenbündnis{" "}
+            </a>{" "}
+            alles versucht haben, damit die Bundestagsverwaltung den
+            Anhörungstermin{" "}
+            <a
+              href="https://www.susannewiest.de/schnelle-anhoerung-tausche-oktober-gegen-juni/"
+              target="_blank"
+              className="custom-anchor font-weight-bold"
+            >
+              {" "}
+              von Oktober auf Juni vorzieht
+            </a>
+            , erweitern wir jetzt unseren Maßnahmenkatalog: Die{" "}
+            <a
+              href="https://www.schippercompany.com/agentur/mensch-magazin/"
+              target="_blank"
+              className="custom-anchor font-weight-bold"
+            >
+              Schipper Company
+            </a>
+            hat, ebenfalls aus Begeisterung für dieses wichtige Thema, einen
+            Imagefilm kreiert, der zum
+            <Link to="/was-geht" className="custom-anchor font-weight-bold">
+              {" "}
+              gemeinsamen Handeln{" "}
+            </Link>
+            animiert – teilt ihn breit in den sozialen Medien, sodass immer mehr
+            Menschen von dieser guten Idee erfahren und sorgt für mächtig viele
+            Likes, unterzeichnet die
+            <Link
+              to="/grundeinkommen-jetzt"
+              className="custom-anchor font-weight-bold"
+            >
+              {" "}
+              Petition offline{" "}
+            </Link>
+            weiterhin mit und diskutiert die
+            <Link
+              to="/grundeinkommen-konkret"
+              className="custom-anchor font-weight-bold"
+            >
+              {" "}
+              konkreten Modelle{" "}
+            </Link>
+            , die wir dem Petitionsausschuss vorstellen werden. Außerdem laden
+            wir vor der Anhörung im Oktober im Bundestag zur ‚Zuhörung‘ ein, in
+            der Fragen zu den einzelnen Modellen gestellt und beantwortet werden
+            können. Den genauen Termin, voraussichtlich in der ersten
+            Septemberhälfte, geben wir rechtzeitig hier bekannt. Klar ist: Wir
+            lassen nicht locker!
           </p>
         </div>
       </div>
@@ -83,15 +143,24 @@ const IndexPage = () => (
           <div className="row mx-0">
             <div className="mx-auto">
               <p className="abbinder mb-3 mb-lg-0 m-0 mx-auto">
-                Existenzsicherung ist ein Menschenrecht. Vertrauen die neue Währung.<br/>
+                Existenzsicherung ist ein Menschenrecht. Vertrauen die neue
+                Währung.
+                <br />
               </p>
             </div>
           </div>
           <div className="container">
             <div className="row mb-5 mt-3">
               <div className="mx-auto">
-                <a href="https://grundeinkommenjetzt.de/#mach-mit" target="_blank">
-                  <Button variant="dark" className="btn btn-md-lg"> Offener Brief an den Bundestag <br className="d-md-none"/><span className="d-none d-md-inline"> - </span>#Call2Action!</Button>
+                <a
+                  href="https://www.youtube.com/watch?v=HdwbNECDqJE"
+                  target="_blank"
+                >
+                  <Button variant="dark" className="btn btn-md-lg">
+                    {" "}
+                    TEILEN UND GEWINNEN <br className="d-md-none" />
+                    <span className="d-none d-md-inline"> – </span>#CALLTOACTION
+                  </Button>
                 </a>
               </div>
             </div>
@@ -99,7 +168,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <ImageMenu/>
+    <ImageMenu />
   </Layout>
 )
 
