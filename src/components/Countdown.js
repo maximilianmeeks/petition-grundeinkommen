@@ -5,6 +5,7 @@ const Countdown = () => {
   const [countdownDate, setCountdownDate] = useState(
     new Date("06/30/2020 10:00:00 GMT+0200").getTime()
   )
+  const [loaded, setLoaded] = useState(false)
   const [state, setState] = useState({
     days: 4,
     hours: 0,
@@ -14,6 +15,10 @@ const Countdown = () => {
 
   useEffect(() => {
     setInterval(() => setNewTime(), 1000)
+  }, [])
+
+  useEffect(() => {
+    setInterval(() => setLoaded(true), 1000)
   }, [])
 
   const setNewTime = () => {
@@ -41,7 +46,6 @@ const Countdown = () => {
         minutes = `0${minutes}`
       }
       if (numbersToAddZeroTo.includes(seconds)) {
-        console.log("add 0")
         seconds = `0${seconds}`
       }
 
@@ -50,7 +54,11 @@ const Countdown = () => {
   }
 
   return (
-    <div>
+    <div
+      className={`${
+        loaded ? "countdown-visible" : "countdown-invisible"
+      } opacity-fade`}
+    >
       <div className="countdown-wrapper row justify-content-center">
         <div className="time-section">
           <div className="time">{state.days || "0"}</div>
