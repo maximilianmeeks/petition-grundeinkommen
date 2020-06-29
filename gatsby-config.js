@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Mensch in Germany`,
-    description: `Die größte Online-Petition sind wir schon – jetzt per Post fürs Grundeinkommen abstimmen. Danke!`,
+    description: `Der Film zum Grundeinkommen ist da - teile ihn und hole so noch mehr UnterstützerInnen an Bord. Zusammen können wir es schaffen, zusammen sind wir mehr!`,
     author: `Maximilian Meeks`,
     image: `/BGE_post_facebook_1200x627_4.jpg`,
     url: `https://www.mensch-in-germany.org`,

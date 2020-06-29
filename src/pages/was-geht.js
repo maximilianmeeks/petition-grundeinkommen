@@ -34,16 +34,30 @@ function WerdeBotschafter() {
       <div className="container">
         <Header url="was-geht" />
         <div className="row pb-4 mt-lg-3 pt-md-5">
-          <div className="col-lg-6 botschafter">
-            <iframe
-              width="100%"
-              height="315"
-              src="https://www.youtube.com/embed/i8MoaAJXu9U"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              className="mb-3"
-            ></iframe>
+          <div className="col-lg-6">
+            <p>
+              <strong>
+                Das Zeitfenster für fundamentalen Wandel steht weit offen
+              </strong>{" "}
+              – lassen wir den frischen Wind herein! Miteinander schaffen wir’s:
+              Hier findet ihr spannende Tools, um die Grundeinkommensidee immer
+              mehr Menschen nahezubringen. Teilt den Imagefilm auf euren Kanälen
+              – gern auch in internationalen Foren mit englischen Untertiteln.
+              Verbreitet die Kurzfilme zu den BGE-Modellen bzw. die Statements
+              zu spezifischen Themenfeldern und diskutiert mit Familie und
+              Freunden darüber.
+            </p>
+          </div>
+          <div className="col-lg-6">
+            Startet Aktionen und bindet den Imagefilm ein – ob bei Konzerten von
+            Künstlern, auf Marktplätzen oder bei Meetings. Unser gemeinsames
+            Ziel ist es, immer mehr Rückenwind zu erzeugen für die Idee, deren
+            Zeit gekommen ist. Und dann führen wir das Grundeinkommen ein – von
+            uns allen für uns alle.
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-6">
             <iframe
               width="100%"
               height="315"
@@ -53,20 +67,21 @@ function WerdeBotschafter() {
               allowfullscreen
               className="mb-3"
             ></iframe>
-            <p>
-              Das Zeitfenster für fundamentalen Wandel steht weit offen – lassen
-              wir den frischen Wind herein! Miteinander schaffen wir’s: Hier
-              findet ihr spannende Tools, um die Grundeinkommensidee immer mehr
-              Menschen nahezubringen. Teilt den Imagefilm auf euren Kanälen –
-              gern auch in internationalen Foren mit englischen Untertiteln.
-              Verbreitet die Kurzfilme zu den BGE-Modellen bzw. die Statements
-              zu spezifischen Themenfeldern und diskutiert mit Familie und
-              Freunden darüber. Startet Aktionen und bindet den Imagefilm ein –
-              ob bei Konzerten von Künstlern, auf Marktplätzen oder bei
-              Meetings. Unser gemeinsames Ziel ist es, immer mehr Rückenwind zu
-              erzeugen für die Idee, deren Zeit gekommen ist. Und dann führen
-              wir das Grundeinkommen ein – von uns allen für uns alle.
-            </p>
+          </div>
+          <div className="col-lg-6">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/i8MoaAJXu9U"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              className="mb-3"
+            ></iframe>
+          </div>
+        </div>
+        <div className="row mt-5">
+          <div className="col-lg-6">
             <Link to="/wir-sind-viele">
               <BotschafterWerner />
             </Link>

@@ -1,302 +1,290 @@
 @import "variables";
-@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import "node_modules/bootstrap/scss/bootstrap.scss";
 
-body{
-    font-family: "Source Sans Pro", sans-serif;
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: $primary;
+  color: $dark;
+}
+
+.navbar {
+  color: $dark;
+}
+
+.nav-link {
+  color: $dark;
+  text-decoration: none;
+}
+
+.nav-link a {
+  height: 50px;
+  line-height: 35px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+}
+
+.nav-icon {
+  display: relative;
+  top: -10px;
+}
+
+.font-oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.headline {
+  transform: rotate(357deg);
+  font-size: 3.5rem;
+  min-width: 357px;
+  max-width: 400px;
+}
+
+.headline-long {
+  transform: rotate(357deg);
+  font-size: 3.5rem;
+  min-width: 357px;
+  max-width: 500px;
+}
+
+.header-container {
+  max-height: 200px;
+}
+
+.logo-container {
+  max-width: 300px;
+}
+
+.abbinder {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  background-color: $light;
+  text-align: center;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  padding: 0.5rem 0.6rem;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: 1px solid $dark;
+
+  &:hover {
     background-color: $primary;
     color: $dark;
   }
-  
-  .navbar{
-    color: $dark
+}
+
+.btn-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.2s ease;
+}
+
+@include media-breakpoint-up(lg) {
+  .abbinder {
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    max-width: 100%;
   }
-  
-  .nav-link{
-    color: $dark;
+}
+
+.impressum a,
+.letter a {
+  color: $dark;
+  font-weight: 700;
+
+  &:hover {
+    color: $light;
     text-decoration: none;
   }
-
-  .nav-link a{
-    height: 50px;
-    line-height: 35px;
-  }
-
-  .navbar-expand-lg .navbar-nav .nav-link{
-      padding-right: 1rem;
-  }
-
-  .nav-icon{
-      display: relative;
-      top:-10px
-  }
-
-  .font-oswald{
-    font-family: "Oswald", sans-serif;
-  }
-
-  .text-uppercase{
-    text-transform: uppercase;
-  }
-
-  .headline{
-      transform: rotate(357deg);
-      font-size: 3.5rem;
-      min-width: 357px;
-      max-width: 400px;
-  }
-
-  .headline-long{
-    transform: rotate(357deg);
-    font-size: 3.5rem;
-    min-width: 357px;
-    max-width: 500px;
 }
 
-  .header-container{
-      max-height: 200px;
+.dsgvo,
+.impressum {
+  p {
+    margin: 1.5rem 0 1.5rem;
   }
-
-  .logo-container{
-      max-width: 300px;
+  h2,
+  h3 {
+    font-size: 1.4rem;
   }
-
-  .abbinder{
-      font-family: "Oswald", sans-serif;
-      font-weight: 700;
-      background-color: $light;
-      text-align: center;
-      font-size: 1.25rem;
-      text-transform: uppercase;
-      padding: 0.5rem 0.6rem;
-      max-width: 95%;
-      margin-left: auto;
-      margin-right: auto;
-  }
-
-  .btn{
-      font-family: "Oswald", sans-serif;
-      font-weight: 700;
-      text-transform: uppercase;
-      border-radius: 0;
-      border: 1px solid $dark;
-
-      &:hover{
-        background-color: $primary;
-        color: $dark;
-      }
-  }
-
-
-  .btn-container:hover .overlay{
-      opacity: 1;
-  }
-
-
-    .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        transition: .2s ease;
-      }
-  
-
-  @include media-breakpoint-up(lg){
-    .abbinder{
-        font-size: 1.3rem;
-        padding: 0.5rem 1rem;
-        max-width: 100%
-    }
 }
 
-.impressum a, .letter a{
-    color: $dark;
+.letter {
+  p {
+    margin: 1.5rem 0 1.5rem;
+  }
+  h2,
+  h3 {
+    font-size: 1.4rem;
+    width: 85%;
     font-weight: 700;
-
-    &:hover{
-        color: $light;
-        text-decoration: none;
-    }
+  }
 }
 
-.dsgvo, .impressum{
-    p{
-        margin: 1.5rem 0 1.5rem
-    }
-    h2, h3{
-        font-size: 1.4rem;
-    }
+.download-link:hover a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
-.letter{
-    p{
-        margin: 1.5rem 0 1.5rem
-    }
-    h2, h3{
-        font-size: 1.4rem;
-        width: 85%;
-        font-weight: 700;
-    }
-}
-
-.download-link:hover a{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.not-found{
-    a{
+.not-found {
+  a {
     color: $light;
     font-size: 3rem;
-    }
-    a:hover{
-        text-decoration: none;
-        color: $dark;
-    }
+  }
+  a:hover {
+    text-decoration: none;
+    color: $dark;
+  }
 }
 
-.custom-anchor{
+.custom-anchor {
+  text-decoration: none;
+  color: $dark !important;
 
+  &:hover {
+    color: $light !important;
     text-decoration: none;
-    color: $dark !important;
-
-    &:hover{
-        color: $light !important; 
-        text-decoration: none;
-    }
-    
+  }
 }
 
 footer {
-    
-    a:hover {
+  a:hover {
     text-decoration: none;
     color: $dark;
-    }
+  }
 
-    .footer-primary a{
-        color:$light;
+  .footer-primary a {
+    color: $light;
 
-        &:hover{
-            color:$dark
-        }
+    &:hover {
+      color: $dark;
     }
+  }
 }
 
-.nowrap{
-    white-space: nowrap;
+.nowrap {
+  white-space: nowrap;
 }
 
 .dont-break-out {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 
-    /* These are technically the same, but use both */
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-  
-    -ms-word-break: break-all;
-    /* This is the dangerous one in WebKit, as it breaks things wherever */
-    word-break: break-all;
-    /* Instead use this non-standard one: */
-    word-break: break-word;
-  
-    /* Adds a hyphen where the word breaks, if supported (No Blink) */
-    -ms-hyphens: auto;
-    -moz-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto;
-  
-  }
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
 
-.img-gallery{
-    .row{
-        .col-6{
-        margin: 1rem 0;
-        }
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
 
-        img:hover{
-            cursor: pointer;
-        }
+.img-gallery {
+  .row {
+    .col-6 {
+      margin: 1rem 0;
     }
+
+    img:hover {
+      cursor: pointer;
+    }
+  }
 }
 
-.cursor-pointer:hover{
-    cursor: pointer;
+.cursor-pointer:hover {
+  cursor: pointer;
 }
 
-.modal-footer{
-    justify-content: flex-start;
-    padding-top: 0;
-    padding-bottom: 0;
+.modal-footer {
+  justify-content: flex-start;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .post-social {
-	.button {
-		margin: 0.5rem 0.25rem;
-        border: none;
-        background-color: transparent;
-		@each $class, $color in $brand-colors {
-			&.#{$class} {
-				color: $color !important;
-				border-color: $color !important;
-				&:hover {
-					color: #eca400 !important
-				}
-			}
-		}
-	}
-} 
-
-.botschafter .text-center{
-    font-weight: 700;
+  .button {
+    margin: 0.5rem 0.25rem;
+    border: none;
+    background-color: transparent;
+    @each $class, $color in $brand-colors {
+      &.#{$class} {
+        color: $color !important;
+        border-color: $color !important;
+        &:hover {
+          color: #eca400 !important;
+        }
+      }
+    }
+  }
 }
-
-
 
 ///HOVER ZOOM
 
 .hover-zoom {
-    width:100%;
-    float:left;
-    overflow:hidden;
-    position:relative;
-    text-align:center;
-    cursor:default;
-    
-    img {
-    display:block;
-    position:relative;
-    -webkit-transition:all .3s ease-in-out !important;
-    transition:all .3s ease-in-out !important;
-    }
-        
-    &:hover img {
-    -ms-transform:scale(1.2);
-    -webkit-transform:scale(1.2);
-    transform:scale(1.2);
-    }
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
 
+  img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+  }
+
+  &:hover img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
 }
 
-.wir-sind-viele{
-    .col-12 > div{
-        margin: 0 0 2rem;
-        
-        &:hover{
-            cursor: pointer;
-        }
+.wir-sind-viele {
+  .col-12 > div {
+    margin: 0 0 2rem;
+
+    &:hover {
+      cursor: pointer;
     }
-
+  }
 }
 
-.signature-list-crop{
-    max-height: 297px;
-    overflow: hidden;
+.signature-list-crop {
+  max-height: 297px;
+  overflow: hidden;
 }
 
-.disabled{
-    cursor: default
+.disabled {
+  cursor: default;
 }

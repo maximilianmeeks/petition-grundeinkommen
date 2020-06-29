@@ -12,35 +12,42 @@ import ImageMenu from "../components/ImageMenu"
 function About() {
   const data = useStaticQuery(graphql`
     query {
-      uschi: file(relativePath: { eq: "2020_0002_Uschi.png" }) {
+      uschi: file(relativePath: { eq: "uschi_leer.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
-      annasophie: file(relativePath: { eq: "2020_0006_Anna-Sophie.png" }) {
+      annasophie: file(relativePath: { eq: "annasophie_leer.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
-      leonie: file(relativePath: { eq: "2020_0008_Leonie.png" }) {
+      leonie: file(relativePath: { eq: "leonie_leer.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
-      beatrice: file(relativePath: { eq: "2020_0001_Beatrice.png" }) {
+      beatrice: file(relativePath: { eq: "beatrice_leer.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
-      susanne: file(relativePath: { eq: "2020_0005_Susanne.png" }) {
+      susanne: file(relativePath: { eq: "susanne_leer.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
+      logo: file(relativePath: { eq: "logo_kachel.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_noBase64
@@ -68,7 +75,7 @@ function About() {
       >
         <Modal.Header closeButton />
         <Modal.Body>
-          <Img fluid={modalData} alt="Facebook 01" />
+          <Img fluid={modalData} alt=" " />
         </Modal.Body>
       </Modal>
     )
@@ -126,67 +133,82 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="row px-3 mb-5 d-flex justify-content-around">
-          <div className="col-5 col-md-2 mx-1 my-2">
-            <div
-              className="hover-zoom"
-              onClick={() => clickHandler(true, data.uschi)}
-            >
-              <Img
-                fluid={data.uschi.childImageSharp.fluid}
-                alt="Uschi Bauer"
-                className="img-thumbnail"
-              />
+        <div className="row row flex-row-reverse mb-3 mt-lg-3">
+          <div className="col-md-6 ">
+            <div className="row">
+              <div className="col-4 col-md-4 my-2">
+                <div
+                  className="hover-zoom"
+                  onClick={() => clickHandler(true, data.uschi)}
+                >
+                  <Img
+                    fluid={data.uschi.childImageSharp.fluid}
+                    alt="Uschi Bauer"
+                    className="img-thumbnail"
+                  />
+                </div>
+              </div>
+              <div className="col-4 col-md-4 my-2">
+                <div
+                  className="hover-zoom"
+                  onClick={() => clickHandler(true, data.annasophie)}
+                >
+                  <Img
+                    fluid={data.annasophie.childImageSharp.fluid}
+                    alt="Anna-Sophie Brüning"
+                    className="img-thumbnail"
+                  />
+                </div>
+              </div>
+              <div className="col-4 col-md-4 my-2">
+                <div
+                  className="hover-zoom"
+                  onClick={() => clickHandler(true, data.leonie)}
+                >
+                  <Img
+                    fluid={data.leonie.childImageSharp.fluid}
+                    alt="Leonie Schraven"
+                    className="img-thumbnail"
+                  />
+                </div>
+              </div>
+              <div className="col-4 col-md-4 my-2">
+                <div
+                  className="hover-zoom"
+                  onClick={() => clickHandler(true, data.beatrice)}
+                >
+                  <Img
+                    fluid={data.beatrice.childImageSharp.fluid}
+                    alt="Beatrice-Werner"
+                    className="img-thumbnail"
+                  />
+                </div>
+              </div>
+              <div className="col-4 col-md-4 my-2">
+                <div
+                  className="hover-zoom"
+                  onClick={() => clickHandler(true, data.susanne)}
+                >
+                  <Img
+                    fluid={data.susanne.childImageSharp.fluid}
+                    alt="Susanne Wiest"
+                    className="img-thumbnail"
+                  />
+                </div>
+              </div>
+              <div className="col-4 my-2">
+                <Img
+                  fluid={data.logo.childImageSharp.fluid}
+                  alt="Logo Mensch in Germany"
+                />
+              </div>
             </div>
           </div>
-
-          <div className="col-5 col-md-2 mx-1 my-2">
-            <div
-              className="hover-zoom"
-              onClick={() => clickHandler(true, data.annasophie)}
-            >
-              <Img
-                fluid={data.annasophie.childImageSharp.fluid}
-                alt="Anna-Sophie Brüning"
-                className="img-thumbnail"
-              />
-            </div>
-          </div>
-          <div className="col-5 col-md-2 mx-1 my-2">
-            <div
-              className="hover-zoom"
-              onClick={() => clickHandler(true, data.leonie)}
-            >
-              <Img
-                fluid={data.leonie.childImageSharp.fluid}
-                alt="Leonie Schraven"
-                className="img-thumbnail"
-              />
-            </div>
-          </div>
-          <div className="col-5 col-md-2 mx-1 my-2">
-            <div
-              className="hover-zoom"
-              onClick={() => clickHandler(true, data.beatrice)}
-            >
-              <Img
-                fluid={data.beatrice.childImageSharp.fluid}
-                alt="Beatrice-Werner"
-                className="img-thumbnail"
-              />
-            </div>
-          </div>
-          <div className="col-5 col-md-2 mx-1 my-2">
-            <div
-              className="hover-zoom"
-              onClick={() => clickHandler(true, data.susanne)}
-            >
-              <Img
-                fluid={data.susanne.childImageSharp.fluid}
-                alt="Susanne Wiest"
-                className="img-thumbnail"
-              />
-            </div>
+          <div className="col-md-6 mt-3">
+            <p>
+              Mit im Team für die Realisation: Frank Bannöhr, Eva Dittberner,
+              Michael Schipper, Maximilian Meeks.
+            </p>
           </div>
         </div>
       </div>

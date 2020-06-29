@@ -49,7 +49,7 @@ const WarumGrundeinkommen = () => (
           <iframe
             width="100%"
             height="315"
-            src="https://www.youtube.com/embed/HdwbNECDqJE"
+            src="https://www.youtube.com/embed/CbuSgNTpUsE"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
@@ -57,7 +57,7 @@ const WarumGrundeinkommen = () => (
           <p>
             Prof. Bernhard Neumärker stellt sein Modell eines
             Netto-Grundeinkommens vor, das in der Krise eingeführt und danach zu
-            einem vollen bedingungslosen Grundeinkommen ausgebaut werden kann.
+            einem vollen Bedingungslosen Grundeinkommen ausgebaut werden kann.
           </p>
         </div>
       </div>

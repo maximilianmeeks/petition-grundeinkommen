@@ -93,9 +93,83 @@ function GrundeinkommenJetzt() {
       />
       <Container>
         <Header url="/grundeinkommen-jetzt" />
-        <Row className="pb-4 mt-lg-3 pt-md-5">
+        <div className="row pb-4 mt-lg-3 pt-md-5">
+          <div className="col-lg-8">
+            <div className="mb-5 mb-md-n5">
+              <p>
+                Super, dass wir die
+                <a
+                  href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
+                  className="custom-anchor font-weight-bold"
+                >
+                  {" "}
+                  Bundestagspetition{" "}
+                </a>
+                auch offline immer noch weiter wachsen lassen können. Einfach
+                Karte oder Unterschriften-Liste herunterladen, ausdrucken,
+                Name(n) und Adresse(n) eintragen, unterschreiben, in einen
+                Briefumschlag stecken und ab die Post:
+              </p>
+              <p>
+                Deutscher Bundestag
+                <br />
+                Petitionsausschussdienst
+                <br />
+                Platz der Republik 1<br />
+                11011 Berlin
+                <br />
+              </p>
+              <p>Alternativ auch per Fax unter +49 30 227-36053.</p>
+              <strong>DANKE!</strong>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="mb-5">
+              <div
+                onClick={() => clickHandler(true, data.previewKarte)}
+                className="cursor-pointer"
+              >
+                <Img
+                  fluid={data.previewKarte.childImageSharp.fluid}
+                  alt="Postkarte zur Unterzeichnung der Petition"
+                />
+              </div>
+              <div className="mt-3">
+                <a
+                  href="/BGE_Unterschrift.pdf"
+                  download
+                  className="custom-anchor font-weight-bold"
+                >
+                  Karte herunterladen (102 kB)
+                </a>
+              </div>
+            </div>
+            <div className="mb-4">
+              <div
+                onClick={() => clickHandler(true, data.previewListe)}
+                className="signature-list-crop cursor-pointer"
+              >
+                <Img
+                  fluid={data.previewListe.childImageSharp.fluid}
+                  alt="Unterschriftenliste zur Unterzeichnung der Petition"
+                />
+              </div>
+              <div className="mt-3">
+                <a
+                  href="/BGE_Unterschrift_Auslage.pdf"
+                  download
+                  className="custom-anchor font-weight-bold"
+                >
+                  Unterschriftenliste herunterladen (105 kB)
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <Row className="pb-4">
           <Col lg="8">
-            <div>
+            <div className="mt-5 mt-md-n5">
               <p>
                 Das Grundeinkommen ist die politische Idee der Stunde – es muss
                 nur noch ankommen im Bundestag. Schnell. Direkt. Unbürokratisch.
@@ -277,74 +351,7 @@ function GrundeinkommenJetzt() {
               <br />
             </div>
           </Col>
-          <Col lg="4" className="mt-3 mt-lg-0">
-            <div>
-              <p>
-                Super, dass wir die
-                <a
-                  href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
-                  className="custom-anchor font-weight-bold"
-                >
-                  {" "}
-                  Bundestagspetition{" "}
-                </a>
-                auch offline immer noch weiter wachsen lassen können. Einfach
-                Karte oder Unterschriften-Liste herunterladen, ausdrucken,
-                Name(n) und Adresse(n) eintragen, unterschreiben, in einen
-                Briefumschlag stecken und ab die Post:
-              </p>
-              <p>
-                Deutscher Bundestag
-                <br />
-                Petitionsausschussdienst
-                <br />
-                Platz der Republik 1<br />
-                11011 Berlin
-                <br />
-              </p>
-              <p>Alternativ auch per Fax unter +49 30 227-36053.</p>
-              <strong>DANKE!</strong>
-            </div>
-            <div className="mb-5 mt-5">
-              <div
-                onClick={() => clickHandler(true, data.previewKarte)}
-                className="cursor-pointer"
-              >
-                <Img
-                  fluid={data.previewKarte.childImageSharp.fluid}
-                  alt="Postkarte zur Unterzeichnung der Petition"
-                />
-              </div>
-              <div className="mt-3">
-                <a
-                  href="/BGE_Unterschrift.pdf"
-                  download
-                  className="custom-anchor font-weight-bold"
-                >
-                  Karte herunterladen (102 kB)
-                </a>
-              </div>
-            </div>
-            <div className="mb-4">
-              <div
-                onClick={() => clickHandler(true, data.previewListe)}
-                className="signature-list-crop cursor-pointer"
-              >
-                <Img
-                  fluid={data.previewListe.childImageSharp.fluid}
-                  alt="Unterschriftenliste zur Unterzeichnung der Petition"
-                />
-              </div>
-              <div className="mt-3">
-                <a
-                  href="/BGE_Unterschrift_Auslage.pdf"
-                  download
-                  className="custom-anchor font-weight-bold"
-                >
-                  Unterschriftenliste herunterladen (105 kB)
-                </a>
-              </div>
-            </div>
+          <Col lg="4" className="mt-3 mt-lg-5 pt-md-5">
             <MyVerticallyCenteredModal
               show={modalShow}
               onHide={() => setModalShow(false)}

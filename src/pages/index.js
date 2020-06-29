@@ -14,7 +14,7 @@ const IndexPage = () => (
   <Layout ImageMenu="true">
     <SEO
       title="Die Zeit ist reif für's Grundeinkommen."
-      description="Die größte Online-Petition sind wir schon – jetzt per Post fürs Grundeinkommen abstimmen. Danke!"
+      description="Der Film zum Grundeinkommen ist da - teile ihn und hole so noch mehr UnterstützerInnen an Bord. Zusammen können wir es schaffen, zusammen sind wir mehr!"
       imgFb="/BGE_post_facebook_1200x627_4.jpg"
     />
     <div className="container">
@@ -104,7 +104,7 @@ const IndexPage = () => (
               className="custom-anchor font-weight-bold"
             >
               Schipper Company
-            </a>
+            </a>{" "}
             hat, ebenfalls aus Begeisterung für dieses wichtige Thema, einen
             Imagefilm kreiert, der zum
             <Link to="/was-geht" className="custom-anchor font-weight-bold">
