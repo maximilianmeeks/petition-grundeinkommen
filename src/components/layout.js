@@ -11,18 +11,21 @@ import PropTypes from "prop-types"
 import Navbar from "./navbar"
 import "../scss/style.scss"
 
-import { faTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons'
-import { config, library } from '@fortawesome/fontawesome-svg-core'
-import '@fortawesome/fontawesome-svg-core/styles.css'
+import {
+  faTwitter,
+  faFacebook,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons"
+import { config, library } from "@fortawesome/fontawesome-svg-core"
+import "@fortawesome/fontawesome-svg-core/styles.css"
 config.autoAddCss = false
 
-library.add(faTwitter, faFacebook)
+library.add(faTwitter, faFacebook, faInstagram)
 
 const Layout = ({ children }) => {
-
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <main>{children}</main>
     </>
   )

@@ -1,18 +1,18 @@
 module.exports = {
   siteMetadata: {
     title: `Mensch in Germany`,
-    description: `Die größte Online-Petition sind wir schon – jetzt per Post fürs Grundeinkommen abstimmen. Danke!`,
+    description: `Der Film zum Grundeinkommen ist da - teile ihn und hole so noch mehr UnterstützerInnen an Bord. Zusammen können wir es schaffen, zusammen sind wir mehr!`,
     author: `Maximilian Meeks`,
     image: `/BGE_post_facebook_1200x627_4.jpg`,
-    url: `https://www.mensch-in-germany.org`
+    url: `https://www.mensch-in-germany.org`,
   },
-  pathPrefix: "/petition-grundeinkommen",
+  pathPrefix: `/petition-grundeinkommen`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'wir-sind-viele',
+        name: "wir-sind-viele",
         path: `${__dirname}/src/images/wir-sind-viele`,
       },
     },
@@ -34,7 +34,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#eca400`,
         theme_color: `#eca400`,
-        display: `minimal-ui`
+        display: `minimal-ui`,
       },
     },
     {
@@ -49,12 +49,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-facebook-sdk`,
       options: {
-        appId: '842438696234921',
+        appId: "842438696234921",
         status: true,
         xfbml: true,
-        version: 'v2.7'
+        version: "v2.7",
       },
     },
-    
   ],
 }
