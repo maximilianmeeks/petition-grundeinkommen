@@ -51,10 +51,29 @@ export default props => (
           </div>
           <div className="nav-link nav-icon">
             <a
+              target="_blank"
               href="https://www.facebook.com/MenschInGermany"
               className="custom-anchor"
             >
               <FontAwesomeIcon icon={["fab", "facebook"]} size="2x" />
+            </a>
+          </div>
+          <div className="nav-link nav-icon">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/mensch_in_germany"
+              className="custom-anchor"
+            >
+              <FontAwesomeIcon icon={["fab", "instagram"]} size="2x" />
+            </a>
+          </div>
+          <div className="nav-link nav-icon">
+            <a
+              target="_blank"
+              href="https://twitter.com/InMensch"
+              className="custom-anchor"
+            >
+              <FontAwesomeIcon icon={["fab", "twitter"]} size="2x" />
             </a>
           </div>
         </Nav>

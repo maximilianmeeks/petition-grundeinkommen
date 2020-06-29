@@ -21,28 +21,43 @@ const WarumGrundeinkommen = () => (
     <div className="container">
       <Header url="/grundeinkommen-konkret" />
       <div className="row mb-3 mt-lg-3 pt-md-5">
-        <div className="col-lg-6 font-weight-bold">
-          <p>
-            Das bedingungslose Grundeinkommen ist ein Einkommen für alle
-            Menschen,
-          </p>
-          <ul>
-            <li>
-              das Existenz sichernd ist und gesellschaftliche Teilhabe
-              ermöglicht,
-            </li>
-            <li>auf das ein individueller Rechtsanspruch besteht</li>
-            <li>das ohne Bedürftigkeitsprüfung und</li>
-            <li>ohne Zwang zu Arbeit oder anderen Gegenleistungen</li>
-          </ul>
-          <p>garantiert wird.</p>
-        </div>
         <div className="col-lg-6">
+          <strong>
+            <p>
+              Das bedingungslose Grundeinkommen ist ein Einkommen für alle
+              Menschen,
+            </p>
+            <ul>
+              <li>
+                das Existenz sichernd ist und gesellschaftliche Teilhabe
+                ermöglicht,
+              </li>
+              <li>auf das ein individueller Rechtsanspruch besteht</li>
+              <li>das ohne Bedürftigkeitsprüfung und</li>
+              <li>ohne Zwang zu Arbeit oder anderen Gegenleistungen</li>
+            </ul>
+            <p>garantiert wird.</p>
+          </strong>
           <p>
             Das Grundeinkommen soll dazu beitragen, Armut und soziale Notlagen
             zu beseitigen, den individuellen Freiheitsspielraum zu vergrößern
             sowie die Entwicklungschancen jedes Einzelnen und die soziale und
             kulturelle Situation im Gemeinwesen nachhaltig zu verbessern.
+          </p>
+        </div>
+        <div className="col-lg-6">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/HdwbNECDqJE"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <p>
+            Prof. Bernhard Neumärker stellt sein Modell eines
+            Netto-Grundeinkommens vor, das in der Krise eingeführt und danach zu
+            einem vollen bedingungslosen Grundeinkommen ausgebaut werden kann.
           </p>
         </div>
       </div>

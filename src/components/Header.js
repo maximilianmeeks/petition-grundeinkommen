@@ -16,7 +16,7 @@ const renderSwitch = url => {
       return <HeadlineIndex />
     case "was-geht":
       return (
-        <div className="ml-3 mt-md-3">
+        <div className="ml-3 mt-md-3 w-50">
           <HeadlineWasGeht />
         </div>
       )
