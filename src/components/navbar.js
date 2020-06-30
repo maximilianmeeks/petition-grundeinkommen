@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../scss/_variables.scss"
 
 export default props => (
-  <Navbar className="bg-primary text-uppercase" expand="lg">
+  <Navbar className="bg-primary text-uppercase" expand="xl">
     <div className="container">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -49,32 +49,43 @@ export default props => (
               #GrundeinkommenJETZT
             </Link>
           </div>
-          <div className="nav-link nav-icon">
-            <a
-              target="_blank"
-              href="https://www.facebook.com/MenschInGermany"
-              className="custom-anchor"
-            >
-              <FontAwesomeIcon icon={["fab", "facebook"]} size="2x" />
-            </a>
-          </div>
-          <div className="nav-link nav-icon">
-            <a
-              target="_blank"
-              href="https://www.instagram.com/mensch_in_germany"
-              className="custom-anchor"
-            >
-              <FontAwesomeIcon icon={["fab", "instagram"]} size="2x" />
-            </a>
-          </div>
-          <div className="nav-link nav-icon">
-            <a
-              target="_blank"
-              href="https://twitter.com/InMensch"
-              className="custom-anchor"
-            >
-              <FontAwesomeIcon icon={["fab", "twitter"]} size="2x" />
-            </a>
+          <div className="row pl-3">
+            <div className="nav-link nav-icon">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/MenschInGermany"
+                className="custom-anchor"
+              >
+                <FontAwesomeIcon icon={["fab", "facebook"]} size="2x" />
+              </a>
+            </div>
+            <div className="nav-link nav-icon">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/mensch_in_germany"
+                className="custom-anchor"
+              >
+                <FontAwesomeIcon icon={["fab", "instagram"]} size="2x" />
+              </a>
+            </div>
+            <div className="nav-link nav-icon">
+              <a
+                target="_blank"
+                href="https://twitter.com/InMensch"
+                className="custom-anchor"
+              >
+                <FontAwesomeIcon icon={["fab", "twitter"]} size="2x" />
+              </a>
+            </div>
+            <div className="nav-link nav-icon">
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/UC5i7oVQWuutVxpCIwuEDESQ"
+                className="custom-anchor"
+              >
+                <FontAwesomeIcon icon={["fab", "youtube"]} size="2x" />
+              </a>
+            </div>
           </div>
         </Nav>
       </Navbar.Collapse>
