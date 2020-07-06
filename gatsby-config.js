@@ -55,5 +55,32 @@ module.exports = {
         version: "v2.7",
       },
     },
+    {
+      resolve: "gatsby-plugin-htaccess",
+      options: {
+        https: true,
+        www: false,
+        SymLinksIfOwnerMatch: true,
+        host: "mensch-in-germany.org", // if 'www' is set to 'false', be sure to also remove it here!
+        ErrorDocument: `
+          ErrorDocument 404 /404/index.html
+        `,
+        redirect: [
+          "RewriteRule ^not-existing-url/?$ /existing-url [R=301,L,NE]",
+          {
+            from: "mensch-in-germany.org/wie-unterstuetzen",
+            to: "mensch-in-germany.org/was-geht",
+          },
+          {
+            from: "mensch-in-germany.org/werde-botschafter",
+            to: "mensch-in-germany.org/was-geht",
+          },
+          {
+            from: "mensch-in-germany.org/warumg-grundeinkommen",
+            to: "mensch-in-germany.org/grundeinkommen-konkret",
+          },
+        ],
+      },
+    },
   ],
 }

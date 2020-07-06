@@ -25,8 +25,13 @@ const IndexPage = () => (
           zurück? Teile den Film und setze dich für mehr Gerechtigkeit ein.
           Damit bald jeder Mensch in Germany ein Grundeinkommen hat. Posten
           heißt Stimme erheben - zusammen sind wir mehr! TEILEN UND GEWINNEN:
-          Werde auch du Botschafter und damit ein Teil von 'Mensch in Germany'.
-          Schicke einfach ein Foto und ein Zitat an{" "}
+          Werde auch du{" "}
+          <Link to="/wir-sind-viele" className="custom-anchor font-weight-bold">
+            {" "}
+            Botschafter{" "}
+          </Link>
+          und damit ein Teil von 'Mensch in Germany'. Schicke einfach ein Foto
+          und ein Zitat an{" "}
           <a
             href="mailto:botschafterIn@mensch-in-germany.org"
             className="custom-anchor font-weight-bold"
@@ -77,27 +82,19 @@ const IndexPage = () => (
               {" "}
               Online-Petition{" "}
             </a>{" "}
-            an den deutschen Bundestag vom 14.3.2020 die größte aller Zeiten
-            wurde und wir mit einem starken
-            <a
-              href="https://grundeinkommenjetzt.de/"
-              target="_blank"
-              className="custom-anchor font-weight-bold"
-            >
-              {" "}
-              Kampagnenbündnis{" "}
-            </a>{" "}
-            alles versucht haben, damit die Bundestagsverwaltung den
-            Anhörungstermin{" "}
+            an den deutschen Bundestag für ein Bedingungsloses Grundeinkommen
+            für alle in der aktuellen Krisensituation die größte aller Zeiten
+            wurde und wir sehr auf eine{" "}
             <a
               href="https://www.susannewiest.de/schnelle-anhoerung-tausche-oktober-gegen-juni/"
               target="_blank"
               className="custom-anchor font-weight-bold"
             >
-              {" "}
-              von Oktober auf Juni vorzieht
-            </a>
-            , erweitern wir jetzt unseren Maßnahmenkatalog: Die{" "}
+              zeitnahe Anhörung gedrängt
+            </a>{" "}
+            haben, steht nun der Termin: Öffentliche Beratung im
+            Petitionsausschuss des Deutschen Bundestages am 26.10.2020. Bis
+            dahin haben wir viel vor: Die{" "}
             <a
               href="https://www.schippercompany.com/agentur/mensch-magazin/"
               target="_blank"

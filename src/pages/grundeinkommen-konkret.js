@@ -109,7 +109,7 @@ function WarumGrundeinkommen() {
               </div>
               <div className="mt-3">
                 <a
-                  href="/NGE-Paper Neumärker FRIBIS_def.pdf"
+                  href="/NGE-Paper_Neumaerker_FRIBIS_def.pdf"
                   download
                   className="custom-anchor font-weight-bold"
                 >
