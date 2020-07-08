@@ -50,7 +50,7 @@ export default props => (
             </Link>
           </div>
           <div className="row pl-3">
-            <div className="nav-link nav-icon">
+            <div className="nav-link nav-icon px-2">
               <a
                 target="_blank"
                 href="https://www.facebook.com/MenschInGermany"
@@ -59,7 +59,7 @@ export default props => (
                 <FontAwesomeIcon icon={["fab", "facebook"]} size="2x" />
               </a>
             </div>
-            <div className="nav-link nav-icon">
+            <div className="nav-link nav-icon px-2">
               <a
                 target="_blank"
                 href="https://www.instagram.com/mensch_in_germany"
@@ -68,7 +68,7 @@ export default props => (
                 <FontAwesomeIcon icon={["fab", "instagram"]} size="2x" />
               </a>
             </div>
-            <div className="nav-link nav-icon">
+            <div className="nav-link nav-icon px-2">
               <a
                 target="_blank"
                 href="https://twitter.com/InMensch"
@@ -77,7 +77,7 @@ export default props => (
                 <FontAwesomeIcon icon={["fab", "twitter"]} size="2x" />
               </a>
             </div>
-            <div className="nav-link nav-icon">
+            <div className="nav-link nav-icon px-2">
               <a
                 target="_blank"
                 href="https://www.youtube.com/channel/UC5i7oVQWuutVxpCIwuEDESQ"
