@@ -54,7 +54,7 @@ function SEO({ description, lang, meta, title, imgFb, slug }) {
         },
         {
           property: `og:image`,
-          content: imgFb,
+          content: `https://www.mensch-in-germany.org${imgFb}`,
         },
         {
           property: `url`,
@@ -74,7 +74,7 @@ function SEO({ description, lang, meta, title, imgFb, slug }) {
         },
         {
           property: `twitter:image`,
-          content: `https://www.mensch-in-germany.org/BGE_post_twitter_1200x675_4.jpg`,
+          content: `https://www.mensch-in-germany.org${imgFb}`,
         },
         {
           name: `twitter:image:alt`,

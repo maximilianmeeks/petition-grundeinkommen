@@ -84,7 +84,8 @@ function About() {
     <Layout>
       <SEO
         title="Wer wir sind"
-        imgFb="/BGE_post_facebook_1200x627_3.jpg"
+        description="Wir wollen ein gutes Leben für alle und freuen uns über viele Unterstützer*Innen! Uschi Bauer, Anna-Sophie Brüning, Leonie Schraven, Beatrice Werner, Susanne Wiest"
+        imgFb="/2020_0005_Susanne.png"
         slug="/wer-wir-sind"
       />
       <MyVerticallyCenteredModal

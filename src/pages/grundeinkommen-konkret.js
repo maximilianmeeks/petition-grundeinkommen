@@ -48,7 +48,8 @@ function WarumGrundeinkommen() {
     <Layout>
       <SEO
         title="Grundeinkommen Konkret"
-        imgFb="/BGE_post_facebook_1200x627_1.jpg"
+        imgFb="/Teaser_Grundeinkommen_Konkret_schwarz.jpg"
+        description="Das Grundeinkommen soll dazu beitragen, Armut und soziale Notlagen zu beseitigen, den individuellen Freiheitsspielraum zu vergrößern sowie die Entwicklungschancen jedes Einzelnen und die soziale und kulturelle Situation im Gemeinwesen nachhaltig zu verbessern."
         slug="/grundeinkommen-konkret"
       />
       <div className="container">

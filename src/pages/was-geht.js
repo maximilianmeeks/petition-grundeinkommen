@@ -28,7 +28,8 @@ function WerdeBotschafter() {
     <Layout>
       <SEO
         title="Was Geht"
-        imgFb="/BGE_post_facebook_1200x627_5.jpg"
+        imgFb="/Teaser_Was_Geht_schwarz.JPG"
+        description="Hier findet ihr spannende Tools, um die Grundeinkommensidee immer mehr Menschen nahezubringen. Teilt den Imagefilm auf euren Kanälen, verbreitet die Kurzfilme zu den BGE-Modellen bzw. die Statements zu spezifischen Themenfeldern und diskutiert mit Familie und Freunden darüber."
         slug="was-geht"
       />
       <div className="container">
@@ -95,14 +96,13 @@ function WerdeBotschafter() {
               Grundeinkommen zu werden.
             </p>
             <p>
-              Wir haben schon viele
+              Wir haben schon viele{" "}
               <Link
                 to="wir-sind-viele"
                 className="custom-anchor font-weight-bold"
               >
-                {" "}
-                Botschafter*innen{" "}
-              </Link>
+                Botschafter*innen
+              </Link>{" "}
               gewinnen können, wir wollen mehr erreichen. Du hilfst uns und der
               Idee voranzukommen, indem Du auf Deinen Social Media Kanälen
               unsere Posts teilst. Die stehen hier frei zum Download zur
@@ -128,9 +128,9 @@ function WerdeBotschafter() {
                     target="_blank"
                     href="https://www.facebook.com/profilepicframes/?selected_overlay_id=271818057413576"
                   >
-                    Facebook Bilderrahmen!
-                  </a>{" "}
-                  Klicke dazu entweder rechts in den Kreis oder{" "}
+                    Facebook Bilderrahmen
+                  </a>
+                  ! Klicke dazu entweder rechts in den Kreis oder{" "}
                   <a
                     className="custom-anchor font-weight-bold"
                     target="_blank"

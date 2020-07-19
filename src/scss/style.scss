@@ -17,6 +17,7 @@ body {
 }
 
 .nav-link a {
+  text-decoration: none;
   height: 50px;
   line-height: 35px;
 }
@@ -161,12 +162,11 @@ body {
 }
 
 .custom-anchor {
-  text-decoration: none;
+  text-decoration: underline;
   color: $dark !important;
 
   &:hover {
     color: $light !important;
-    text-decoration: none;
   }
 }
 

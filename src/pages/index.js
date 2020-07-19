@@ -27,9 +27,8 @@ const IndexPage = () => (
           heißt Stimme erheben - zusammen sind wir mehr! TEILEN UND GEWINNEN:
           Werde auch du{" "}
           <Link to="/wir-sind-viele" className="custom-anchor font-weight-bold">
-            {" "}
-            Botschafter{" "}
-          </Link>
+            Botschafter
+          </Link>{" "}
           und damit ein Teil von 'Mensch in Germany'. Schicke einfach ein Foto
           und ein Zitat an{" "}
           <a
@@ -49,9 +48,9 @@ const IndexPage = () => (
             width="100%"
             height="315"
             src="https://www.youtube.com/embed/HdwbNECDqJE"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </div>
@@ -79,8 +78,7 @@ const IndexPage = () => (
               target="_blank"
               className="custom-anchor font-weight-bold"
             >
-              {" "}
-              Online-Petition{" "}
+              Online-Petition
             </a>{" "}
             an den deutschen Bundestag für ein Bedingungsloses Grundeinkommen
             für alle in der aktuellen Krisensituation die größte aller Zeiten
@@ -103,29 +101,26 @@ const IndexPage = () => (
               Schipper Company
             </a>{" "}
             hat, ebenfalls aus Begeisterung für dieses wichtige Thema, einen
-            Imagefilm kreiert, der zum
+            Imagefilm kreiert, der zum{" "}
             <Link to="/was-geht" className="custom-anchor font-weight-bold">
-              {" "}
-              gemeinsamen Handeln{" "}
-            </Link>
+              gemeinsamen Handeln
+            </Link>{" "}
             animiert – teilt ihn breit in den sozialen Medien, sodass immer mehr
             Menschen von dieser guten Idee erfahren und sorgt für mächtig viele
-            Likes, unterzeichnet die
+            Likes, unterzeichnet die{" "}
             <Link
               to="/grundeinkommen-jetzt"
               className="custom-anchor font-weight-bold"
             >
-              {" "}
-              Petition offline{" "}
-            </Link>
-            weiterhin mit und diskutiert die
+              Petition offline
+            </Link>{" "}
+            weiterhin mit und diskutiert die{" "}
             <Link
               to="/grundeinkommen-konkret"
               className="custom-anchor font-weight-bold"
             >
-              {" "}
-              konkreten Modelle{" "}
-            </Link>
+              konkreten Modelle
+            </Link>{" "}
             , die wir dem Petitionsausschuss vorstellen werden. Außerdem laden
             wir vor der Anhörung im Oktober im Bundestag zur ‚Zuhörung‘ ein, in
             der Fragen zu den einzelnen Modellen gestellt und beantwortet werden

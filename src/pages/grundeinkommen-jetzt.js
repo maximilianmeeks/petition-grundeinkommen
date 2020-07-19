@@ -88,8 +88,9 @@ function GrundeinkommenJetzt() {
     <Layout>
       <SEO
         title="#GrundeinkommenJETZT"
-        imgFb="/BGE_post_facebook_1200x627_7.jpg"
-        slug="was-geht"
+        description="Super, dass wir die Bundestagspetition auch offline immer noch weiter wachsen lassen können bis zur Anhörung am 26.10.2020. Einfach Karte oder Unterschriften-Liste herunterladen, ausdrucken, Name(n) und Adresse(n) eintragen, unterschreiben, in einen Briefumschlag stecken und ab die Post."
+        imgFb="/Preview_BGE_Unterschrift.png"
+        slug="grundeinkommen-jetzt"
       />
       <Container>
         <Header url="/grundeinkommen-jetzt" />
@@ -97,14 +98,13 @@ function GrundeinkommenJetzt() {
           <div className="col-lg-8">
             <div className="mb-5 mb-md-n5">
               <p>
-                Super, dass wir die
+                Super, dass wir die{" "}
                 <a
                   href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
                   className="custom-anchor font-weight-bold"
                 >
-                  {" "}
-                  Bundestagspetition{" "}
-                </a>
+                  Bundestagspetition
+                </a>{" "}
                 auch offline immer noch weiter wachsen lassen können. Einfach
                 Karte oder Unterschriften-Liste herunterladen, ausdrucken,
                 Name(n) und Adresse(n) eintragen, unterschreiben, in einen
@@ -174,13 +174,12 @@ function GrundeinkommenJetzt() {
                 Das Grundeinkommen ist die politische Idee der Stunde – es muss
                 nur noch ankommen im Bundestag. Schnell. Direkt. Unbürokratisch.
                 Deshalb haben sich alle Petent*innen verbündet und diesen
-                Offenen Brief formuliert – unterstützt von einem
+                Offenen Brief formuliert – unterstützt von einem{" "}
                 <a
                   className="custom-anchor font-weight-bold"
                   href="https://www.mein-grundeinkommen.de/infos/offener-brief"
                   target="_blank"
                 >
-                  {" "}
                   breiten Bündnis aus der Zivilgesellschaft
                 </a>
                 . Wir sind viele und werden immer mehr - eine{" "}
@@ -227,30 +226,27 @@ function GrundeinkommenJetzt() {
                   href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
                   target="_blank"
                 >
-                  {" "}
-                  Petition 108191{" "}
-                </a>
+                  Petition 108191
+                </a>{" "}
                 ein existenzsicherndes Grundeinkommen für die Dauer der
                 Coronakrise. Damit wird diese Petition von mehr Menschen
                 unterstützt als jede andere Online-Petition an den Deutschen
                 Bundestag zuvor.
               </p>
               <p>
-                In dieser und
+                In dieser und{" "}
                 <a
                   target="_blank"
                   href="https://www.change.org/p/finanzminister-olaf-scholz-und-wirtschaftsminister-peter-altmaier-mit-dem-bedingungslosen-grundeinkommen-durch-die-coronakrise-coronavirusde-olafscholz-peteraltmaier-bmas-bund-hubertus-heil"
                 >
-                  {" "}
-                  zwei{" "}
-                </a>
+                  zwei
+                </a>{" "}
                 <a
                   target="_blank"
                   href="https://www.openpetition.de/petition/online/hilfen-fuer-freiberufler-und-kuenstler-waehrend-des-corona-shutdowns-2"
                 >
-                  {" "}
-                  weiteren{" "}
-                </a>
+                  weiteren
+                </a>{" "}
                 Petitionen, die wir unabhängig voneinander angestoßen haben,
                 sprechen sich bis heute insgesamt mehr als 785.000
                 Unterzeichnende für ein befristetes Krisen-Grundeinkommen aus.
@@ -304,8 +300,7 @@ function GrundeinkommenJetzt() {
               <span>
                 Tonia Merz (Petentin auf change.org:{" "}
                 <a href="http://www.change.org/grundeinkommen" target="_blank">
-                  {" "}
-                  change.org/grundeinkommen{" "}
+                  change.org/grundeinkommen
                 </a>
                 )
               </span>
@@ -316,8 +311,7 @@ function GrundeinkommenJetzt() {
                   href="http://www.openpetition.de/!coronahilfe"
                   target="_blank"
                 >
-                  {" "}
-                  openpetition.de/!coronahilfe{" "}
+                  openpetition.de/!coronahilfe
                 </a>
                 )
               </span>
@@ -328,7 +322,6 @@ function GrundeinkommenJetzt() {
                   href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
                   target="_blank"
                 >
-                  {" "}
                   Bundestagsleitpetition 108191
                 </a>
                 )
