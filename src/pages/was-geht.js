@@ -93,7 +93,7 @@ function WerdeBotschafter() {
           <div className="col-lg-6">
             <p className="font-weight-bold">
               Unterstütze uns dabei, die größte Petition zum Thema
-              Grundeinkommen zu werden.
+              Grundeinkommen - on- & offline - zu werden.
             </p>
             <p>
               Wir haben schon viele{" "}

@@ -20,8 +20,16 @@ function WarumGrundeinkommen() {
           }
         }
       }
+      modelSpermann: file(relativePath: { eq: "grundeinkommen_spermann.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
     }
   `)
+
   const [modalShow, setModalShow] = useState(false)
   const [modalData, setModalData] = useState(null)
 
@@ -76,6 +84,8 @@ function WarumGrundeinkommen() {
               </ul>
               <p>garantiert wird.</p>
             </strong>
+          </div>
+          <div className="col-lg-6">
             <p>
               Das Grundeinkommen soll dazu beitragen, Armut und soziale Notlagen
               zu beseitigen, den individuellen Freiheitsspielraum zu vergrößern
@@ -83,6 +93,19 @@ function WarumGrundeinkommen() {
               kulturelle Situation im Gemeinwesen nachhaltig zu verbessern.
             </p>
           </div>
+        </div>
+        <div className="row mb-3 mt-lg-3">
+          <div className="col-lg-8 offset-lg-2">
+            <p>
+              Hier stellen wir verschiedene wissenschaftliche Modelle zur
+              Einführung eines Grundeinkommens in der Krise zur Diskussion,
+              deren Inhalt wir nicht unbedingt teilen. Im September bei der
+              sogenannten Zuhörung besteht die Möglichkeit zum Austausch mit den
+              Wissenschaftlern. Stay tuned!
+            </p>
+          </div>
+        </div>
+        <div className="row mb-4">
           <div className="col-lg-6">
             <iframe
               width="100%"
@@ -98,7 +121,9 @@ function WarumGrundeinkommen() {
               zu einem vollen Bedingungslosen Grundeinkommen ausgebaut werden
               kann. (ca. 5 Minuten)
             </p>
-            <div className="my-4">
+          </div>
+          <div className="col-lg-6">
+            <div className="mb-4">
               <div
                 onClick={() => clickHandler(true, data.modelNeumaerker)}
                 className="signature-list-crop cursor-pointer"
@@ -115,6 +140,48 @@ function WarumGrundeinkommen() {
                   className="custom-anchor font-weight-bold"
                 >
                   Paper herunterladen (89 kB)
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row mb-4">
+          <div className="col-lg-6">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/3Samj6szLIs"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p>
+              Prof. Alexander Spermann stellt sein Modell eines Basisgelds mit
+              Steuergutschrift vor, das neben der automatischen Auszahlung des
+              Regelsatzes der Grundsicherung eine Neuberechnung der
+              Lohnsteuertabellen vorsieht und als Steuergutschrift einen
+              Zuschuss gewährt, der ein Einkommen in Höhe der
+              Armutsrisikoschwelle (60 % des Medianeinkommens) sicherstellt.
+            </p>
+          </div>
+          <div className="col-lg-6">
+            <div className="mb-4">
+              <div
+                onClick={() => clickHandler(true, data.modelSpermann)}
+                className="signature-list-crop cursor-pointer"
+              >
+                <Img
+                  fluid={data.modelSpermann.childImageSharp.fluid}
+                  alt="Paper Modell Spermann"
+                />
+              </div>
+              <div className="mt-3">
+                <a
+                  href="/Zuhoerung_Basisgeld_Spermann_15-7-2020.pdf"
+                  download
+                  className="custom-anchor font-weight-bold"
+                >
+                  Paper herunterladen (356 kB)
                 </a>
               </div>
             </div>

@@ -21,7 +21,8 @@ const Datenschutz = () => (
         <div>
           <p>
             Verantwortlich im Sinne der Datenschutzgesetze, insbesondere der
-            EU-Datenschutzgrundverordnung (DSGVO), ist: Lysistratax e.V.
+            EU-Datenschutzgrundverordnung (DSGVO), sind: Anna-Sophie Brüning,
+            Beatrice Werner, Leonie Schraven, Susanne Wiest und Uschi Bauer.
           </p>
           <h2>Ihre Betroffenenrechte</h2>
           <p>
@@ -151,9 +152,7 @@ const Datenschutz = () => (
           <h2>Fragen an den Datenschutzbeauftragten</h2>
           <p>
             Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine
-            E-Mail oder wenden Sie sich direkt an die für den Datenschutz
-            verantwortliche Person in unserer Organisation:
-            datenschutz@bytestyle.com
+            E-Mail.
           </p>
         </div>
       </div>
