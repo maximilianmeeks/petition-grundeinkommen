@@ -8,7 +8,8 @@ import SEO from "../components/seo"
 
 import Header from "../components/Header"
 import ImageMenu from "../components/ImageMenu"
-import Countdown from "../components/Countdown"
+
+import ZuhoerungEvent from "../components/images/ZuhoerungEvent"
 
 const IndexPage = () => (
   <Layout ImageMenu="true">
@@ -20,114 +21,127 @@ const IndexPage = () => (
     <div className="container">
       <Header />
       <div className="row mt-md-5">
-        <div className="col-md-8 mx-auto">
-          Wir alle in Deutschland tragen den Staat - aber gibt er uns auch genug
-          zurück? Teile den Film und setze dich für mehr Gerechtigkeit ein.
-          Damit bald jeder Mensch in Germany ein Grundeinkommen hat. Posten
-          heißt Stimme erheben - zusammen sind wir mehr! TEILEN UND GEWINNEN:
-          Werde auch du{" "}
-          <Link to="/wir-sind-viele" className="custom-anchor font-weight-bold">
-            Botschafter
-          </Link>{" "}
-          und damit ein Teil von 'Mensch in Germany'. Schicke einfach ein Foto
-          und ein Zitat an{" "}
+        <div className="col-md-10 mx-auto">
+          <strong>#GrundeinkommenKonkret</strong> – das Thema ist in aller
+          Munde: Rund{" "}
           <a
-            href="mailto:botschafterIn@mensch-in-germany.org"
+            href="https://grundeinkommenjetzt.de/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="custom-anchor font-weight-bold"
           >
-            botschafterIn@mensch-in-germany.org
+            1 Million Menschen
           </a>{" "}
-          - als Dank für deine Unterstützung nimmst du an einer Verlosung von
-          interessanten Büchern zum Bedingungslosen Grundeinkommen teil, u.a.
-          von Götz Werner, Gründer von dm-drogerie markt.
+          haben verschiedene Petitionen zum Grundeinkommen unterschrieben,{" "}
+          <a
+            href="https://www.mein-grundeinkommen.de/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="custom-anchor font-weight-bold"
+          >
+            Mein Grundeinkommen
+          </a>{" "}
+          lanciert mit fulminanter Resonanz das{" "}
+          <a
+            href="https://www.pilotprojekt-grundeinkommen.de/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="custom-anchor font-weight-bold"
+          >
+            Pilotprojekt Grundeinkommen
+          </a>
+          ,{" "}
+          <a
+            href="https://expedition-grundeinkommen.de/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="custom-anchor font-weight-bold"
+          >
+            Expedition Grundeinkommen
+          </a>{" "}
+          startet in ganz Deutschland Volksabstimmungen zum BGE und wir stellen
+          die{" "}
+          <Link
+            to="/grundeinkommen-konkret"
+            className="custom-anchor font-weight-bold"
+          >
+            wissenschaftlichen Modelle
+          </Link>{" "}
+          zur Einführung zur Diskussion - temporär in der Corona-Krise,
+          permanent & bedingungslos danach. Die PolitikerInnen brauchen nur noch
+          zuhören, um sich in die Materie vertiefen zu können.
         </div>
       </div>
       <div className="row mt-3 mt-md-5">
-        <div className="col-md-8 mx-auto">
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/HdwbNECDqJE"
-            frameBorder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+        <div className="col-md-8 mx-auto my-5 my-md-0">
+          <ZuhoerungEvent />
         </div>
       </div>
       <div className="row mb-3 mt-lg-3 pt-md-5">
-        <div className="col-lg-6">
-          <p>
-            <strong>Veränderung liegt in der Luft:</strong> Die Corona-Krise
-            zeigt, wie wesentlich die finanzielle Absicherung unseres Lebens
-            ist. Immer mehr gesellschaftliche Gruppierungen fordern
-            Unterstützung, die Bundesregierung schnürt ein Hilfspaket nach dem
-            anderen und dennoch fallen viele Menschen durch’s Raster. Angst
-            macht sich breit.
-          </p>
-          <p>
-            Es ist Zeit für einen großen Wurf: Wir wollen mit der Einführung
-            eines Grundeinkommens in der Krise einen Boden einziehen, der alle
-            trägt. Zunächst temporär, danach permanent und bedingungslos.
-          </p>
-        </div>
-        <div className="col-lg-6">
-          <p>
-            Nachdem unsere{" "}
+        <div className="col-md-10 mx-auto mb-5">
+          <strong>
+            Deshalb laden wir am{" "}
             <a
-              href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
+              href="https://www.facebook.com/events/768403120398310"
               target="_blank"
+              rel="noopener noreferrer"
               className="custom-anchor font-weight-bold"
             >
-              Online-Petition
+              15. September
             </a>{" "}
-            an den deutschen Bundestag für ein Bedingungsloses Grundeinkommen
-            für alle in der aktuellen Krisensituation die größte aller Zeiten
-            wurde und wir sehr auf eine{" "}
+            und{" "}
             <a
-              href="https://www.susannewiest.de/schnelle-anhoerung-tausche-oktober-gegen-juni/"
+              href="https://www.facebook.com/events/762339227666034"
               target="_blank"
+              rel="noopener noreferrer"
               className="custom-anchor font-weight-bold"
             >
-              zeitnahe Anhörung gedrängt
+              17. September
             </a>{" "}
-            haben, steht nun der Termin: Öffentliche Beratung im
-            Petitionsausschuss des Deutschen Bundestages am 26.10.2020. Bis
-            dahin haben wir viel vor: Die{" "}
-            <a
-              href="https://www.schippercompany.com/agentur/mensch-magazin/"
-              target="_blank"
-              className="custom-anchor font-weight-bold"
-            >
-              Schipper Company
-            </a>{" "}
-            hat, ebenfalls aus Begeisterung für dieses wichtige Thema, einen
-            Imagefilm kreiert, der zum{" "}
-            <Link to="/was-geht" className="custom-anchor font-weight-bold">
-              gemeinsamen Handeln
-            </Link>{" "}
-            animiert – teilt ihn breit in den sozialen Medien, sodass immer mehr
-            Menschen von dieser guten Idee erfahren und sorgt für mächtig viele
-            Likes, unterzeichnet die{" "}
-            <Link
-              to="/grundeinkommen-jetzt"
-              className="custom-anchor font-weight-bold"
-            >
-              Petition offline
-            </Link>{" "}
-            weiterhin mit und diskutiert die{" "}
-            <Link
-              to="/grundeinkommen-konkret"
-              className="custom-anchor font-weight-bold"
-            >
-              konkreten Modelle
-            </Link>{" "}
-            , die wir dem Petitionsausschuss vorstellen werden. Außerdem laden
-            wir vor der Anhörung im Oktober im Bundestag zur ‚Zuhörung‘ ein, in
-            der Fragen zu den einzelnen Modellen gestellt und beantwortet werden
-            können. Den genauen Termin, voraussichtlich in der ersten
-            Septemberhälfte, geben wir rechtzeitig hier bekannt. Klar ist: Wir
-            lassen nicht locker!
-          </p>
+            jeweils um 10 Uhr auch zur Zuhörung ein:
+          </strong>{" "}
+          Die Professoren Bernhard Neumärker, Alexander Spermann, Friedrich
+          Schneider & Sascha Liebermann stellen sich auf{" "}
+          <a
+            href="https://www.youtube.com/channel/UC5i7oVQWuutVxpCIwuEDESQ"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="custom-anchor font-weight-bold"
+          >
+            YouTube Live
+          </a>{" "}
+          den Fragen der PolitikerInnen & der interessierten Öffentlichkeit.
+          Danach spannen wir jeden Dienstag mit neuen GesprächspartnerInnen den
+          Bogen zur{" "}
+          <a
+            href="https://www.susannewiest.de/anhoerung-im-bundestag-am-26-10-20"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="custom-anchor font-weight-bold"
+          >
+            Anhörung am 26. Oktober
+          </a>
+          , wo im Petitionsausschuss die{" "}
+          <a
+            href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="custom-anchor font-weight-bold"
+          >
+            erfolgreichste Online-Petition aller Zeiten
+          </a>{" "}
+          an den Bundestag zur Einführung eines Bedingungslosen Grundeinkommens
+          verhandelt wird – unterstützt vom{" "}
+          <a
+            href="https://www.omnibus.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="custom-anchor font-weight-bold"
+          >
+            OMNIBUS für Direkte Demokratie
+          </a>
+          , der uns den ganzen Tag vor Ort begleiten wird. Von uns allen für uns
+          alle - #läuft!
         </div>
       </div>
       <div className="row">
@@ -147,6 +161,7 @@ const IndexPage = () => (
                 <a
                   href="https://www.youtube.com/watch?v=HdwbNECDqJE"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <Button variant="dark" className="btn btn-md-lg">
                     {" "}

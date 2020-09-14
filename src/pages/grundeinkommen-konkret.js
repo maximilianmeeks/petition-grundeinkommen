@@ -187,6 +187,95 @@ function WarumGrundeinkommen() {
             </div>
           </div>
         </div>
+        <div className="row mb-4">
+          <div className="col-lg-6">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/f-_zzXm4cZM"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p>
+              Der emeritierte Univ.-Prof. Dr. Dr.h.c.mult. Friedrich Schneider
+              der Abteilung für Wirtschaftspolitik war zwei Mal in Folge
+              einflussreichster Ökonom in Österreich laut dem Ökonomen-Ranking
+              der ‚Presse‘ und ist seit Juni 2013 Vorsitzender des Academic
+              Advisory Boards der Zeppelin Universität in Friedrichshafen. Hier
+              stellt er sein Modell eines Grundeinkommens vor.
+            </p>
+          </div>
+          <div className="col-lg-6">
+            {/*             <div className="mb-4">
+              <div
+                onClick={() => clickHandler(true, data.modelSpermann)}
+                className="signature-list-crop cursor-pointer"
+              >
+                <Img
+                  fluid={data.modelSpermann.childImageSharp.fluid}
+                  alt="Paper Modell Spermann"
+                />
+              </div>
+              <div className="mt-3">
+                <a
+                  href="/Zuhoerung_Basisgeld_Spermann_15-7-2020.pdf"
+                  download
+                  className="custom-anchor font-weight-bold"
+                >
+                  Paper herunterladen (356 kB)
+                </a>
+              </div>
+            </div> */}
+          </div>
+        </div>
+        <div className="row mb-4">
+          <div className="col-lg-6">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/8NwL5upRW5E"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p>
+              Prof. Dr. Sascha Liebermann ist Professor für Soziologie am
+              Institut für philosophische und ästhetische Bildung, Fachbereich
+              Bildungswissenschaft, an der Alanus Hochschule für Kunst und
+              Gesellschaft in Alfter bei Bonn. Außerdem Consultant Editor der
+              Basic Income Studies, De Gruyter, Mitbegründer und Vorstand (bis
+              2007) des Institut für hermeneutische Sozial- und Kulturforschung
+              e.V. in Frankfurt am Main sowie Mitbegründer und aktives Mitglied
+              der Initiative Freiheit statt Vollbeschäftigung. Hier spricht er
+              über den Widerspruch zwischen heutigem Sozialstaat und Demokratie
+              und die Korrespondenz des Grundeinkommens mit der grundlegenden
+              Annahme der Autonomie.
+            </p>
+          </div>
+          <div className="col-lg-6">
+            {/*             <div className="mb-4">
+              <div
+                onClick={() => clickHandler(true, data.modelSpermann)}
+                className="signature-list-crop cursor-pointer"
+              >
+                <Img
+                  fluid={data.modelSpermann.childImageSharp.fluid}
+                  alt="Paper Modell Spermann"
+                />
+              </div>
+              <div className="mt-3">
+                <a
+                  href="/Zuhoerung_Basisgeld_Spermann_15-7-2020.pdf"
+                  download
+                  className="custom-anchor font-weight-bold"
+                >
+                  Paper herunterladen (356 kB)
+                </a>
+              </div>
+            </div> */}
+          </div>
+        </div>
       </div>
       <ImageMenu />
     </Layout>
