@@ -9,139 +9,118 @@ import SEO from "../components/seo"
 import Header from "../components/Header"
 import ImageMenu from "../components/ImageMenu"
 
-import ZuhoerungEvent from "../components/images/ZuhoerungEvent"
+import CountdownMemes from "../components/CountdownMemes"
 
 const IndexPage = () => (
   <Layout ImageMenu="true">
     <SEO
       title="Die Zeit ist reif für's Grundeinkommen."
-      description="Der Film zum Grundeinkommen ist da - teile ihn und hole so noch mehr UnterstützerInnen an Bord. Zusammen können wir es schaffen, zusammen sind wir mehr!"
+      description="Grundeinkommen im Bundestag: Die Anhörung im Petitionsausschuss läuft am 26.10.2020 – jede Stimme zählt, unterschreib die Petition noch in Papierform!"
       imgFb="/BGE_post_facebook_1200x627_4.jpg"
     />
     <div className="container">
       <Header />
       <div className="row mt-md-5">
-        <div className="col-md-10 mx-auto">
-          <strong>#GrundeinkommenKonkret</strong> – das Thema ist in aller
-          Munde: Rund{" "}
-          <a
-            href="https://grundeinkommenjetzt.de/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="custom-anchor font-weight-bold"
-          >
-            1 Million Menschen
-          </a>{" "}
-          haben verschiedene Petitionen zum Grundeinkommen unterschrieben,{" "}
-          <a
-            href="https://www.mein-grundeinkommen.de/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="custom-anchor font-weight-bold"
-          >
-            Mein Grundeinkommen
-          </a>{" "}
-          lanciert mit fulminanter Resonanz das{" "}
-          <a
-            href="https://www.pilotprojekt-grundeinkommen.de/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="custom-anchor font-weight-bold"
-          >
-            Pilotprojekt Grundeinkommen
-          </a>
-          ,{" "}
-          <a
-            href="https://expedition-grundeinkommen.de/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="custom-anchor font-weight-bold"
-          >
-            Expedition Grundeinkommen
-          </a>{" "}
-          startet in ganz Deutschland Volksabstimmungen zum BGE und wir stellen
-          die{" "}
-          <Link
-            to="/grundeinkommen-konkret"
-            className="custom-anchor font-weight-bold"
-          >
-            wissenschaftlichen Modelle
-          </Link>{" "}
-          zur Einführung zur Diskussion - temporär in der Corona-Krise,
-          permanent & bedingungslos danach. Die PolitikerInnen brauchen nur noch
-          zuhören, um sich in die Materie vertiefen zu können.
-        </div>
-      </div>
-      <div className="row mt-3 mt-md-5">
-        <div className="col-md-8 mx-auto my-5 my-md-0">
-          <ZuhoerungEvent />
-        </div>
-      </div>
-      <div className="row mb-3 mt-lg-3 pt-md-5">
-        <div className="col-md-10 mx-auto mb-5">
-          <strong>
-            Deshalb laden wir am{" "}
+        <div className="col-md-12 mx-auto">
+            Der{" "}
             <a
-              href="https://www.facebook.com/events/768403120398310"
+              href="https://www.instagram.com/stories/highlights/17864145224115824/"
+              className="custom-anchor font-weight-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              #CountDown
+            </a>{" "}
+            läuft: Am 26.10.2020 von 12-13 Uhr läuft die Anhörung der 
+            <a
+              href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
+              className="custom-anchor font-weight-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Petition zur Einführung eines Grundeinkommens
+            </a>
+             im Marie-Elisabeth-Lüders-Haus in Berlin, Raum 3.101. Temporär
+            während der Krise, bedingungslos danach - einen konkreten Vorschlag
+            stellt Prof. Dr. Bernhard Neumärker in unserer{" "}
+            <a
+              href="https://youtu.be/J7ZxDtKgtwk?t=136"
+              className="custom-anchor font-weight-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Zuhörung
+            </a>{" "}
+            vor. Coronabedingt gibt es nur für 34 Interessierte abzgl.
+            Pressevertretern Platz im Petitionsausschuss - trotz{" "}
+            <a
+              href="https://www.bundestag.de/ausschuesse/a02/aktuelles-547294"
+              className="custom-anchor font-weight-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Anmeldung
+            </a>{" "}
+            jedoch ohne Sitzplatzgarantie. Dennoch könnt ihr mit euerm{" "}
+            <Link
+              to="/wir-sind-viele"
+              className="custom-anchor font-weight-bold"
+            >
+              #JAzumGrundeinkommen
+            </Link>{" "}
+            dabei sein &{" "}
+            <a
+              href="https://www.susannewiest.de/anhoerung-im-bundestag-am-26-10-20/"
+              className="font-weight-bold custom-anchor"
+            >
+              Susanne Wiest
+            </a>{" "}
+            den Rücken stärken – unterschreibt die Petition{" "}
+            <Link
+              to="/grundeinkommen-jetzt"
+              className="custom-anchor font-weight-bold"
+            >
+              jetzt noch in Papierform
+            </Link>{" "}
+            & schickt sie an den Deutschen Bundestag. Je mehr Stimmen dort
+            eintreffen, desto mehr Gewicht hat unser gemeinsames
+            Herzensanliegen.
+        </div>
+      </div>
+      <div className="row mt-md-5">
+        <div className="col mx-auto">
+          <CountdownMemes />
+        </div>
+      </div>
+      <div className="row mt-md-5">
+        <div className="col-md-12 mx-auto">
+          <p>
+            Tagsüber begleitet uns der{" "}
+            <a
+              href="https://www.omnibus.org/projekte/grundeinkommen"
               target="_blank"
               rel="noopener noreferrer"
               className="custom-anchor font-weight-bold"
             >
-              15. September
-            </a>{" "}
-            und{" "}
+              OMNIBUS für Direkte Demokratie
+            </a>
+            , der unser Ansinnen perfekt unterstützt: Wenn wir das
+            Bedingungslose Grundeinkommen durch eine{" "}
             <a
-              href="https://www.facebook.com/events/762339227666034"
+              href="https://www.wirwollenabstimmen.de/videos/enno-schmidt-will-abstimmen"
+              className="custom-anchor font-weight-bold"
               target="_blank"
               rel="noopener noreferrer"
-              className="custom-anchor font-weight-bold"
             >
-              17. September
+              bundesweite Volksinitiative
             </a>{" "}
-            jeweils um 10 Uhr auch zur Zuhörung ein:
-          </strong>{" "}
-          Die Professoren Bernhard Neumärker, Alexander Spermann, Friedrich
-          Schneider & Sascha Liebermann stellen sich auf{" "}
-          <a
-            href="https://www.youtube.com/channel/UC5i7oVQWuutVxpCIwuEDESQ"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="custom-anchor font-weight-bold"
-          >
-            YouTube Live
-          </a>{" "}
-          den Fragen der PolitikerInnen & der interessierten Öffentlichkeit.
-          Danach spannen wir jeden Dienstag mit neuen GesprächspartnerInnen den
-          Bogen zur{" "}
-          <a
-            href="https://www.susannewiest.de/anhoerung-im-bundestag-am-26-10-20"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="custom-anchor font-weight-bold"
-          >
-            Anhörung am 26. Oktober
-          </a>
-          , wo im Petitionsausschuss die{" "}
-          <a
-            href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="custom-anchor font-weight-bold"
-          >
-            erfolgreichste Online-Petition aller Zeiten
-          </a>{" "}
-          an den Bundestag zur Einführung eines Bedingungslosen Grundeinkommens
-          verhandelt wird – unterstützt vom{" "}
-          <a
-            href="https://www.omnibus.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="custom-anchor font-weight-bold"
-          >
-            OMNIBUS für Direkte Demokratie
-          </a>
-          , der uns den ganzen Tag vor Ort begleiten wird. Von uns allen für uns
-          alle - #läuft!
+            eingeführt haben, sind wir demokratisch & menschlich ein gutes Stück
+            weiter. Beim OMNIBUS können wir die Live-Übertragung via
+            Parlamentsfernsehen mitverfolgen - er steht in der Nähe des Eingangs
+            zum Petitionsausschuss. Natürlich könnt ihr auch gemütlich von
+            zuhause aus zuschauen - auf welchem Wege auch immer, wir freuen uns
+            auf euch & eure Unterstützung!
+          </p>
         </div>
       </div>
       <div className="row">

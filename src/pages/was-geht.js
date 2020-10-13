@@ -50,11 +50,36 @@ function WerdeBotschafter() {
             </p>
           </div>
           <div className="col-lg-6">
-            Startet Aktionen und bindet den Imagefilm ein – ob bei Konzerten von
-            Künstlern, auf Marktplätzen oder bei Meetings. Unser gemeinsames
-            Ziel ist es, immer mehr Rückenwind zu erzeugen für die Idee, deren
-            Zeit gekommen ist. Und dann führen wir das Grundeinkommen ein – von
-            uns allen für uns alle.
+            Klinkt euch in unsere Zuhörungen ein und teilt sie, startet Aktionen
+            und bindet den Imagefilm ein – ob bei Konzerten von Künstlern, auf
+            Marktplätzen oder bei Meetings. Unser gemeinsames Ziel ist es, immer
+            mehr Rückenwind zu erzeugen für die Idee, deren Zeit gekommen ist.
+            Und dann führen wir das Grundeinkommen ein – von uns allen für uns
+            alle.
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-6">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/J7ZxDtKgtwk"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              className="mb-3"
+            ></iframe>
+          </div>
+          <div className="col-lg-6">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/ive0DnFXrE0"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              className="mb-3"
+            ></iframe>
           </div>
         </div>
         <div className="row">
