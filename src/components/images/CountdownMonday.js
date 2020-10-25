@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 const CountdownMonday = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "MONTAG_1210.png" }) {
+      placeholderImage: file(relativePath: { eq: "2610.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_noBase64
@@ -18,7 +18,7 @@ const CountdownMonday = () => {
   return (
     <Img
       fluid={data.placeholderImage.childImageSharp.fluid}
-      alt="Noch 13 Tage bis zur Petitionsanhörung"
+      alt="Um 12 Uhr startet die Anhörung"
     />
   )
 }

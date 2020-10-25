@@ -22,69 +22,64 @@ const IndexPage = () => (
       <Header />
       <div className="row mt-md-5">
         <div className="col-md-12 mx-auto">
-            Der{" "}
-            <a
-              href="https://www.instagram.com/stories/highlights/17864145224115824/"
-              className="custom-anchor font-weight-bold"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              #CountDown
-            </a>{" "}
-            läuft: Am 26.10.2020 von 12-13 Uhr läuft die Anhörung der 
-            <a
-              href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
-              className="custom-anchor font-weight-bold"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Petition zur Einführung eines Grundeinkommens
-            </a>
-             im Marie-Elisabeth-Lüders-Haus in Berlin, Raum 3.101. Temporär
-            während der Krise, bedingungslos danach - einen konkreten Vorschlag
-            stellt Prof. Dr. Bernhard Neumärker in unserer{" "}
-            <a
-              href="https://youtu.be/J7ZxDtKgtwk?t=136"
-              className="custom-anchor font-weight-bold"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Zuhörung
-            </a>{" "}
-            vor. Coronabedingt gibt es nur für 34 Interessierte abzgl.
-            Pressevertretern Platz im Petitionsausschuss - trotz{" "}
-            <a
-              href="https://www.bundestag.de/ausschuesse/a02/aktuelles-547294"
-              className="custom-anchor font-weight-bold"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Anmeldung
-            </a>{" "}
-            jedoch ohne Sitzplatzgarantie. Dennoch könnt ihr mit euerm{" "}
-            <Link
-              to="/wir-sind-viele"
-              className="custom-anchor font-weight-bold"
-            >
-              #JAzumGrundeinkommen
-            </Link>{" "}
-            dabei sein &{" "}
-            <a
-              href="https://www.susannewiest.de/anhoerung-im-bundestag-am-26-10-20/"
-              className="font-weight-bold custom-anchor"
-            >
-              Susanne Wiest
-            </a>{" "}
-            den Rücken stärken – unterschreibt die Petition{" "}
-            <Link
-              to="/grundeinkommen-jetzt"
-              className="custom-anchor font-weight-bold"
-            >
-              jetzt noch in Papierform
-            </Link>{" "}
-            & schickt sie an den Deutschen Bundestag. Je mehr Stimmen dort
-            eintreffen, desto mehr Gewicht hat unser gemeinsames
-            Herzensanliegen.
+          <a
+            href="https://www.youtube.com/channel/UC5i7oVQWuutVxpCIwuEDESQ"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live dabei auf YouTube:
+          </a>{" "}
+          Am 26.10.2020 von 12-13 Uhr läuft die Anhörung der 
+          <a
+            href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Petition zur Einführung eines Grundeinkommens
+          </a>
+           im Marie-Elisabeth-Lüders-Haus in Berlin, Raum 3.101. Temporär
+          während der Krise, bedingungslos danach - einen konkreten Vorschlag
+          stellt Prof. Dr. Bernhard Neumärker in unserer{" "}
+          <a
+            href="https://youtu.be/J7ZxDtKgtwk?t=136"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Zuhörung
+          </a>{" "}
+          vor. Coronabedingt gibt es nur für 34 Interessierte abzgl.
+          Pressevertretern Platz im Petitionsausschuss - trotz{" "}
+          <a
+            href="https://www.bundestag.de/ausschuesse/a02/aktuelles-547294"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Anmeldung
+          </a>{" "}
+          jedoch ohne Sitzplatzgarantie. Dennoch könnt ihr mit euerm{" "}
+          <Link to="/wir-sind-viele" className="custom-anchor font-weight-bold">
+            #JAzumGrundeinkommen
+          </Link>{" "}
+          dabei sein &{" "}
+          <a
+            href="https://www.susannewiest.de/anhoerung-im-bundestag-am-26-10-20/"
+            className="font-weight-bold custom-anchor"
+          >
+            Susanne Wiest
+          </a>{" "}
+          den Rücken stärken – unterschreibt die Petition{" "}
+          <Link
+            to="/grundeinkommen-jetzt"
+            className="custom-anchor font-weight-bold"
+          >
+            jetzt noch in Papierform
+          </Link>{" "}
+          & schickt sie an den Deutschen Bundestag. Je mehr Stimmen dort
+          eintreffen, desto mehr Gewicht hat unser gemeinsames Herzensanliegen.
         </div>
       </div>
       <div className="row mt-md-5">
@@ -115,11 +110,20 @@ const IndexPage = () => (
               bundesweite Volksinitiative
             </a>{" "}
             eingeführt haben, sind wir demokratisch & menschlich ein gutes Stück
-            weiter. Beim OMNIBUS können wir die Live-Übertragung via
-            Parlamentsfernsehen mitverfolgen - er steht in der Nähe des Eingangs
-            zum Petitionsausschuss. Natürlich könnt ihr auch gemütlich von
-            zuhause aus zuschauen - auf welchem Wege auch immer, wir freuen uns
-            auf euch & eure Unterstützung!
+            weiter. Beim{" "}
+            <a
+              href="https://www.facebook.com/events/366968124521479/?acontext=%7B%22ref%22%3A%2252%22%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22share_link%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22share_link%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22invite_link_id%5C%22%3A373308424082713%7D%7D]%22%7D"
+              className="custom-anchor font-weight-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              OMNIBUS
+            </a>{" "}
+            können wir die Live-Übertragung via Parlamentsfernsehen mitverfolgen
+            - er steht in der Nähe des Eingangs zum Petitionsausschuss.
+            Natürlich könnt ihr auch gemütlich von zuhause aus zuschauen - auf
+            welchem Wege auch immer, wir freuen uns auf euch & eure
+            Unterstützung!
           </p>
         </div>
       </div>

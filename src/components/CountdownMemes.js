@@ -3,6 +3,8 @@ import { Row, Col, Modal, Button } from "react-bootstrap"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import ParlamentStream from "./ParlamentStream"
+import CountdownMonday from "./images/CountdownMonday"
 
 /*global FB*/
 
@@ -27,20 +29,43 @@ function CountdownMemes(props) {
 
   const [modalShow, setModalShow] = useState(false)
   const [modalData, setModalData] = useState(null)
-  const [currentDay, setCurrentDay] = useState(new Date().getDate())
-  const [currentMonth, setCurrentMonth] = useState(new Date().getMonth() + 1)
+  const [date, setDate] = useState(new Date())
+  const [currentDay, setCurrentDay] = useState(date.getDate())
+  const [currentMonth, setCurrentMonth] = useState(date.getMonth() + 1)
+  const [currentHour, setCurrentHour] = useState(date.getHours())
+  const [currentMinute, setCurrentMinute] = useState(date.getMinutes())
+  const [parlamentStreamActive, setParlamentStreamActive] = useState()
+  const [youtubeStreamActive, setYoutubeStreamActive] = useState()
 
   useEffect(() => {
-    setInterval(() => setNewDay(), 1000)
+    timedContent()
+  }, [])
+
+  useEffect(() => {
+    setInterval(() => setNewDay(), 30000)
   })
 
   function setNewDay() {
-    if (currentDay) {
-      const date = new Date().getDate()
-      setCurrentDay(date)
-    }
+    let newDate = new Date()
+    let day = newDate.getDate()
+    let hour = newDate.getHours()
+    let minutes = newDate.getMinutes()
+
+    setCurrentDay(day)
+    setCurrentHour(hour)
+    setCurrentMinute(minutes)
+    timedContent()
   }
 
+  function timedContent() {
+    if (currentDay === 26 && currentHour >= 11 && currentMinute >= 45) {
+      setParlamentStreamActive(true)
+    }
+    if (currentDay === 26 && currentHour >= 12) {
+      setParlamentStreamActive(true)
+      setYoutubeStreamActive(true)
+    }
+  }
 
   function clickHandler(toggleModal, load) {
     setModalData(load)
@@ -86,18 +111,45 @@ function CountdownMemes(props) {
         show={modalShow}
         onHide={() => setModalShow(false)}
       />
-      <Row>
-      {data.allFile.nodes.map((node) => {
-        return(
-          <Col xs={12} md={10} key={node.name} className="offset-md-1">
-              {(currentDay.toString() + currentMonth.toString() === node.name) ? 
-                <div onClick={() => clickHandler(true, node.childImageSharp.fluid)}>
-                  <Img fluid={node.childImageSharp.fluid} alt="" className="mb-5 mb-md-0"/>
-                </div> : ""} 
-          </Col>
-        )
-      })}
-      </Row>
+      <div>
+        {parlamentStreamActive ? (
+          <div>
+            <Row>
+              <Col xs={12} md={6}>
+                <ParlamentStream />
+              </Col>
+              <Col xs={12} md={6}>
+                <CountdownMonday />
+              </Col>
+            </Row>
+          </div>
+        ) : (
+          <Row>
+            {data.allFile.nodes.map(node => {
+              return (
+                <Col xs={12} md={10} key={node.name} className="offset-md-1">
+                  {currentDay.toString() + currentMonth.toString() ===
+                  node.name ? (
+                    <div
+                      onClick={() =>
+                        clickHandler(true, node.childImageSharp.fluid)
+                      }
+                    >
+                      <Img
+                        fluid={node.childImageSharp.fluid}
+                        alt=""
+                        className="mb-3 mb-md-0"
+                      />
+                    </div>
+                  ) : (
+                    ""
+                  )}
+                </Col>
+              )
+            })}
+          </Row>
+        )}
+      </div>
     </div>
   )
 }

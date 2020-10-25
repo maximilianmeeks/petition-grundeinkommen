@@ -110,6 +110,30 @@ function WarumGrundeinkommen() {
             <iframe
               width="100%"
               height="315"
+              src="https://www.youtube.com/embed/J7ZxDtKgtwk"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              className="mb-3"
+            ></iframe>
+          </div>
+          <div className="col-lg-6">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/ive0DnFXrE0"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              className="mb-3"
+            ></iframe>
+          </div>
+        </div>
+        <div className="row mb-4">
+          <div className="col-lg-6">
+            <iframe
+              width="100%"
+              height="315"
               src="https://www.youtube.com/embed/CbuSgNTpUsE"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -206,28 +230,6 @@ function WarumGrundeinkommen() {
               stellt er sein Modell eines Grundeinkommens vor.
             </p>
           </div>
-          <div className="col-lg-6">
-            {/*             <div className="mb-4">
-              <div
-                onClick={() => clickHandler(true, data.modelSpermann)}
-                className="signature-list-crop cursor-pointer"
-              >
-                <Img
-                  fluid={data.modelSpermann.childImageSharp.fluid}
-                  alt="Paper Modell Spermann"
-                />
-              </div>
-              <div className="mt-3">
-                <a
-                  href="/Zuhoerung_Basisgeld_Spermann_15-7-2020.pdf"
-                  download
-                  className="custom-anchor font-weight-bold"
-                >
-                  Paper herunterladen (356 kB)
-                </a>
-              </div>
-            </div> */}
-          </div>
         </div>
         <div className="row mb-4">
           <div className="col-lg-6">
@@ -252,28 +254,6 @@ function WarumGrundeinkommen() {
               und die Korrespondenz des Grundeinkommens mit der grundlegenden
               Annahme der Autonomie.
             </p>
-          </div>
-          <div className="col-lg-6">
-            {/*             <div className="mb-4">
-              <div
-                onClick={() => clickHandler(true, data.modelSpermann)}
-                className="signature-list-crop cursor-pointer"
-              >
-                <Img
-                  fluid={data.modelSpermann.childImageSharp.fluid}
-                  alt="Paper Modell Spermann"
-                />
-              </div>
-              <div className="mt-3">
-                <a
-                  href="/Zuhoerung_Basisgeld_Spermann_15-7-2020.pdf"
-                  download
-                  className="custom-anchor font-weight-bold"
-                >
-                  Paper herunterladen (356 kB)
-                </a>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

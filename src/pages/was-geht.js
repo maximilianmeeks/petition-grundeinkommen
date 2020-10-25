@@ -1,5 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 import { Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap"
 
 import Layout from "../components/layout"
@@ -24,6 +25,38 @@ function renderTooltip(props) {
 }
 
 function WerdeBotschafter() {
+  const data = useStaticQuery(graphql`
+    query {
+      presseMitteilung: file(relativePath: { eq: "presseMitteilung.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
+      schwarmZeit: file(relativePath: { eq: "schwarmZeit.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
+      stadtRadio: file(relativePath: { eq: "stadtRadio.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
+      meinBGE: file(relativePath: { eq: "meinBGE.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
+    }
+  `)
   return (
     <Layout>
       <SEO
@@ -60,26 +93,124 @@ function WerdeBotschafter() {
         </div>
         <div className="row">
           <div className="col-lg-6">
-            <iframe
-              width="100%"
-              height="315"
-              src="https://www.youtube.com/embed/J7ZxDtKgtwk"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              className="mb-3"
-            ></iframe>
+            <div className="mb-4">
+              {" "}
+              <a
+                href="https://www.mein-grundeinkommen.de/magazin/petition-corona-grundeinkommen-bundestag"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Img
+                  fluid={data.meinBGE.childImageSharp.fluid}
+                  alt="Artikel Mein BGE"
+                />
+              </a>
+              <div className="mt-3">
+                <a
+                  href="https://www.mein-grundeinkommen.de/magazin/petition-corona-grundeinkommen-bundestag"
+                  className="custom-anchor font-weight-bold"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Magazin Mein Grundeinkommen:
+                </a>{" "}
+                <span>
+                  "Wir sehen, dass die Hilfsmaßnahmen nicht zielgenau wirken.
+                  Zielgenau wäre nur das Grundeinkommen - weil es bei allen
+                  ankommt, die Unterstützung benötigen."
+                </span>
+              </div>
+            </div>
           </div>
           <div className="col-lg-6">
-            <iframe
-              width="100%"
-              height="315"
-              src="https://www.youtube.com/embed/ive0DnFXrE0"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              className="mb-3"
-            ></iframe>
+            {" "}
+            <div className="mb-4">
+              <a
+                href="https://www.radiolotte.de/radio/befristetes-bedingungsloses-grundeinkommen-waehrend-corona-34896.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Img
+                  fluid={data.stadtRadio.childImageSharp.fluid}
+                  alt="Radiobeitrag Radio Lotte Weimar"
+                />
+              </a>
+              <div className="mt-3">
+                <a
+                  href="https://www.radiolotte.de/radio/befristetes-bedingungsloses-grundeinkommen-waehrend-corona-34896.html"
+                  className="custom-anchor font-weight-bold"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Radio LOTTE Weimar:
+                </a>{" "}
+                <span>
+                  "Seit Jahren wird über eine Alternative der Geldverteilung
+                  nachgedacht - das Bedingungslose Grundeinkommen. Es verwundert
+                  also nicht, dass diese Idee während der Pandemie wieder an
+                  Aktualität gewinnt."
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-6">
+            <div className="mb-4">
+              <a
+                href="/PM_Mensch_in_Germany_Anhoerung_Petition_Grundeinkommen_21_10_2020.pdf"
+                download
+                className="custom-anchor font-weight-bold"
+              >
+                <Img
+                  fluid={data.presseMitteilung.childImageSharp.fluid}
+                  alt="Pressemitteilung"
+                />
+              </a>
+              <div className="mt-3">
+                <a
+                  href="/PM_Mensch_in_Germany_Anhoerung_Petition_Grundeinkommen_21_10_2020.pdf"
+                  download
+                  className="custom-anchor font-weight-bold"
+                >
+                  Pressemitteilung
+                </a>{" "}
+                <span>
+                  zur Anhörung der erfolgreichsten Online-Petition aller Zeiten
+                  an den Bundestag: Höchste Zeit für einen großen Wurf –
+                  Grundeinkommen JETZT!
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="mb-4">
+              <a
+                href="https://schwarmzeit.net/2020/10/22/keine-existenznot-mehr-teilhabe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Img
+                  fluid={data.schwarmZeit.childImageSharp.fluid}
+                  alt="Podcast Schwarmzeit"
+                />
+              </a>
+              <div className="mt-3">
+                <a
+                  href="https://schwarmzeit.net/2020/10/22/keine-existenznot-mehr-teilhabe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="custom-anchor font-weight-bold"
+                >
+                  Schwarmzeit:
+                </a>{" "}
+                <span>
+                  "Im Podcast berichtet Susanne Wiest über die wachsende
+                  Bewegung für ein Grundeinkommen & wie sie das Petitionswesen
+                  auf Bundesebene erlebt."
+                </span>
+              </div>
+            </div>
           </div>
         </div>
         <div className="row">
