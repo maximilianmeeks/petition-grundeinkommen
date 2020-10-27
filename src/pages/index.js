@@ -9,7 +9,8 @@ import SEO from "../components/seo"
 import Header from "../components/Header"
 import ImageMenu from "../components/ImageMenu"
 
-import CountdownMemes from "../components/CountdownMemes"
+import BgeWasHeard from "../components/images/BgeWasHeard"
+import ParlamentStream from "../components/ParlamentStream"
 
 const IndexPage = () => (
   <Layout ImageMenu="true">
@@ -20,111 +21,144 @@ const IndexPage = () => (
     />
     <div className="container">
       <Header />
-      <div className="row mt-md-5">
-        <div className="col-md-12 mx-auto">
+      <div className="row mt-md-5 mb-5">
+        <div className="col">
+          <strong>
+            „Niemand! Wirklich niemand darf ins Existenznot geraten!
+          </strong>{" "}
+          Mit einem Bedingungslosen Grundeinkommen ziehen wir unserer
+          Gesellschaft einen Boden ein, der alle trägt.“ Entschlossen und
+          entspannt tritt{" "}
           <a
-            href="https://www.youtube.com/channel/UC5i7oVQWuutVxpCIwuEDESQ"
+            href="https://www.berliner-zeitung.de/politik-gesellschaft/grundeinkommen-es-ist-zeit-die-grossen-fragen-zu-stellen-li.113868"
             className="custom-anchor font-weight-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Live dabei auf YouTube:
+            Susanne Wiest
           </a>{" "}
-          Am 26.10.2020 von 12-13 Uhr läuft die Anhörung der 
+          am 26.10.2020 um 12 Uhr vor die Abgeordneten im Petitionsausschuss in
+          Berlin, wo{" "}
           <a
             href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
             className="custom-anchor font-weight-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Petition zur Einführung eines Grundeinkommens
+            die erfolgreichste Online-Petition aller Zeiten
+          </a>{" "}
+          an den Bundestag angehört wird. Flankiert von{" "}
+          <a
+            href="https://www.fribis.uni-freiburg.de/"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Prof. Dr. Bernhard Neumärker
+          </a>{" "}
+          vom Freiburger Institut zur Erforschung des Grundeinkommens (FRIBIS) –
+          kompetent und knapp erläutert er das Netto-Grundeinkommen, den
+          Lösungsvorschlag für die Einführung des Corona-Grundeinkommens während
+          der Krise. Danach kann es problemlos zu einem bedingungslosen
+          Grundeinkommen ausgebaut werden. Hier ist die{" "}
+          <a
+            href="https://www.bundestag.de/mediathek?videoid=7466652&url=L21lZGlhdGhla292ZXJsYXk=&mod=mediathek#url=L21lZGlhdGhla292ZXJsYXk/dmlkZW9pZD03NDY2NjUyJnVybD1MMjFsWkdsaGRHaGxhMjkyWlhKc1lYaz0mbW9kPW1lZGlhdGhlaw==&mod=mediathek"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Aufzeichnung
+          </a>{" "}
+          zu sehen.
+        </div>
+      </div>
+      <div className="row mt-md-5">
+        <div className="col-md-7 mb-5">
+          <ParlamentStream />
+        </div>
+        <div className="col-md-5 mb-5">
+          <BgeWasHeard />
+        </div>
+      </div>
+      <div className="row mt-md-5 mb-5">
+        <div className="col">
+          „Ich möchte, dass wir das Bedingungslose Grundeinkommen durch eine
+          Volksabstimmung einführen“, sagt Susanne Wiest. „Dann sind wir
+          demokratisch und menschlich ein gutes Stück weiter.“ Im
+          Kampagnenbündnis mit dem{" "}
+          <a
+            href="https://www.omnibus.org/projekte/grundeinkommen"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="custom-anchor font-weight-bold"
+          >
+            OMNIBUS für Direkte Demokratie
           </a>
-           im Marie-Elisabeth-Lüders-Haus in Berlin, Raum 3.101. Temporär
-          während der Krise, bedingungslos danach - einen konkreten Vorschlag
-          stellt Prof. Dr. Bernhard Neumärker in unserer{" "}
+          ,{" "}
           <a
-            href="https://youtu.be/J7ZxDtKgtwk?t=136"
+            href="https://www.change.org/p/finanzminister-olaf-scholz-und-wirtschaftsminister-peter-altmaier-mit-dem-bedingungslosen-grundeinkommen-durch-die-coronakrise-coronavirusde-olafscholz-peteraltmaier-bmas-bund-hubertus-heil/u/27921988"
             className="custom-anchor font-weight-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Zuhörung
-          </a>{" "}
-          vor. Coronabedingt gibt es nur für 34 Interessierte abzgl.
-          Pressevertretern Platz im Petitionsausschuss - trotz{" "}
+            Tonia Merz
+          </a>
+          ,{" "}
           <a
-            href="https://www.bundestag.de/ausschuesse/a02/aktuelles-547294"
+            href="https://www.openpetition.de/petition/online/hilfen-fuer-freiberufler-und-kuenstler-waehrend-des-corona-shutdowns-2"
             className="custom-anchor font-weight-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Anmeldung
-          </a>{" "}
-          jedoch ohne Sitzplatzgarantie. Dennoch könnt ihr mit euerm{" "}
-          <Link to="/wir-sind-viele" className="custom-anchor font-weight-bold">
-            #JAzumGrundeinkommen
-          </Link>{" "}
-          dabei sein &{" "}
+            David Erler
+          </a>
+          ,{" "}
           <a
-            href="https://www.susannewiest.de/anhoerung-im-bundestag-am-26-10-20/"
-            className="font-weight-bold custom-anchor"
-          >
-            Susanne Wiest
-          </a>{" "}
-          den Rücken stärken – unterschreibt die Petition{" "}
-          <Link
-            to="/grundeinkommen-jetzt"
+            href="https://www.mein-grundeinkommen.de/"
             className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            jetzt noch in Papierform
-          </Link>{" "}
-          & schickt sie an den Deutschen Bundestag. Je mehr Stimmen dort
-          eintreffen, desto mehr Gewicht hat unser gemeinsames Herzensanliegen.
-        </div>
-      </div>
-      <div className="row mt-md-5">
-        <div className="col mx-auto">
-          <CountdownMemes />
-        </div>
-      </div>
-      <div className="row mt-md-5">
-        <div className="col-md-12 mx-auto">
-          <p>
-            Tagsüber begleitet uns der{" "}
-            <a
-              href="https://www.omnibus.org/projekte/grundeinkommen"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="custom-anchor font-weight-bold"
-            >
-              OMNIBUS für Direkte Demokratie
-            </a>
-            , der unser Ansinnen perfekt unterstützt: Wenn wir das
-            Bedingungslose Grundeinkommen durch eine{" "}
-            <a
-              href="https://www.wirwollenabstimmen.de/videos/enno-schmidt-will-abstimmen"
-              className="custom-anchor font-weight-bold"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              bundesweite Volksinitiative
-            </a>{" "}
-            eingeführt haben, sind wir demokratisch & menschlich ein gutes Stück
-            weiter. Beim{" "}
-            <a
-              href="https://www.facebook.com/events/366968124521479/?acontext=%7B%22ref%22%3A%2252%22%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22share_link%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22share_link%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22invite_link_id%5C%22%3A373308424082713%7D%7D]%22%7D"
-              className="custom-anchor font-weight-bold"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              OMNIBUS
-            </a>{" "}
-            können wir die Live-Übertragung via Parlamentsfernsehen mitverfolgen
-            - er steht in der Nähe des Eingangs zum Petitionsausschuss.
-            Natürlich könnt ihr auch gemütlich von zuhause aus zuschauen - auf
-            welchem Wege auch immer, wir freuen uns auf euch & eure
-            Unterstützung!
-          </p>
+            Mein Grundeinkommen
+          </a>
+          ,{" "}
+          <a
+            href="https://expedition-grundeinkommen.de/"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Expedition Grundeinkommen
+          </a>
+          ,{" "}
+          <a
+            href="https://www.change.org/p/finanzminister-olaf-scholz-und-wirtschaftsminister-peter-altmaier-mit-dem-bedingungslosen-grundeinkommen-durch-die-coronakrise-coronavirusde-olafscholz-peteraltmaier-bmas-bund-hubertus-heil"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Change.org
+          </a>
+          ,{" "}
+          <a
+            href="https://www.schippercompany.com/agentur/"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            you with schipper company
+          </a>
+          ,{" "}
+          <a
+            href="https://www.wirkzeit.com/"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            WIR[K]ZEIT
+          </a>{" "}
+          und einem engagierten Team aus der Wissenschaft unternehmen wir, was
+          wir können. <strong>Jetzt ist die Politik am Zug.</strong>
         </div>
       </div>
       <div className="row">
