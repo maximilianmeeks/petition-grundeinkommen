@@ -95,6 +95,22 @@ function GrundeinkommenJetzt() {
       <Container>
         <Header url="/grundeinkommen-jetzt" />
         <div className="row pb-4 mt-lg-3 pt-md-5">
+          <div className="col">
+            <p>
+              +++ Die Anhörung am 26.10. ist gelaufen - jetzt fängt die Arbeit
+              erst richtig an. Von uns allen für uns alle! +++ <br />
+              <a
+                href="https://www.bundestag.de/presse/hib/801182-801182"
+                className="custom-anchor font-weight-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://www.bundestag.de/presse/hib/801182-801182
+              </a>
+            </p>
+          </div>
+        </div>
+        <div className="row pb-4 mt-lg-3 pt-md-5">
           <div className="col-lg-8">
             <div className="mb-5 mb-md-n5">
               <p>

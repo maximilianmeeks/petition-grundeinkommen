@@ -27,6 +27,24 @@ function WarumGrundeinkommen() {
           }
         }
       }
+      previewOnePageDE: file(
+        relativePath: { eq: "Onepage_NGH_de_30-11-2020.png" }
+      ) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
+      previewOnePageEN: file(
+        relativePath: { eq: "Onepage_NGH_en_30-11-2020.png" }
+      ) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
     }
   `)
 
@@ -66,6 +84,7 @@ function WarumGrundeinkommen() {
           show={modalShow}
           onHide={() => setModalShow(false)}
         />
+
         <div className="row mb-3 mt-lg-3 pt-md-5">
           <div className="col-lg-6">
             <strong>
@@ -98,11 +117,54 @@ function WarumGrundeinkommen() {
           <div className="col-lg-8 offset-lg-2">
             <p>
               Hier stellen wir verschiedene wissenschaftliche Modelle zur
-              Einführung eines Grundeinkommens in der Krise zur Diskussion,
-              deren Inhalt wir nicht unbedingt teilen. Im September bei der
-              sogenannten Zuhörung besteht die Möglichkeit zum Austausch mit den
-              Wissenschaftlern. Stay tuned!
+              Einführung eines Grundeinkommens in der Krise zur Diskussion.
             </p>
+          </div>
+        </div>
+        <div className="row mb-4">
+          <div className="col-lg-6">
+            <div className="mb-4">
+              <div
+                onClick={() => clickHandler(true, data.previewOnePageDE)}
+                className="signature-list-crop cursor-pointer"
+              >
+                <Img
+                  fluid={data.previewOnePageDE.childImageSharp.fluid}
+                  alt="Das Netto-Grundeinkommen - eine Sofortmaßnahme zur Sicherung der Bevölkerung in Krisenzeiten"
+                />
+              </div>
+              <div className="mt-3">
+                <a
+                  href="/Onepage_NGH_de_30-11-2020.pdf"
+                  download
+                  className="custom-anchor font-weight-bold"
+                >
+                  Paper herunterladen (83 kB)
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="mb-4">
+              <div
+                onClick={() => clickHandler(true, data.previewOnePageEN)}
+                className="signature-list-crop cursor-pointer"
+              >
+                <Img
+                  fluid={data.previewOnePageEN.childImageSharp.fluid}
+                  alt="The net basic income - an immediate measure to protect the population in the crises"
+                />
+              </div>
+              <div className="mt-3">
+                <a
+                  href="/Onepage_NGH_en_30-11-2020.pdf"
+                  download
+                  className="custom-anchor font-weight-bold"
+                >
+                  Paper herunterladen (78 kB)
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <div className="row mb-4">

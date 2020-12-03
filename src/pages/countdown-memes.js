@@ -15,13 +15,13 @@ function CountdownMemeGallery() {
       <SEO
         title="Wir sind viele"
         imgFb="/2020_0010_Goetz.png"
-        description="Je mehr wir sind, desto mehr Gewicht bekommt das Grundeinkommen im Petitionsausschuss. Schickt uns euer Foto samt Zitat an botschafterIn@mensch-in-germany.org."
+        description="Willkommen im Club der BotschafterInnen! Schickt uns euer Foto samt Zitat an botschafterIn@mensch-in-germany.org."
         slug="/countdown-memes"
       />
       <Container className="pb-lg-5">
         <Header url="/countdown-memes" />
         <Row className="mt-5"></Row>
-        <CountdownGallery/>
+        <CountdownGallery />
       </Container>
       <ImageMenu />
     </Layout>

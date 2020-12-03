@@ -24,13 +24,13 @@ const IndexPage = () => (
       <div className="row mt-md-5 mb-5">
         <div className="col">
           <strong>
-            „Niemand! Wirklich niemand darf ins Existenznot geraten!
+            „Niemand! Wirklich niemand darf in Existenznot geraten!
           </strong>{" "}
           Mit einem Bedingungslosen Grundeinkommen ziehen wir unserer
           Gesellschaft einen Boden ein, der alle trägt.“ Entschlossen und
           entspannt tritt{" "}
           <a
-            href="https://www.berliner-zeitung.de/politik-gesellschaft/grundeinkommen-es-ist-zeit-die-grossen-fragen-zu-stellen-li.113868"
+            href="https://www.susannewiest.de"
             className="custom-anchor font-weight-bold"
             target="_blank"
             rel="noopener noreferrer"
@@ -57,9 +57,17 @@ const IndexPage = () => (
             Prof. Dr. Bernhard Neumärker
           </a>{" "}
           vom Freiburger Institut zur Erforschung des Grundeinkommens (FRIBIS) –
-          kompetent und knapp erläutert er das Netto-Grundeinkommen, den
-          Lösungsvorschlag für die Einführung des Corona-Grundeinkommens während
-          der Krise. Danach kann es problemlos zu einem bedingungslosen
+          kompetent und knapp erläutert er das{" "}
+          <a
+            href="https://youtu.be/CbuSgNTpUsE"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netto-Grundeinkommen
+          </a>
+          , den Lösungsvorschlag für die Einführung des Corona-Grundeinkommens
+          während der Krise. Danach kann es problemlos zu einem bedingungslosen
           Grundeinkommen ausgebaut werden. Hier ist die{" "}
           <a
             href="https://www.bundestag.de/mediathek?videoid=7466652&url=L21lZGlhdGhla292ZXJsYXk=&mod=mediathek#url=L21lZGlhdGhla292ZXJsYXk/dmlkZW9pZD03NDY2NjUyJnVybD1MMjFsWkdsaGRHaGxhMjkyWlhKc1lYaz0mbW9kPW1lZGlhdGhlaw==&mod=mediathek"
@@ -87,7 +95,7 @@ const IndexPage = () => (
           demokratisch und menschlich ein gutes Stück weiter.“ Im
           Kampagnenbündnis mit dem{" "}
           <a
-            href="https://www.omnibus.org/projekte/grundeinkommen"
+            href="https://youtu.be/Pt9pT3Lxub4"
             target="_blank"
             rel="noopener noreferrer"
             className="custom-anchor font-weight-bold"
@@ -158,7 +166,15 @@ const IndexPage = () => (
             WIR[K]ZEIT
           </a>{" "}
           und einem engagierten Team aus der Wissenschaft unternehmen wir, was
-          wir können. <strong>Jetzt ist die Politik am Zug.</strong>
+          wir können.{" "}
+          <a
+            href="/Onepage_NGH_de_30-11-2020.pdf"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <strong>Jetzt ist die Politik am Zug.</strong>
+          </a>
         </div>
       </div>
       <div className="row">
