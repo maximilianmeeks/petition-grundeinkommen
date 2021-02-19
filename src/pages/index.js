@@ -9,172 +9,148 @@ import SEO from "../components/seo"
 import Header from "../components/Header"
 import ImageMenu from "../components/ImageMenu"
 
-import BgeWasHeard from "../components/images/BgeWasHeard"
-import ParlamentStream from "../components/ParlamentStream"
+import UpdateAbstimmung from "../components/images/UpdateAbstimmung"
 
 const IndexPage = () => (
   <Layout ImageMenu="true">
     <SEO
       title="Die Zeit ist reif für's Grundeinkommen."
-      description="Grundeinkommen im Bundestag: Die Anhörung im Petitionsausschuss läuft am 26.10.2020 – jede Stimme zählt, unterschreib die Petition noch in Papierform!"
+      description="#GemeinsamFürGrundeinkommen: Unterstützt unsere Petition für die 1. bundesweite Volksabstimmung zur Einführung des BGE bei Abstimmung21 auf Change.org – DANKE!"
       imgFb="/BGE_post_facebook_1200x627_4.jpg"
     />
     <div className="container">
       <Header />
       <div className="row mt-md-5 mb-5">
         <div className="col">
-          <strong>
-            „Niemand! Wirklich niemand darf in Existenznot geraten!
-          </strong>{" "}
-          Mit einem Bedingungslosen Grundeinkommen ziehen wir unserer
-          Gesellschaft einen Boden ein, der alle trägt.“ Entschlossen und
-          entspannt tritt{" "}
+          {" "}
           <a
-            href="https://www.susannewiest.de"
+            href="https://www.susannewiest.de/wp-content/uploads/Bildschirmfoto-2021-02-03-um-11.59.28-1024x935.png"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Geduld
+          </a>{" "}
+          erwartet der Deutsche Bundestag von uns. Als erste Reaktion zwei
+          Monate nach Der{" "}
+          <a
+            href="https://dbtg.tv/cvid/7466652"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Anhörung
+          </a>{" "}
+          im Petitionsausschuss am 26.10.2020 zur Einführung eines
+          bedingungslosen Grundeinkommens in der Krise. Und angesichts der
+          Corona-Krise, die seit März 2020 andauert und unzählige Menschen ohne
+          Einkommen dastehen lässt. Unser Lösungsvorschlag eines{" "}
+          <a
+            href="https://www.fribis.uni-freiburg.de/wp-content/uploads/2020/11/OnePage-NGH_de_aa.pdf"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Krisengrundeinkommens
+          </a>
+          , entwickelt vom Team um Prof. Bernhard Neumärker von{" "}
+          <a
+            href="https://www.fribis.uni-freiburg.de/policy_debate/"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            FRIBIS
+          </a>{" "}
+          (Freiburger Institut zur Erforschung des Grundeinkommens), befindet
+          sich nach wie vor in der Prüfung. „Den Wind für die Veränderungen, die
+          wir wollen, müssen wir selbst erzeugen“, schreibt Petentin{" "}
+          <a
+            href="https://www.susannewiest.de/petition-krisen-grundeinkommen-bundestag-bittet-um-geduld/"
             className="custom-anchor font-weight-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
             Susanne Wiest
           </a>{" "}
-          am 26.10.2020 um 12 Uhr vor die Abgeordneten im Petitionsausschuss in
-          Berlin, wo{" "}
-          <a
-            href="https://epetitionen.bundestag.de/petitionen/_2020/_03/_14/Petition_108191.nc.html"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            die erfolgreichste Online-Petition aller Zeiten
-          </a>{" "}
-          an den Bundestag angehört wird. Flankiert von{" "}
-          <a
-            href="https://www.fribis.uni-freiburg.de/"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Prof. Dr. Bernhard Neumärker
-          </a>{" "}
-          vom Freiburger Institut zur Erforschung des Grundeinkommens (FRIBIS) –
-          kompetent und knapp erläutert er das{" "}
-          <a
-            href="https://youtu.be/CbuSgNTpUsE"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Netto-Grundeinkommen
-          </a>
-          , den Lösungsvorschlag für die Einführung des Corona-Grundeinkommens
-          während der Krise. Danach kann es problemlos zu einem bedingungslosen
-          Grundeinkommen ausgebaut werden. Hier ist die{" "}
-          <a
-            href="https://www.bundestag.de/mediathek?videoid=7466652&url=L21lZGlhdGhla292ZXJsYXk=&mod=mediathek#url=L21lZGlhdGhla292ZXJsYXk/dmlkZW9pZD03NDY2NjUyJnVybD1MMjFsWkdsaGRHaGxhMjkyWlhKc1lYaz0mbW9kPW1lZGlhdGhlaw==&mod=mediathek"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Aufzeichnung
-          </a>{" "}
-          zu sehen.
+          in ihrem Blogpost. „So kommt Politik in Bewegung.“
         </div>
       </div>
-      <div className="row mt-md-5">
-        <div className="col-md-7 mb-5">
-          <ParlamentStream />
-        </div>
-        <div className="col-md-5 mb-5">
-          <BgeWasHeard />
+      <div className="row mt-md-5 mb-5">
+        <div className="col-md-10 mx-auto">
+          <UpdateAbstimmung />
         </div>
       </div>
       <div className="row mt-md-5 mb-5">
         <div className="col">
-          „Ich möchte, dass wir das Bedingungslose Grundeinkommen durch eine
-          Volksabstimmung einführen“, sagt Susanne Wiest. „Dann sind wir
-          demokratisch und menschlich ein gutes Stück weiter.“ Im
-          Kampagnenbündnis mit dem{" "}
           <a
-            href="https://youtu.be/Pt9pT3Lxub4"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="custom-anchor font-weight-bold"
-          >
-            OMNIBUS für Direkte Demokratie
-          </a>
-          ,{" "}
-          <a
-            href="https://www.change.org/p/finanzminister-olaf-scholz-und-wirtschaftsminister-peter-altmaier-mit-dem-bedingungslosen-grundeinkommen-durch-die-coronakrise-coronavirusde-olafscholz-peteraltmaier-bmas-bund-hubertus-heil/u/27921988"
+            href="https://www.susannewiest.de/gemeinsamfuergrundeinkommen/"
             className="custom-anchor font-weight-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Tonia Merz
-          </a>
-          ,{" "}
+            #GemeinsamFürGrundeinkommen
+          </a>{" "}
+          – mit diesem Hashtag bringen wir Bewegung in die Demokratie. Abstimmen
+          statt bitten: Zusammen mit weiteren Initiativen organisiert{" "}
           <a
-            href="https://www.openpetition.de/petition/online/hilfen-fuer-freiberufler-und-kuenstler-waehrend-des-corona-shutdowns-2"
+            href="https://abstimmung21.de/"
             className="custom-anchor font-weight-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
-            David Erler
-          </a>
-          ,{" "}
+            Abstimmung 21
+          </a>{" "}
+          die erste bundesweite Volksabstimmung parallel zur Bundestagswahl –
+          auf dem Stimmzettel stehen neben Klimawende 1,5 Grad und Bundesweite
+          Volksabstimmung zwei weitere Themen, die auf{" "}
           <a
-            href="https://www.mein-grundeinkommen.de/"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Mein Grundeinkommen
-          </a>
-          ,{" "}
-          <a
-            href="https://expedition-grundeinkommen.de/"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Expedition Grundeinkommen
-          </a>
-          ,{" "}
-          <a
-            href="https://www.change.org/p/finanzminister-olaf-scholz-und-wirtschaftsminister-peter-altmaier-mit-dem-bedingungslosen-grundeinkommen-durch-die-coronakrise-coronavirusde-olafscholz-peteraltmaier-bmas-bund-hubertus-heil"
+            href="https://abstimmung21.changeverein.org/"
             className="custom-anchor font-weight-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
             Change.org
-          </a>
-          ,{" "}
-          <a
-            href="https://www.schippercompany.com/agentur/"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            you with schipper company
-          </a>
-          ,{" "}
-          <a
-            href="https://www.wirkzeit.com/"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            WIR[K]ZEIT
           </a>{" "}
-          und einem engagierten Team aus der Wissenschaft unternehmen wir, was
-          wir können.{" "}
+          und{" "}
           <a
-            href="/Onepage_NGH_de_30-11-2020.pdf"
+            href="https://www.openpetition.de/abstimmung21"
             className="custom-anchor font-weight-bold"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <strong>Jetzt ist die Politik am Zug.</strong>
+            openPetition
+          </a>{" "}
+          bis zum 31. März 2021 ermittelt werden. Bestellt am besten gleich die{" "}
+          <a
+            href="https://abstimmung21.de/#abstimmungsunterlagen"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Abstimmungsunterlagen
           </a>
+          , mögliche{" "}
+          <a
+            href="https://abstimmung21.de/faq/"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Fragen
+          </a>{" "}
+          werden ebenfalls beantwortet. Wenn ihr also im September über die
+          Einführung des bedingungslosen Grundeinkommens abstimmen wollt, freuen
+          wir uns über eure Unterstützung unserer Petition –{" "}
+          <a
+            href="https://www.change.org/p/abstimmung21-gemeinsam-für-grundeinkommen"
+            className="custom-anchor font-weight-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hier mitzeichnen
+          </a>{" "}
+          und teilen, teilen, teilen. DANKE!
         </div>
       </div>
       <div className="row">
