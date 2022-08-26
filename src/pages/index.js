@@ -9,7 +9,10 @@ import SEO from "../components/seo"
 import Header from "../components/Header"
 import ImageMenu from "../components/ImageMenu"
 
-import UpdateAbstimmung from "../components/images/UpdateAbstimmung"
+import BotschafterTonia from "../components/images/BotschafterTonia"
+import BotschafterSusanne from "../components/images/BotschafterSusanne"
+import BotschafterLeonie from "../components/images/BotschafterLeonie"
+import BotschafterUschi from "../components/images/BotschafterUschi"
 
 const IndexPage = () => (
   <Layout ImageMenu="true">
@@ -22,135 +25,116 @@ const IndexPage = () => (
       <Header />
       <div className="row mt-md-5 mb-5">
         <div className="col">
-          {" "}
-          <a
-            href="https://www.susannewiest.de/wp-content/uploads/Bildschirmfoto-2021-02-03-um-11.59.28-1024x935.png"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Geduld
-          </a>{" "}
-          erwartet der Deutsche Bundestag von uns. Als erste Reaktion zwei
-          Monate nach Der{" "}
-          <a
-            href="https://dbtg.tv/cvid/7466652"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Anhörung
-          </a>{" "}
-          im Petitionsausschuss am 26.10.2020 zur Einführung eines
-          bedingungslosen Grundeinkommens in der Krise. Und angesichts der
-          Corona-Krise, die seit März 2020 andauert und unzählige Menschen ohne
-          Einkommen dastehen lässt. Unser Lösungsvorschlag eines{" "}
-          <a
-            href="https://www.fribis.uni-freiburg.de/wp-content/uploads/2020/11/OnePage-NGH_de_aa.pdf"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Krisengrundeinkommens
-          </a>
-          , entwickelt vom Team um Prof. Bernhard Neumärker von{" "}
-          <a
-            href="https://www.fribis.uni-freiburg.de/policy_debate/"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            FRIBIS
-          </a>{" "}
-          (Freiburger Institut zur Erforschung des Grundeinkommens), befindet
-          sich nach wie vor in der Prüfung. „Den Wind für die Veränderungen, die
-          wir wollen, müssen wir selbst erzeugen“, schreibt Petentin{" "}
-          <a
-            href="https://www.susannewiest.de/petition-krisen-grundeinkommen-bundestag-bittet-um-geduld/"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Susanne Wiest
-          </a>{" "}
-          in ihrem Blogpost. „So kommt Politik in Bewegung.“
+          <p>
+            <strong>Gereicht hat es nicht</strong> fürs Grundeinkommen bei{" "}
+            <a
+              href="https://abstimmung21.de/"
+              className="custom-anchor font-weight-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Abstimmung21
+            </a>
+            : Mit 21.686 Stimmen hatten wir keine Chance auf’s Siegertreppchen &
+            landeten auf{" "}
+            <a
+              href="https://abstimmung21.changeverein.org/"
+              className="custom-anchor font-weight-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Platz 4 von 244 Themen
+            </a>
+            . Alle Belange sind wichtig – dennoch denken wir, dass das BGE die
+            fundamentale Basis ist, von der aus wir uns mit freiem Kopf allen
+            wesentlichen Fragen unserer Zeit widmen können. Warum das nicht mehr
+            Menschen so gesehen haben, wissen wir nicht.{" "}
+            <a
+              href="https://www.change.org/p/abstimmung21-gemeinsam-f%C3%BCr-grundeinkommen/u/28777984"
+              className="custom-anchor font-weight-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Was wir wissen
+            </a>
+            : Konkurrenz ist nicht unser Ding – es widerspricht auch der Idee
+            des Grundeinkommens. Zentral ist Solidarität – nur in einem
+            zugewandten Miteinander & Füreinander können wir uns
+            gesellschaftlich weiterentwickeln. Unser Engagement fürs
+            bedingungslose Grundeinkommen geht natürlich mit ungebrochenem Elan
+            weiter.
+          </p>
         </div>
       </div>
-      <div className="row mt-md-5 mb-5">
-        <div className="col-md-10 mx-auto">
-          <UpdateAbstimmung />
+      <div className="row mb-5">
+        <div className="col-10 mx-auto">
+          <div className="row">
+            <div className="col-md-6 mb-3">
+              <BotschafterTonia />
+            </div>
+            <div className="col-md-6 mb-3">
+              <BotschafterSusanne />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6 mb-3">
+              <BotschafterLeonie />
+            </div>
+            <div className="col-md-6 mb-3">
+              <BotschafterUschi />
+            </div>
+          </div>
         </div>
       </div>
       <div className="row mt-md-5 mb-5">
         <div className="col">
-          <a
-            href="https://www.susannewiest.de/gemeinsamfuergrundeinkommen/"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            #GemeinsamFürGrundeinkommen
-          </a>{" "}
-          – mit diesem Hashtag bringen wir Bewegung in die Demokratie. Abstimmen
-          statt bitten: Zusammen mit weiteren Initiativen organisiert{" "}
-          <a
-            href="https://abstimmung21.de/"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Abstimmung 21
-          </a>{" "}
-          die erste bundesweite Volksabstimmung parallel zur Bundestagswahl –
-          auf dem Stimmzettel stehen neben Klimawende 1,5 Grad und Bundesweite
-          Volksabstimmung zwei weitere Themen, die auf{" "}
-          <a
-            href="https://abstimmung21.changeverein.org/"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Change.org
-          </a>{" "}
-          und{" "}
-          <a
-            href="https://www.openpetition.de/abstimmung21"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            openPetition
-          </a>{" "}
-          bis zum 31. März 2021 ermittelt werden. Bestellt am besten gleich die{" "}
-          <a
-            href="https://abstimmung21.de/#abstimmungsunterlagen"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Abstimmungsunterlagen
-          </a>
-          , mögliche{" "}
-          <a
-            href="https://abstimmung21.de/faq/"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Fragen
-          </a>{" "}
-          werden ebenfalls beantwortet. Wenn ihr also im September über die
-          Einführung des bedingungslosen Grundeinkommens abstimmen wollt, freuen
-          wir uns über eure Unterstützung unserer Petition –{" "}
-          <a
-            href="https://www.change.org/p/abstimmung21-gemeinsam-für-grundeinkommen"
-            className="custom-anchor font-weight-bold"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            hier mitzeichnen
-          </a>{" "}
-          und teilen, teilen, teilen. DANKE!
+          <p>
+            <strong>Mehr denn je:</strong> Nachdem der Petitionsausschuss des
+            Deutschen Bundestages seit der{" "}
+            <a
+              href="https://www.bundestag.de/mediathek?videoid=7466652&url=L21lZGlhdGhla292ZXJsYXk=&mod=mediathek#url=L21lZGlhdGhla292ZXJsYXk/dmlkZW9pZD03NDY2NjUyJnVybD1MMjFsWkdsaGRHaGxhMjkyWlhKc1lYaz0mbW9kPW1lZGlhdGhlaw==&mod=mediathek"
+              className="custom-anchor font-weight-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Anhörung von Susanne Wiest & Prof. Bernhard Neumärker
+            </a>{" "}
+            nun zum 2. Mal{" "}
+            <a
+              href="https://www.susannewiest.de/petition-krisen-grundeinkommen-bundestag-bittet-um-geduld/"
+              className="custom-anchor font-weight-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              um Geduld gebeten
+            </a>{" "}
+            hat, wollen wir die Dinge selbst in die Hand nehmen.{" "}
+            <a
+              href="https://perspective-daily.de/article/1659/Hrl70o2b"
+              className="custom-anchor font-weight-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Micha Bohmeyer
+            </a>{" "}
+            von{" "}
+            <a
+              href="https://www.mein-grundeinkommen.de/"
+              className="custom-anchor font-weight-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mein Grundeinkommen
+            </a>{" "}
+            bringt’s auf’n Punkt: „Wir könnten mit jeder Form privater
+            Umverteilung experimentieren & eine neue finanzielle Solidarität
+            zwischen den Menschen schaffen. Theoretisch ließe sich das
+            Grundeinkommen selbstständig von den Menschen einführen, denn es ist
+            ja nichts weiter als ein Geldtransfer zwischen den Leuten. Wir
+            schielen immer auf den Staat & sagen: Bitte nimm unser Geld & gib es
+            uns wieder. Aber warum organisieren wir das eigentlich nicht selbst?
+            Denkbar wäre es.“ Wir arbeiten daran – stay tuned!
+          </p>
         </div>
       </div>
       <div className="row">
@@ -175,7 +159,8 @@ const IndexPage = () => (
                   <Button variant="dark" className="btn btn-md-lg">
                     {" "}
                     TEILEN UND GEWINNEN <br className="d-md-none" />
-                    <span className="d-none d-md-inline"> – </span>#CALLTOACTION
+                    <span className="d-none d-md-inline"> – </span>
+                    #CALLTOACTION
                   </Button>
                 </a>
               </div>
